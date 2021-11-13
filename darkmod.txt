@@ -1,0 +1,4 @@
+Title: DMX
+Version: [VERSION]
+Author: Frost_Salamander
+Description: dmx

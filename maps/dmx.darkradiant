@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "3565" } 
-		KeyValue { "LastCameraAngle" "-16.2 266.7 0" } 
-		KeyValue { "LastCameraPosition" "-71.3369 -562.992 -162.027" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/flagstones_mixedsize_brown" } 
+		KeyValue { "EditTimeInSeconds" "5116" } 
+		KeyValue { "LastCameraAngle" "-18 164.7 0" } 
+		KeyValue { "LastCameraPosition" "-90.3228 -969.055 -244.431" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/cobblestones_rounded_blue" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 3565 }
+		TotalSecondsEdited { 5116 }
 	}
 	Layers
 	{
@@ -38,6 +38,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (ambient_world)
 		Node { 0 } // entity (func_static_1)
 		Node { 0 } // brush (Brush)
@@ -114,6 +115,14 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (HolyWatersExpert2)
 		Node { 0 } // entity (location_settings)
 		Node { 0 } // entity (location_street)
+		Node { 0 } // entity (func_static_9)
+		Node { 0 } // entity (func_static_10)
+		Node { 0 } // entity (light_1)
+		Node { 0 } // entity (func_static_11)
+		Node { 0 } // entity (func_static_12)
+	}
+	SelectionSets
+	{
 	}
 	SelectionGroups
 	{
@@ -192,8 +201,5 @@ DarkRadiant Map Information File Version 2
 		Node { ( 71 ) ( 2 ) } // entity (MinesExpert2)
 		Node { ( 72 ) ( 2 ) } // entity (HolyWatersHard2)
 		Node { ( 73 ) ( 2 ) } // entity (HolyWatersExpert2)
-	}
-	SelectionSets
-	{
 	}
 }

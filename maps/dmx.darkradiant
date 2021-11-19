@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "36950" } 
-		KeyValue { "LastCameraAngle" "-30.6 126.9 0" } 
-		KeyValue { "LastCameraPosition" "648.68 -695.202 -15.7992" } 
+		KeyValue { "EditTimeInSeconds" "42677" } 
+		KeyValue { "LastCameraAngle" "16.2 196.8 0" } 
+		KeyValue { "LastCameraPosition" "831.93 -590.875 -169.856" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/rough_blocks_rustyandblue" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 36950 }
+		TotalSecondsEdited { 42677 }
 	}
 	SelectionGroups
 	{
@@ -22,6 +22,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 24 { "" }
 		SelectionGroup 25 { "" }
 		SelectionGroup 28 { "" }
+		SelectionGroup 32 { "" }
+		SelectionGroup 33 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -303,7 +305,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 240 ) ( 19 ) } // entity (doorhandle_curvedtop_door_1)
 		Node { ( 241 ) ( 19 ) } // entity (func_static_69)
 		Node { ( 242 ) ( 19 ) } // entity (curvedtop_door_1)
-		Node { ( 243 245 ) ( 24 ) } // patch (Patch)
 		Node { ( 243 246 ) ( 24 ) } // patch (Patch)
 		Node { ( 243 247 ) ( 24 ) } // patch (Patch)
 		Node { ( 243 248 ) ( 24 ) } // patch (Patch)
@@ -313,7 +314,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 243 252 ) ( 24 ) } // patch (Patch)
 		Node { ( 243 253 ) ( 24 ) } // patch (Patch)
 		Node { ( 243 254 ) ( 24 ) } // patch (Patch)
-		Node { ( 245 256 ) ( 25 ) } // patch (Patch)
+		Node { ( 243 255 ) ( 24 ) } // patch (Patch)
 		Node { ( 245 257 ) ( 25 ) } // patch (Patch)
 		Node { ( 245 258 ) ( 25 ) } // patch (Patch)
 		Node { ( 245 259 ) ( 25 ) } // patch (Patch)
@@ -323,16 +324,21 @@ DarkRadiant Map Information File Version 2
 		Node { ( 245 263 ) ( 25 ) } // patch (Patch)
 		Node { ( 245 264 ) ( 25 ) } // patch (Patch)
 		Node { ( 245 265 ) ( 25 ) } // patch (Patch)
-		Node { ( 261 269 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 270 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 271 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 272 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 273 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 274 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 275 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 276 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 277 ) ( 28 ) } // patch (Patch)
-		Node { ( 261 278 ) ( 28 ) } // patch (Patch)
+		Node { ( 245 266 ) ( 25 ) } // patch (Patch)
+		Node { ( 253 ) ( 32 ) } // entity (func_static_80)
+		Node { ( 260 270 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 271 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 272 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 273 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 274 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 275 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 276 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 277 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 278 ) ( 28 ) } // patch (Patch)
+		Node { ( 260 279 ) ( 28 ) } // patch (Patch)
+		Node { ( 265 ) ( 32 ) } // entity (func_static_93)
+		Node { ( 278 ) ( 33 ) } // entity (func_static_1208)
+		Node { ( 279 ) ( 33 ) } // entity (func_emitter_5)
 	}
 	Layers
 	{
@@ -462,6 +468,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -865,7 +872,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_80)
 		Node { 0 } // entity (func_static_81)
 		Node { 0 } // entity (func_static_82)
-		Node { 0 } // entity (func_static_83)
 		Node { 0 } // entity (func_static_84)
 		Node { 0 } // entity (func_static_85)
 		Node { 0 } // entity (func_static_86)
@@ -882,6 +888,59 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (func_static_89)
+		Node { 0 } // entity (func_static_90)
+		Node { 0 } // entity (func_static_91)
+		Node { 0 } // entity (func_static_92)
+		Node { 0 } // entity (func_static_93)
+		Node { 0 } // entity (func_static_94)
+		Node { 0 } // entity (func_static_97)
+		Node { 0 } // entity (func_static_98)
+		Node { 0 } // entity (func_static_99)
+		Node { 0 } // entity (func_static_100)
+		Node { 0 } // entity (func_static_101)
+		Node { 0 } // entity (func_static_83)
+		Node { 0 } // entity (func_static_95)
+		Node { 0 } // entity (func_static_96)
+		Node { 0 } // entity (func_static_102)
+		Node { 0 } // entity (func_static_103)
+		Node { 0 } // entity (func_static_104)
+		Node { 0 } // entity (func_static_1208)
+		Node { 0 } // entity (func_emitter_5)
+		Node { 0 } // entity (func_static_105)
+		Node { 0 } // entity (func_static_106)
+		Node { 0 } // entity (func_static_107)
+		Node { 0 } // entity (func_static_108)
+		Node { 0 } // entity (func_static_109)
+		Node { 0 } // entity (func_static_110)
+		Node { 0 } // entity (func_static_111)
+		Node { 0 } // entity (func_static_112)
+		Node { 0 } // entity (func_static_113)
+		Node { 0 } // entity (func_static_114)
+		Node { 0 } // entity (func_static_115)
+		Node { 0 } // entity (func_static_116)
+		Node { 0 } // entity (func_static_119)
+		Node { 0 } // entity (func_static_135)
+		Node { 0 } // entity (func_static_137)
+		Node { 0 } // entity (func_static_138)
+		Node { 0 } // entity (func_static_140)
+		Node { 0 } // entity (func_static_141)
+		Node { 0 } // entity (func_static_143)
+		Node { 0 } // entity (func_static_144)
+		Node { 0 } // entity (func_static_145)
+		Node { 0 } // entity (func_static_146)
+		Node { 0 } // entity (func_static_147)
+		Node { 0 } // entity (func_static_148)
+		Node { 0 } // entity (func_static_152)
+		Node { 0 } // entity (func_static_153)
+		Node { 0 } // entity (func_static_154)
+		Node { 0 } // entity (func_static_155)
+		Node { 0 } // entity (func_static_156)
+		Node { 0 } // entity (func_static_157)
+		Node { 0 } // entity (func_static_158)
+		Node { 0 } // entity (func_static_159)
+		Node { 0 } // entity (func_static_160)
+		Node { 0 } // entity (func_static_161)
+		Node { 0 } // entity (func_static_162)
 	}
 	SelectionSets
 	{

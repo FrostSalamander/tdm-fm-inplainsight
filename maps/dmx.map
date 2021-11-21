@@ -11334,3 +11334,19 @@ brushDef3
 }
 }
 }
+// entity 431
+{
+"classname" "func_static"
+"name" "func_static_321"
+"origin" "31 -363 -287.911"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/darkmod/containers/barrell_med_closed.lwo"
+}
+// entity 432
+{
+"classname" "func_static"
+"name" "func_static_322"
+"origin" "29 -365 -231.853"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/darkmod/kitchen/wine_crate02_full.lwo"
+}

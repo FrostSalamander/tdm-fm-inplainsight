@@ -8,3 +8,4 @@ maps/*.cm
 *.bkup
 *.zip
 *.lin
+maps/*autosave*

@@ -19747,7 +19747,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_352"
 "model" "models/darkmod/architecture/doors/round_vault_door01.lwo"
-"origin" "-179.956 175.705 -416"
+"origin" "-251.956 263.705 -416"
 "rotation" "0 -1 0 1 0 0 0 0 1"
 }
 // entity 565

@@ -1,36 +1,25 @@
 # Game Flow
 
-## Objectives
-- stop the enemy spy
----
-## Start Section
+## Start
+- player needs to go to the inn
 
-### Inn
+## Inn
 
-#### Bottom Floor
-
-##### Innkeeper Office
+### Bottom Floor
 - Innkeeper office contains journal, hinting at events that happened in the guest room
 - Door to outside locked, need manager's key
 
-##### Kitchen
--
+### Top Floor
 
-#### Top Floor
-
-##### Contact's Room
+#### Contact's Room
 - finds empty room where contact was supposed to be, sees mausoleum from window
 - finds note, hinting at dead drop location, self-ineptitude
 
 
-#####  Other guest room
+####  Other guest room
 - guest is post office man.
 - note about getting away from his wife.
 - he has key to post office, from where the player can get to 'posh houses'
-
-### Post Office
-- passage to posh houses
-
 
 ## Posh Houses
 

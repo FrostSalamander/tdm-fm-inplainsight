@@ -1,0 +1,145 @@
+skin wall04_old_bricks_dark_messy
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_bricks_dark_messy
+}
+
+skin wall04_blocks_flat_ochre_smoky
+{
+    model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door02.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_flat_ochre_smoky
+}
+
+skin wall04_blocks_sepia_grey
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_sepia_grey
+}
+
+skin wall04_old_small_blueyellow_crumble
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_small_blueyellow_crumble
+}
+
+skin wall04_rough_brick_grey
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/rough_brick_grey
+}
+
+skin wall04_dark_brown_wood_unlit
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window02.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window02_low.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window02_shutters.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window02_shutters_low.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window03.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window03_low.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window03_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window_empty.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_arch01.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_arch01_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_extender01.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_extension01_med.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_extension01_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window01_awning.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window01_awning_low.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window01_awning_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_roof256lwo.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_roof256_med.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_roof256_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door01.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_door01_lowest.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door_empty.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/timber_corner_spacer01_tall.lwo
+
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull_ns textures/darkmod/wood/boards/rough_wood_darkbrown_ns
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/boards/wood_brown_dull01	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/panels/wood_brown_dull01_panel	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/boards/pier_platform	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/boards/timber_ends	textures/darkmod/wood/boards/rough_wood_darkbrown
+}
+
+skin wall04_dark_brown_wood_lit
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window02.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window02_low.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window02_shutters.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window02_shutters_low.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window03.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window03_low.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window03_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window_empty.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_arch01.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_arch01_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_extender01.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_extension01_med.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_extension01_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window01_awning.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window01_awning_low.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_window01_awning_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_roof256lwo.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_roof256_med.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_roof256_lowest.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door01.lwo
+	model models/darkmod/misc/lod/architecture/modules/ext_timber01/ext_timber01_door01_lowest.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door_empty.lwo
+
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/timber_corner_spacer01_tall.lwo
+
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull_ns textures/darkmod/wood/boards/rough_wood_darkbrown_ns
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/boards/wood_brown_dull01	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/panels/wood_brown_dull01_panel	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/boards/pier_platform	textures/darkmod/wood/boards/rough_wood_darkbrown
+	textures/darkmod/wood/boards/timber_ends	textures/darkmod/wood/boards/rough_wood_darkbrown
+
+	textures/darkmod/window/wooden_frame01/wooden_frame01_moonlit	textures/darkmod/window/wooden_frame01/wooden_frame01_lit
+	textures/glass/dull_opaque01 textures/glass/dull_opaque01_lit
+}
+
+skin timber_corner_spacer01_tall_brown_wood
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/timber_corner_spacer01_tall.lwo
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull	textures/darkmod/wood/boards/rough_wood_darkbrown
+}
+
+skin window_clear_warp
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window_openable.lwo
+    model models/darkmod/architecture/windows/squarepanel_set01_doubleside_full.lwo
+	textures/glass/dull_opaque01     textures/darkmod/glass/clear_warp
+    textures/glass/dull_opaque01_lit textures/darkmod/glass/clear_warp
+	textures/glass/dull_opaque01     textures/darkmod/glass/clear
+    textures/glass/dull_opaque01_lit textures/darkmod/glass/clear
+}
+
+skin window_clear
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window_openable.lwo
+    model models/darkmod/architecture/windows/squarepanel_set01_doubleside_full.lwo
+	textures/glass/dull_opaque01     textures/darkmod/glass/clear
+    textures/glass/dull_opaque01_lit textures/darkmod/glass/clear
+}

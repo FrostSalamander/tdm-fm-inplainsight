@@ -1,0 +1,5 @@
+skin old_worn_blocks_002
+{
+    model models/darkmod/architecture/chimneys/chimney_right.lwo
+    textures/darkmod/stone/brick/rough_brick_grey textures/darkmod/stone/brick/old_worn_blocks_002
+}

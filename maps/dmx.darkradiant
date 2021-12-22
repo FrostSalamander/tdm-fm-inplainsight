@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "348468" } 
-		KeyValue { "LastCameraAngle" "-16.5 314.102 0" } 
-		KeyValue { "LastCameraPosition" "853.686 29.1892 -154.29" } 
+		KeyValue { "EditTimeInSeconds" "349085" } 
+		KeyValue { "LastCameraAngle" "-13.8 8.70176 0" } 
+		KeyValue { "LastCameraPosition" "925.719 -238.688 -269.837" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/caulk" } 
 	}
 	SelectionGroups
@@ -103,6 +103,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1401 { "" }
 		SelectionGroup 1402 { "" }
 		SelectionGroup 1405 { "" }
+		SelectionGroup 1407 { "" }
+		SelectionGroup 1409 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -952,10 +954,29 @@ DarkRadiant Map Information File Version 2
 		Node { ( 714 ) ( 1402 ) } // entity (func_static_317)
 		Node { ( 715 ) ( 1402 ) } // entity (func_static_575)
 		Node { ( 745 ) ( 1405 ) } // entity (func_static_602)
+		Node { ( 754 1786 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1787 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1788 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1789 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1790 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1791 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1792 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1793 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1794 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1795 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1796 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1798 ) ( 1407 ) } // brush (Brush)
+		Node { ( 754 1799 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1800 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1801 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1802 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1803 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1804 ) ( 1409 ) } // brush (Brush)
+		Node { ( 754 1805 ) ( 1407 ) } // brush (Brush)
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 348468 }
+		TotalSecondsEdited { 349085 }
 	}
 	Layers
 	{
@@ -3504,6 +3525,28 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_605)
 		Node { 0 } // entity (func_static_606)
 		Node { 0 } // entity (func_static_607)
+		Node { 0 } // entity (func_static_608)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 	}
 	SelectionSets
 	{

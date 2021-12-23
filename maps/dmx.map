@@ -29607,21 +29607,13 @@ brushDef3
 // entity 746
 {
 "classname" "func_static"
-"name" "func_static_564"
-"origin" "802.333 -242.711 -352"
-"rotation" "0 -1 0 1 0 0 0 0 1"
-"model" "models/darkmod/kitchen/stove_small.lwo"
-}
-// entity 747
-{
-"classname" "func_static"
 "name" "func_static_603"
 "model" "models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo"
 "origin" "984 -104 -344"
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "skin" "timber01_red_brick_dull"
 }
-// entity 748
+// entity 747
 {
 "classname" "func_static"
 "name" "func_static_604"
@@ -29629,7 +29621,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "model" "models/darkmod/architecture/modules/exteriors/ext_timber01/timber_corner_spacer02.lwo"
 }
-// entity 749
+// entity 748
 {
 "classname" "func_static"
 "name" "func_static_427"
@@ -29756,7 +29748,7 @@ brushDef3
 }
 }
 }
-// entity 750
+// entity 749
 {
 "classname" "func_static"
 "name" "func_static_605"
@@ -29765,7 +29757,7 @@ brushDef3
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "skin" "timber01_red_brick_dull"
 }
-// entity 751
+// entity 750
 {
 "classname" "func_static"
 "name" "func_static_606"
@@ -29774,7 +29766,7 @@ brushDef3
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "timber01_red_brick_dull"
 }
-// entity 752
+// entity 751
 {
 "classname" "func_static"
 "name" "func_static_607"
@@ -29782,7 +29774,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "model" "models/darkmod/architecture/modules/exteriors/ext_timber01/timber_corner_spacer02.lwo"
 }
-// entity 753
+// entity 752
 {
 "classname" "func_static"
 "name" "func_static_608"
@@ -29790,7 +29782,7 @@ brushDef3
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "model" "models/darkmod/furniture/beds/doublebed_wealthy.lwo"
 }
-// entity 754
+// entity 753
 {
 "classname" "func_static"
 "name" "func_static_609"
@@ -29798,7 +29790,7 @@ brushDef3
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "model" "models/darkmod/architecture/doorframes/door_frame_wood_96x48.ase"
 }
-// entity 755
+// entity 754
 {
 "classname" "func_static"
 "name" "func_static_974"
@@ -29807,7 +29799,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "skin" "rough_wood_sand"
 }
-// entity 756
+// entity 755
 {
 "classname" "func_static"
 "name" "func_static_977"
@@ -29815,7 +29807,7 @@ brushDef3
 "origin" "1244 -245 -352"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
-// entity 757
+// entity 756
 {
 "classname" "func_static"
 "name" "func_static_978"
@@ -29870,7 +29862,7 @@ brushDef3
 }
 }
 }
-// entity 758
+// entity 757
 {
 "classname" "func_static"
 "name" "func_static_553"
@@ -29878,7 +29870,7 @@ brushDef3
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "model" "models/darkmod/architecture/doorframes/door_frame_wood_96x48.ase"
 }
-// entity 759
+// entity 758
 {
 "classname" "func_static"
 "name" "func_static_610"
@@ -29886,7 +29878,7 @@ brushDef3
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "model" "models/darkmod/architecture/doorframes/door_frame_wood_96x48.ase"
 }
-// entity 760
+// entity 759
 {
 "classname" "atdm:lamp_oil_wall_hanging_copper_lit"
 "name" "atdm_lamp_oil_wall_hanging_copper_lit_1"

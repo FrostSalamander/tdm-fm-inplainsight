@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "355541" } 
-		KeyValue { "LastCameraAngle" "-0.600002 268.202 0" } 
-		KeyValue { "LastCameraPosition" "970.097 -341.476 -228.988" } 
+		KeyValue { "EditTimeInSeconds" "355857" } 
+		KeyValue { "LastCameraAngle" "-18.6 274.202 0" } 
+		KeyValue { "LastCameraPosition" "884.535 -244.081 -219.655" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/paint_paper/wallpaper_victorian_04" } 
 	}
 	SelectionGroups
@@ -976,7 +976,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 355541 }
+		TotalSecondsEdited { 355857 }
 	}
 	Layers
 	{
@@ -3572,7 +3572,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_601)
 		Node { 0 } // entity (func_static_602)
 		Node { 0 } // entity (func_static_325)
-		Node { 0 } // entity (func_static_564)
 		Node { 0 } // entity (func_static_603)
 		Node { 0 } // entity (func_static_604)
 		Node { 0 } // entity (func_static_427)

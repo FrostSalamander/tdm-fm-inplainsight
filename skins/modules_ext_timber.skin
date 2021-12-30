@@ -11,6 +11,12 @@ skin wall04_blocks_flat_ochre_smoky
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_flat_ochre_smoky
 }
 
+skin ext_timber_old_worn_blocks_003
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_worn_blocks_003
+}
+
 skin wall04_blocks_sepia_grey
 {
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo

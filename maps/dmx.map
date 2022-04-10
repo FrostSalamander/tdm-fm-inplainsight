@@ -14749,7 +14749,7 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 192 ) ( ( -0.01953125 0 -27.890625 ) ( -2.775557561562891e-17 -0.01953125 52.640625 ) ) "textures/darkmod/wood/boards/dark_varnished" 0 0 0
+( 0 0 1 192 ) ( ( -0.01953125 -2.081668171172169e-17 -25.078125 ) ( -1.387778780781446e-17 -0.01953125 53.109375 ) ) "textures/darkmod/wood/boards/dark_varnished" 0 0 0
 ( 0 1 0 688 ) ( ( -0.01953125 0 -27.890625 ) ( -2.775557561562891e-17 -0.01953125 52.640625 ) ) "textures/darkmod/wood/boards/dark_varnished" 0 0 0
 ( 1 0 0 -1448 ) ( ( -0.01953125 0 -27.890625 ) ( 0 -0.01953125 52.640625 ) ) "textures/darkmod/wood/boards/dark_varnished" 0 0 0
 ( 0 0 -1 -200 ) ( ( -0.01953125 0 -27.890625 ) ( -2.775557561562891e-17 -0.01953125 52.640625 ) ) "textures/darkmod/wood/boards/dark_varnished" 0 0 0
@@ -32652,4 +32652,5 @@ brushDef3
 "model" "models/darkmod/architecture/doorframes/door_frame_curved_96x48.lwo"
 "origin" "1408 -692 -192"
 "rotation" "1 0 0 0 1 0 0 0 1"
+"skin" "doorframe_rough_wood_darkbrown"
 }

@@ -50,13 +50,15 @@
 - records here about the person in the posh houses funding the enemy spy.  Some clue to lead the player there?
 
 ### City Watch Gate station
-- ??
+- just a way to transit between bank section and church section.
 
 ## Church Section
 
 ### Church
 - tunnel to mausoleum.
 
+### Mansion
+- ?
 
 ## Mausoleum
 - dead drop letter under bench. Will hint at tracking the enemy spy via bank records.

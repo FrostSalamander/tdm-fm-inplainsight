@@ -1,0 +1,7 @@
+skin pillar02_m8_stucco_darkbrown
+{
+	model models/darkmod/architecture/modules/interior_set01_pillar02_m8.lwo
+	textures/darkmod/paint_paper/wallpaper_victorian_01  textures/darkmod/plaster/stucco_01_nonshiny
+    textures/darkmod/wood/boards/wood_brown_dull01       textures/darkmod/wood/boards/rough_wood_darkbrown
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/rough_wood_darkbrown
+}

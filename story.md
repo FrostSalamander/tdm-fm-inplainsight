@@ -1,7 +1,16 @@
 # Game Flow
 
+## Intro
+September, 1627.
+
+You are in the employ of the Crown as an intelligence officer. Word of an uprising has reached your superiors and you have been dispatched to <town name> to investigate a possible source of the plot.
+
+Your cover is <cover name>, a merchant from Bridgeport.  If you are found out, minimal investigation by the local watch will reveal your 'true' identity as a thief of some renown who is on the run from the Bridgeport City Watch and seeking to ply your trade out of town.  Your identity as a spy will go unnoticed.
+
+Use your skills to investigate the town, looking for clues of the uprising.
+
 ## Objectives
-- stop the enemy spy
+- find evidence of the uprising
 ---
 ## Start Section
 

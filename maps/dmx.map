@@ -17903,7 +17903,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -8 ) ( ( 0.01953125 0 -1.09375 ) ( 0 0.01953125 5.684341886080801e-14 ) ) "textures/darkmod/wood/boards/pier_platform" 0 0 0
-( 0 1 0 384 ) ( ( 0.01953125 0 0 ) ( 0 0.01953125 0 ) ) "textures/darkmod/wood/boards/pier_platform" 0 0 0
+( 0 1 0 384 ) ( ( 0.01302083302289248 0 -0.1770782470703125 ) ( 0 0.01302083302289248 0.2343750000000002 ) ) "textures/darkmod/plaster/stucco_01_nonshiny" 0 0 0
 ( 0 -1 0 -392 ) ( ( 0.01302083302289248 0 -0.1770782470703125 ) ( 0 0.01302083302289248 0.234375 ) ) "textures/darkmod/plaster/stucco_01_nonshiny" 0 0 0
 ( -1 0 0 -168 ) ( ( 0.01953125 0 1.09375 ) ( 0 0.01953125 3.552713678800501e-15 ) ) "textures/darkmod/wood/boards/pier_platform" 0 0 0
 ( 1 0 0 140 ) ( ( 0.01953125 0 1.09375 ) ( 0 0.01953125 3.552713678800501e-15 ) ) "textures/darkmod/wood/boards/pier_platform" 0 0 0

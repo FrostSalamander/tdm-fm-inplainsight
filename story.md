@@ -72,3 +72,4 @@ Use your skills to investigate the town, looking for clues of the uprising.
 ## Mausoleum
 - dead drop letter under bench. Will hint at tracking the enemy spy via bank records.
 - secret crypt underneath (tunnel from church)?
+- Mausoleum tour brochure in inn?

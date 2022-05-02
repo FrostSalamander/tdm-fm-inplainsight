@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "667360" } 
-		KeyValue { "LastCameraAngle" "-32.4 127.8 0" } 
-		KeyValue { "LastCameraPosition" "537.185 479.616 -280.851" } 
+		KeyValue { "EditTimeInSeconds" "667786" } 
+		KeyValue { "LastCameraAngle" "-20.4 144.3 0" } 
+		KeyValue { "LastCameraPosition" "550.291 486.659 -285.888" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/iron_rough" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 667360 }
+		TotalSecondsEdited { 667786 }
 	}
 	Layers
 	{
@@ -4265,9 +4265,9 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
-		Node { 0 } // entity (atdm_mover_button_1)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (watch_gate_key)
+		Node { 0 } // entity (watch_gate_lock_stairs)
+		Node { 0 } // brush (Brush)
 	}
 	SelectionGroups
 	{

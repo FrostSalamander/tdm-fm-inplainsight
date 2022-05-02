@@ -48482,12 +48482,13 @@ brushDef3
 "name" "watch_station_gate"
 "frobable" "0"
 "lock_picktype" "-"
-"locked" "1"
+"locked" "0"
 "model" "watch_station_gate"
 "origin" "508 480 -288"
 "rotate" "0 0 0"
 "translate" "0 0 100"
 "used_by" "watch_gate_key"
+"door_controller1" "watch_gate_lock_stairs"
 // primitive 0
 {
 brushDef3
@@ -48679,12 +48680,18 @@ patchDef2
 }
 // entity 1149
 {
+"classname" "atdm:key_simple_old"
+"name" "watch_gate_key"
+"origin" "576 384 -146.603"
+"rotation" "1 0 0 0 1 0 0 0 1"
+}
+// entity 1150
+{
 "classname" "atdm:mover_button"
-"name" "atdm_mover_button_1"
-"model" "atdm_mover_button_1"
+"name" "watch_gate_lock_stairs"
+"model" "watch_gate_lock_stairs"
 "origin" "523 510 -293"
 "translate" "0 0.5 0"
-"target0" "watch_station_gate"
 // primitive 0
 {
 brushDef3
@@ -48697,11 +48704,4 @@ brushDef3
 ( -1 0 0 -3 ) ( ( 0.25 0 0.5 ) ( 0 0.1666666716337204 15.66666793823242 ) ) "textures/darkmod/door/keyhole_metal_001" 0 0 0
 }
 }
-}
-// entity 1150
-{
-"classname" "atdm:key_simple_old"
-"name" "watch_gate_key"
-"origin" "576 384 -146.603"
-"rotation" "1 0 0 0 1 0 0 0 1"
 }

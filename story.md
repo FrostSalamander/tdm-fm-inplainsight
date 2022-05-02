@@ -54,6 +54,7 @@ Use your skills to investigate the town, looking for clues of the uprising.
 ### City Watch Station
 - pathway through here to get to Bank from 'posh houses' section
 - potential records about goings-on (your contact being taken, etc).  They don't know what's going on.
+- offices: Chief Inspector, Chief Constable
 
 ### Bank
 - records here about the person in the posh houses funding the enemy spy.  Some clue to lead the player there?

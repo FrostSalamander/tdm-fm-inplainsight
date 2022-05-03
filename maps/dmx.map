@@ -47658,7 +47658,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_839"
 "model" "models/darkmod/decorative/painting_desktop_vertical.ase"
-"origin" "394 436.132 -139"
+"origin" "394 444.132 -139"
 "rotation" "-0.948457 -0.316905 0 0.316905 -0.948457 0 0 0 1"
 "skin" "portrait_nobleman"
 }
@@ -47667,7 +47667,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_837"
 "model" "models/darkmod/readables/bookrow2.lwo"
-"origin" "358 434.132 -147"
+"origin" "358 442.132 -147"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 }
 // entity 1104
@@ -47676,7 +47676,7 @@ brushDef3
 "name" "func_static_840"
 "areaLock" "origin"
 "model" "models/darkmod/misc/ink_pot02_wquill.lwo"
-"origin" "351 445.132 -147"
+"origin" "351 453.132 -147"
 "rotation" "-0.353634 0.935384 0 -0.935384 -0.353634 0 0 0 1"
 }
 // entity 1105
@@ -47685,7 +47685,7 @@ brushDef3
 "name" "merchant_book_captain1"
 "areaLock" "origin"
 "model" "models/darkmod/readables/book_open1.lwo"
-"origin" "370 450.132 -147"
+"origin" "370 458.132 -147"
 "rotation" "-0.998212 -0.0597704 0 0.0597704 -0.998212 0 0 0 1"
 }
 // entity 1106
@@ -47694,14 +47694,14 @@ brushDef3
 "name" "func_static_842"
 "areaLock" "origin"
 "model" "models/darkmod/readables/paper1.lwo"
-"origin" "339 450.132 -147"
+"origin" "339 458.132 -147"
 "rotation" "0.986215 -0.16547 0 0.16547 0.986215 0 0 0 1"
 }
 // entity 1107
 {
 "classname" "atdm:oil_lamp_desk4"
 "name" "atdm_oil_lamp_desk4_1"
-"origin" "328.5 447.502 -147.375"
+"origin" "328.5 455.502 -147.375"
 "rotation" "0 -1 0 1 0 0 0 0 1"
 }
 // entity 1108
@@ -47709,17 +47709,17 @@ brushDef3
 "classname" "atdm:target_set_frobable"
 "name" "desk2_drawer_frobcontrol37"
 "model" "desk2_drawer_frobcontrol37"
-"origin" "400 450 -172"
+"origin" "400 458 -172"
 // primitive 0
 {
 brushDef3
 {
-( 0 0 1 -4.5 ) ( ( 0.015625 0 111.3359222412114 ) ( 0 0.015625 121.5312423706059 ) ) "textures/common/clip" 0 0 0
-( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 6.468759059906006 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
-( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.3437347412114 ) ( 0 0.015625 120.6718750000005 ) ) "textures/common/clip" 0 0 0
-( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.3437347412109 ) ( 0 0.015625 6.468759059906006 ) ) "textures/common/clip" 0 0 0
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109222412118 ) ( 0 0.015625 121.5312423706064 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 6.468759059906004 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.2187347412114 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187347412109 ) ( 0 0.015625 6.468759059906004 ) ) "textures/common/clip" 0 0 0
 ( 0 -1 0 -9.998846054077148 ) ( ( 0.015625 0 121.5312423706059 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
-( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.65626907348636 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.78126907348636 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
 }
 }
 }
@@ -47728,17 +47728,17 @@ brushDef3
 "classname" "atdm:target_set_frobable"
 "name" "desk2_drawer_frobcontrol38"
 "model" "desk2_drawer_frobcontrol38"
-"origin" "400 450 -157"
+"origin" "400 458 -157"
 // primitive 0
 {
 brushDef3
 {
-( 0 0 1 -4.5 ) ( ( 0.015625 0 111.3359222412114 ) ( 0 0.015625 121.5312423706059 ) ) "textures/common/clip" 0 0 0
-( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 6.468759059906006 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
-( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.3437347412105 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
-( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.3437347412109 ) ( 0 0.015625 6.468759059906006 ) ) "textures/common/clip" 0 0 0
-( 0 -1 0 -9.998846054077148 ) ( ( 0.015625 0 121.531242370605 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
-( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.65626907348633 ) ( 0 0.015625 120.90625 ) ) "textures/common/clip" 0 0 0
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109222412118 ) ( 0 0.015625 121.5312423706064 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 6.468759059906004 ) ( 0 0.015625 120.9062499999991 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.2187347412105 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187347412109 ) ( 0 0.015625 6.468759059906004 ) ) "textures/common/clip" 0 0 0
+( 0 -1 0 -9.998846054077148 ) ( ( 0.015625 0 121.5312423706046 ) ( 0 0.015625 120.9062499999991 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.7812690734863 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
 }
 }
 }
@@ -47751,7 +47751,7 @@ brushDef3
 "immune_to_target_setfrobable" "1"
 "model" "models/darkmod/furniture/desk2_drawer.lwo"
 "move_time" "1"
-"origin" "336 460 -178"
+"origin" "336 468 -178"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "desk_old"
 "snd_close" "frob_drawer_close"
@@ -47770,7 +47770,7 @@ brushDef3
 "immune_to_target_setfrobable" "1"
 "model" "models/darkmod/furniture/desk2_drawer.lwo"
 "move_time" "1"
-"origin" "336 460 -163"
+"origin" "336 468 -163"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "desk_old"
 "snd_close" "frob_drawer_close"
@@ -47785,7 +47785,7 @@ brushDef3
 "classname" "func_static"
 "name" "desk10"
 "model" "models/darkmod/furniture/desk2_nodrawers.lwo"
-"origin" "368 444.5 -184"
+"origin" "368 452.5 -184"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "desk_old"
 }
@@ -47794,7 +47794,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_841"
 "model" "models/darkmod/furniture/seating/dchair2.lwo"
-"origin" "374 476 -164"
+"origin" "374 484 -164"
 "rotation" "0.984962 -0.172771 0 0.172771 0.984962 0 0 0 1"
 }
 // entity 1114
@@ -47806,7 +47806,7 @@ brushDef3
 "immune_to_target_setfrobable" "1"
 "model" "models/darkmod/furniture/desk2_drawer.lwo"
 "move_time" "1"
-"origin" "400 460 -163"
+"origin" "400 468 -163"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "desk_old"
 "snd_close" "frob_drawer_close"
@@ -47821,17 +47821,17 @@ brushDef3
 "classname" "atdm:target_set_frobable"
 "name" "desk2_drawer_frobcontrol39"
 "model" "desk2_drawer_frobcontrol39"
-"origin" "336 450 -157"
+"origin" "336 458 -157"
 // primitive 0
 {
 brushDef3
 {
-( 0 0 1 -4.5 ) ( ( 0.015625 0 111.3359222412105 ) ( 0 0.015625 -5.468759059906009 ) ) "textures/common/clip" 0 0 0
-( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 133.4687652587891 ) ( 0 0.015625 120.90625 ) ) "textures/common/clip" 0 0 0
-( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.3437347412105 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
-( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.3437347412109 ) ( 0 0.015625 133.4687652587895 ) ) "textures/common/clip" 0 0 0
-( 0 -1 0 -9.998846054077148 ) ( ( 0.015625 0 -5.468759059906005 ) ( 0 0.015625 120.90625 ) ) "textures/common/clip" 0 0 0
-( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.65626907348633 ) ( 0 0.015625 120.90625 ) ) "textures/common/clip" 0 0 0
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109222412109 ) ( 0 0.015625 -5.468759059906009 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 133.4687652587891 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.2187347412105 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187347412109 ) ( 0 0.015625 133.4687652587895 ) ) "textures/common/clip" 0 0 0
+( 0 -1 0 -9.998846054077148 ) ( ( 0.015625 0 -5.468759059906004 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.7812690734863 ) ( 0 0.015625 120.9062499999995 ) ) "textures/common/clip" 0 0 0
 }
 }
 }
@@ -47844,7 +47844,7 @@ brushDef3
 "immune_to_target_setfrobable" "1"
 "model" "models/darkmod/furniture/desk2_drawer.lwo"
 "move_time" "1"
-"origin" "400 460 -178"
+"origin" "400 468 -178"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "desk_old"
 "snd_close" "frob_drawer_close"
@@ -47859,17 +47859,17 @@ brushDef3
 "classname" "atdm:target_set_frobable"
 "name" "desk2_drawer_frobcontrol40"
 "model" "desk2_drawer_frobcontrol40"
-"origin" "336 450 -172"
+"origin" "336 458 -172"
 // primitive 0
 {
 brushDef3
 {
-( 0 0 1 -4.5 ) ( ( 0.015625 0 111.3359222412105 ) ( 0 0.015625 -5.468759059906009 ) ) "textures/common/clip" 0 0 0
-( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 133.4687652587895 ) ( 0 0.015625 120.6718750000005 ) ) "textures/common/clip" 0 0 0
-( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.3437347412114 ) ( 0 0.015625 120.6718750000005 ) ) "textures/common/clip" 0 0 0
-( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.3437347412109 ) ( 0 0.015625 133.4687652587895 ) ) "textures/common/clip" 0 0 0
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109222412109 ) ( 0 0.015625 -5.468759059906009 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00115394592285 ) ( ( 0.015625 0 133.46876525879 ) ( 0 0.015625 120.6718750000005 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00115394592285 ) ( ( 0.015625 0 111.2187347412114 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187347412109 ) ( 0 0.015625 133.4687652587895 ) ) "textures/common/clip" 0 0 0
 ( 0 -1 0 -9.998846054077148 ) ( ( 0.015625 0 -5.468759059906006 ) ( 0 0.015625 120.6718750000005 ) ) "textures/common/clip" 0 0 0
-( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.65626907348636 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.998846054077148 ) ( ( 0.015625 0 16.78126907348636 ) ( 0 0.015625 120.671875 ) ) "textures/common/clip" 0 0 0
 }
 }
 }
@@ -48015,7 +48015,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_847"
 "model" "models/darkmod/decorative/wall/banner1.lwo"
-"origin" "718 192 -112"
+"origin" "718 192 -104"
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "skin" "banner_citywatch"
 }
@@ -49114,8 +49114,8 @@ brushDef3
 {
 "classname" "atdm:moveable_chair_wood_1"
 "name" "atdm_moveable_chair_wood_1_3"
-"origin" "352 400 -164.02"
-"rotation" "-0.963616 0.267289 0 -0.267289 -0.963616 0 0 0 1"
+"origin" "400 408 -164.02"
+"rotation" "-0.866025 -0.500001 0 0.500001 -0.866025 0 0 0 1"
 }
 // entity 1164
 {
@@ -49909,4 +49909,219 @@ brushDef3
 ( -1 0 0 -4 ) ( ( -0.0195312497089617 2.081668171172169e-17 -10.93749983701852 ) ( 0 -0.01953124970896148 6.640624901046948 ) ) "textures/darkmod/wood/boards/rough_wood_sand" 0 0 0
 }
 }
+}
+// entity 1186
+{
+"classname" "func_static"
+"name" "func_static_882"
+"model" "models/darkmod/furniture/shelves/hutch02.lwo"
+"origin" "311.99 340.116 -192"
+"rotation" "0 1 0 -1 0 0 0 0 1"
+"skin" "old/cabinet1_old"
+}
+// entity 1187
+{
+"classname" "func_static"
+"name" "func_static_881"
+"model" "models/darkmod/kitchen/bowl_china_stack01.lwo"
+"origin" "339.49 349.116 -104.994"
+"rotation" "-0.819153 0.573577 0 -0.573577 -0.819153 0 0 0 1"
+}
+// entity 1188
+{
+"classname" "atdm:moveable_loot_bottle"
+"name" "atdm_moveable_loot_statue_lion_2"
+"origin" "343.99 348.116 -135.638"
+"rotation" "-0.984808 -0.173648 0 0.173648 -0.984808 0 0 0 1"
+}
+// entity 1189
+{
+"classname" "func_static"
+"name" "func_static_887"
+"model" "models/darkmod/kitchen/plate_stack01.lwo"
+"origin" "285.49 349.616 -121.035"
+"rotation" "-0.939693 -0.34202 0 0.34202 -0.939693 0 0 0 1"
+"skin" "blue_china_dirty"
+}
+// entity 1190
+{
+"classname" "func_static"
+"name" "func_static_890"
+"model" "models/darkmod/kitchen/wine_bottles_standling_01.ase"
+"origin" "334.99 349.116 -135.688"
+"rotation" "-0.173648 0.984808 0 -0.984808 -0.173648 0 0 0 1"
+}
+// entity 1191
+{
+"classname" "func_static"
+"name" "func_static_889"
+"model" "models/darkmod/kitchen/jar1.lwo"
+"origin" "292.99 347.116 -104.977"
+"rotation" "0 1 0 -1 0 0 0 0 1"
+}
+// entity 1192
+{
+"classname" "func_static"
+"name" "func_static_886"
+"model" "models/darkmod/kitchen/jar1.lwo"
+"origin" "284.99 351.616 -104.977"
+"rotation" "1 0 0 0 1 0 0 0 1"
+}
+// entity 1193
+{
+"classname" "func_static"
+"name" "func_static_888"
+"model" "models/darkmod/kitchen/jar1.lwo"
+"origin" "280.99 345.616 -104.977"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1194
+{
+"classname" "func_static"
+"name" "func_static_883"
+"model" "models/darkmod/kitchen/chamberpot_small.lwo"
+"origin" "299.397 348.296 -120.996"
+"rotation" "0.620865 -0.783917 0 0.783917 0.620865 0.000856997 -0.000671815 -0.00053208 1"
+"skin" "gen/gen_iron_001"
+}
+// entity 1195
+{
+"classname" "func_static"
+"name" "func_static_891"
+"model" "models/darkmod/kitchen/wine_bottle02_standing02.lwo"
+"origin" "322.99 347.616 -144.101"
+"rotation" "0.984808 0.173648 0 -0.173648 0.984808 0 0 0 1"
+}
+// entity 1196
+{
+"classname" "func_static"
+"name" "func_static_884"
+"model" "models/darkmod/kitchen/wineglass_silver.ase"
+"noshadows" "1"
+"origin" "307.071 350.926 -144"
+"rotation" "0.996195 -0.0871557 0 0.0871557 0.996195 0 0 0 1"
+}
+// entity 1197
+{
+"classname" "func_static"
+"name" "func_static_885"
+"model" "models/darkmod/kitchen/wineglass_silver.ase"
+"noshadows" "1"
+"origin" "297.786 351.397 -144"
+"rotation" "0.0871557 0.996195 0 -0.996195 0.0871557 0 0 0 1"
+}
+// entity 1198
+{
+"classname" "func_static"
+"name" "func_static_895"
+"model" "models/darkmod/kitchen/wineglass_silver.ase"
+"noshadows" "1"
+"origin" "294.23 345.183 -144"
+"rotation" "0.0871557 0.996195 0 -0.996195 0.0871557 0 0 0 1"
+}
+// entity 1199
+{
+"classname" "func_static"
+"name" "func_static_896"
+"model" "models/darkmod/kitchen/wineglass_silver.ase"
+"origin" "291.478 351.369 -144"
+"rotation" "0.996195 -0.0871557 0 0.0871557 0.996195 0 0 0 1"
+}
+// entity 1200
+{
+"classname" "func_static"
+"name" "func_static_892"
+"model" "models/darkmod/kitchen/wineglass_silver.ase"
+"noshadows" "1"
+"origin" "303.576 346.142 -144"
+"rotation" "1 0 0 0 1 0 0 0 1"
+}
+// entity 1201
+{
+"classname" "func_static"
+"name" "func_static_893"
+"model" "models/darkmod/kitchen/spice_pot01_closed.lwo"
+"origin" "340.99 347.616 -121"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"skin" "rustic_spice"
+}
+// entity 1202
+{
+"classname" "func_static"
+"name" "func_static_894"
+"model" "models/darkmod/kitchen/spice_pot01_full.lwo"
+"origin" "332.49 349.616 -121"
+"rotation" "0.866026 -0.5 0 0.5 0.866026 0 0 0 1"
+"skin" "rustic_spice"
+}
+// entity 1203
+{
+"classname" "func_static"
+"name" "func_static_899"
+"model" "models/darkmod/kitchen/decanter_silver.ase"
+"origin" "279.49 362.116 -145.998"
+"rotation" "-0.984808 0.173648 0 -0.173648 -0.984808 0 0 0 1"
+}
+// entity 1204
+{
+"classname" "func_static"
+"name" "func_static_897"
+"model" "func_static_897"
+"noshadows" "1"
+"origin" "311.99 366.366 -145.875"
+"solid" "0"
+// primitive 0
+{
+patchDef3
+{
+"textures/darkmod/decals/lace/doily_01"
+( 3 3 1 1 0 0 0 )
+(
+( ( 326.6781354890798 359.1189853503081 -145.875 0 0 ) ( 312.9804578767751 357.9205903364989 -145.875 0 -0.5 ) ( 299.2827802644704 356.7221953226897 -145.875 0 -1 ) )
+( ( 325.9373136507008 367.5866362406584 -145.875 0.5 0 ) ( 312.2396358893845 366.3882424189421 -145.875 0.5 -0.5 ) ( 298.5419584260915 365.1898474051329 -145.875 0.5 -1 ) )
+( ( 325.1964879976247 376.0542880846831 -145.875 1 0 ) ( 311.4988098935817 374.8558933092925 -145.875 1 -0.5 ) ( 297.8011346803639 373.6574985339018 -145.875 1 -1 ) )
+)
+}
+}
+}
+// entity 1205
+{
+"classname" "func_static"
+"name" "func_static_900"
+"model" "models/darkmod/kitchen/bowl_china.lwo"
+"origin" "318.615 365.241 -145.869"
+"rotation" "0.939693 0.34202 0 -0.34202 0.939693 0 0 0 1"
+}
+// entity 1206
+{
+"classname" "atdm:moveable_food_apple_random_skin"
+"name" "atdm_moveable_food_apple_random_skin_4"
+"nodrop" "1"
+"origin" "316.615 367.116 -143.03"
+"rotation" "0.988489 0 0.151295 0.0618307 0.912679 -0.403973 -0.138084 0.408677 0.902173"
+}
+// entity 1207
+{
+"classname" "atdm:moveable_food_pear_random_skin"
+"name" "atdm_moveable_food_apple_random_skin_2"
+"nodrop" "1"
+"origin" "321.16 363.77 -142.598"
+"rotation" "0.859719 0.506696 -0.0643699 -0.489883 0.853661 0.176855 0.144562 -0.120512 0.98213"
+}
+// entity 1208
+{
+"classname" "func_static"
+"name" "func_static_901"
+"model" "models/darkmod/kitchen/bowl_china_stack01.lwo"
+"origin" "326.615 349.116 -104.994"
+"rotation" "-0.422618 -0.906308 0 0.906308 -0.422618 0 0 0 1"
+}
+// entity 1209
+{
+"classname" "func_static"
+"name" "func_static_898"
+"model" "models/darkmod/decorative/painting_desktop_vertical.ase"
+"origin" "283.24 349.116 -136.025"
+"rotation" "-0.819153 0.573577 0 -0.573577 -0.819153 0 0 0 1"
+"skin" "portrait_fair_maiden"
 }

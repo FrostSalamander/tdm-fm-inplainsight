@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "677469" } 
-		KeyValue { "LastCameraAngle" "-27.6 176.1 0" } 
-		KeyValue { "LastCameraPosition" "465.854 179.698 -148.525" } 
+		KeyValue { "EditTimeInSeconds" "678063" } 
+		KeyValue { "LastCameraAngle" "-30.6 173.1 0" } 
+		KeyValue { "LastCameraPosition" "460.394 422.703 -92.5782" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bricks_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 677469 }
+		TotalSecondsEdited { 678063 }
 	}
 	Layers
 	{
@@ -4378,6 +4378,31 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_880)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (func_static_882)
+		Node { 0 } // entity (func_static_881)
+		Node { 0 } // entity (atdm_moveable_loot_statue_lion_2)
+		Node { 0 } // entity (func_static_887)
+		Node { 0 } // entity (func_static_890)
+		Node { 0 } // entity (func_static_889)
+		Node { 0 } // entity (func_static_886)
+		Node { 0 } // entity (func_static_888)
+		Node { 0 } // entity (func_static_883)
+		Node { 0 } // entity (func_static_891)
+		Node { 0 } // entity (func_static_884)
+		Node { 0 } // entity (func_static_885)
+		Node { 0 } // entity (func_static_895)
+		Node { 0 } // entity (func_static_896)
+		Node { 0 } // entity (func_static_892)
+		Node { 0 } // entity (func_static_893)
+		Node { 0 } // entity (func_static_894)
+		Node { 0 } // entity (func_static_899)
+		Node { 0 } // entity (func_static_897)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_900)
+		Node { 0 } // entity (atdm_moveable_food_apple_random_skin_4)
+		Node { 0 } // entity (atdm_moveable_food_apple_random_skin_2)
+		Node { 0 } // entity (func_static_901)
+		Node { 0 } // entity (func_static_898)
 	}
 	SelectionGroups
 	{
@@ -4549,6 +4574,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1604 { "" }
 		SelectionGroup 1606 { "" }
 		SelectionGroup 1607 { "" }
+		SelectionGroup 1608 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -5493,6 +5519,30 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1173 3150 ) ( 1604 ) } // patch (Patch)
 		Node { ( 1173 3151 ) ( 1604 ) } // brush (Brush)
 		Node { ( 1173 3152 ) ( 1604 ) } // brush (Brush)
+		Node { ( 1186 ) ( 1608 ) } // entity (func_static_882)
+		Node { ( 1187 ) ( 1608 ) } // entity (func_static_881)
+		Node { ( 1188 ) ( 1608 ) } // entity (atdm_moveable_loot_statue_lion_2)
+		Node { ( 1189 ) ( 1608 ) } // entity (func_static_887)
+		Node { ( 1190 ) ( 1608 ) } // entity (func_static_890)
+		Node { ( 1191 ) ( 1608 ) } // entity (func_static_889)
+		Node { ( 1192 ) ( 1608 ) } // entity (func_static_886)
+		Node { ( 1193 ) ( 1608 ) } // entity (func_static_888)
+		Node { ( 1194 ) ( 1608 ) } // entity (func_static_883)
+		Node { ( 1195 ) ( 1608 ) } // entity (func_static_891)
+		Node { ( 1196 ) ( 1608 ) } // entity (func_static_884)
+		Node { ( 1197 ) ( 1608 ) } // entity (func_static_885)
+		Node { ( 1198 ) ( 1608 ) } // entity (func_static_895)
+		Node { ( 1199 ) ( 1608 ) } // entity (func_static_896)
+		Node { ( 1200 ) ( 1608 ) } // entity (func_static_892)
+		Node { ( 1201 ) ( 1608 ) } // entity (func_static_893)
+		Node { ( 1202 ) ( 1608 ) } // entity (func_static_894)
+		Node { ( 1203 ) ( 1608 ) } // entity (func_static_899)
+		Node { ( 1204 ) ( 1608 ) } // entity (func_static_897)
+		Node { ( 1205 ) ( 1608 ) } // entity (func_static_900)
+		Node { ( 1206 ) ( 1608 ) } // entity (atdm_moveable_food_apple_random_skin_4)
+		Node { ( 1207 ) ( 1608 ) } // entity (atdm_moveable_food_apple_random_skin_2)
+		Node { ( 1208 ) ( 1608 ) } // entity (func_static_901)
+		Node { ( 1209 ) ( 1608 ) } // entity (func_static_898)
 	}
 	SelectionSets
 	{

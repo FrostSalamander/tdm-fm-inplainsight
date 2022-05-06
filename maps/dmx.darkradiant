@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "692101" } 
-		KeyValue { "LastCameraAngle" "-24.3 158.336 0" } 
-		KeyValue { "LastCameraPosition" "-144.092 248.543 -68.2916" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/panels/trim_carved_rounded" } 
+		KeyValue { "EditTimeInSeconds" "692779" } 
+		KeyValue { "LastCameraAngle" "-14.7 6.23601 0" } 
+		KeyValue { "LastCameraPosition" "-210.627 176.66 -61.3408" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/white_plaster01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 692101 }
+		TotalSecondsEdited { 692779 }
 	}
 	Layers
 	{
@@ -4506,6 +4506,11 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_moveable_chair_dining_2_red_2)
 		Node { 3 } // entity (atdm_lamp_electric_fancy_up_lit_4)
 		Node { 0 } // entity (func_static_903)
+		Node { 0 } // entity (func_static_906)
+		Node { 0 } // entity (func_static_904)
+		Node { 0 } // entity (func_static_905)
+		Node { 0 } // entity (func_static_907)
+		Node { 3 } // entity (atdm_lamp_electric_fancy_up_lit_5)
 	}
 	SelectionSets
 	{
@@ -4682,6 +4687,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1610 { "" }
 		SelectionGroup 1611 { "" }
 		SelectionGroup 1612 { "" }
+		SelectionGroup 1613 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -5234,6 +5240,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 386 ) ( 1577 ) } // entity (func_static_370)
 		Node { ( 387 ) ( 1577 ) } // entity (func_static_372)
 		Node { ( 388 ) ( 1577 ) } // entity (func_static_375)
+		Node { ( 390 ) ( 1613 ) } // entity (door_96x48x2hinge_2)
+		Node { ( 391 ) ( 1613 ) } // entity (doorhandle_96x48x2hinge_2)
 		Node { ( 395 ) ( 1342 ) } // entity (door_96x48x2hinge_3)
 		Node { ( 396 ) ( 1342 ) } // entity (doorhandle_96x48x2hinge_3)
 		Node { ( 411 ) ( 1354 ) } // entity (func_static_445)

@@ -2958,7 +2958,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 0 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/rough_big_blocks02" 0 0 0
-( 0 1 0 -352 ) ( ( 0.01302083302289248 0 -5.551115123125783e-17 ) ( 0 0.01302083302289248 2.5 ) ) "textures/darkmod/wood/boards/polished_redbrown" 0 0 0
+( 0 1 0 -352 ) ( ( 0.003255208255723119 0 0 ) ( 0 0.003255208255723119 0.7708332538604736 ) ) "textures/darkmod/plaster/white_plaster01" 0 0 0
 ( 0 0 -1 -168 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 4.440892098500626e-16 ) ) "textures/darkmod/stone/brick/rough_big_blocks02" 0 0 0
 ( 0 -1 0 320 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/rough_big_blocks02" 0 0 0
 ( -1 0 0 40 ) ( ( 0.003255208255723119 0 0 ) ( 0 0.003255208255723119 0.7708332538604736 ) ) "textures/darkmod/plaster/white_plaster01" 0 0 0
@@ -33817,7 +33817,7 @@ brushDef3
 "lock_picktype" "-"
 "lock_pins" "0"
 "locked" "0"
-"origin" "67.8415 377.149 -160"
+"origin" "67.8415 376.149 -160"
 "rotate" "0 90 0"
 "rotation" "0 1 0 -1 0 0 0 0 1"
 "skin" "door_025"
@@ -33828,7 +33828,7 @@ brushDef3
 "classname" "atdm:handle_curved_rotate_double_right"
 "name" "doorhandle_96x48x2hinge_2"
 "bind" "door_96x48x2hinge_2"
-"origin" "67.8415 421.149 -117.5"
+"origin" "67.8415 420.149 -117.5"
 "rotation" "0 1 0 -1 0 0 0 0 1"
 }
 // entity 392
@@ -51329,5 +51329,50 @@ brushDef3
 "name" "func_static_903"
 "model" "models/darkmod/furniture/tables/endtable1.lwo"
 "origin" "-248 -72 -160"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1225
+{
+"classname" "func_static"
+"name" "func_static_906"
+"origin" "-264 256 -160"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/darkmod/furniture/tables/endtable_round01.lwo"
+"skin" "nomedallion_rtable1"
+}
+// entity 1226
+{
+"classname" "func_static"
+"name" "func_static_904"
+"origin" "-264.126 255.947 -121.545"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/map_specific/scaled/vase1_scaled1.ase"
+"skin" "decorative/vase/green_jade"
+}
+// entity 1227
+{
+"classname" "func_static"
+"name" "func_static_905"
+"origin" "-52 128 -121.664"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/darkmod/decorative/orchid.lwo"
+}
+// entity 1228
+{
+"classname" "func_static"
+"name" "func_static_907"
+"origin" "-132 105 -68"
+"rotation" "1.11022e-16 0 1 0 -1 0 1 0 -1.11022e-16"
+"model" "models/darkmod/decorative/wall/painting01.lwo"
+"skin" "windmill"
+}
+// entity 1229
+{
+"classname" "atdm:lamp_electric_fancy_up_lit"
+"name" "atdm_lamp_electric_fancy_up_lit_5"
+"light_center" "16 0 4"
+"light_radius" "124 120 260"
+"model" "models/darkmod/lights/non-extinguishable/electric_wall_fancy_up.lwo"
+"origin" "-72 312 -72"
 "rotation" "0 -1 0 1 0 0 0 0 1"
 }

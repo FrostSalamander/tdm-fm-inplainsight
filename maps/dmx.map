@@ -27611,8 +27611,8 @@ brushDef3
 {
 "classname" "info_player_start"
 "name" "info_player_start_1"
-"angle" "0.000000"
-"origin" "-168 408 -160"
+"angle" "90.000000"
+"origin" "-152 272 -160"
 }
 // entity 3
 {
@@ -51925,4 +51925,209 @@ brushDef3
 "model" "models/darkmod/lights/non-extinguishable/electric_wall_fancy_up.lwo"
 "origin" "-94 322 -80"
 "rotation" "0 1 0 -1 0 0 0 0 1"
+}
+// entity 1234
+{
+"classname" "func_static"
+"name" "func_static_1807"
+"model" "models/darkmod/readables/bookrow1.lwo"
+"origin" "-54.128 442.132 -123"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+"skin" "bookshelf02_desaturated"
+}
+// entity 1235
+{
+"classname" "func_static"
+"name" "func_static_1810"
+"model" "models/darkmod/readables/book_stack03.lwo"
+"origin" "-10.1278 452.132 -123"
+"rotation" "-0.990064 0.140616 0 -0.140616 -0.990064 0 0 0 1"
+}
+// entity 1236
+{
+"classname" "func_static"
+"name" "func_static_1812"
+"model" "models/darkmod/misc/ink&quill.lwo"
+"origin" "-38.128 452.132 -123"
+"rotation" "0.297282 -0.95479 0 0.95479 0.297282 0 0 0 1"
+}
+// entity 1237
+{
+"classname" "func_static"
+"name" "func_static_1420"
+"model" "models/darkmod/readables/book_open1_small.lwo"
+"origin" "-56.128 456.132 -123"
+"rotation" "-0.990607 -0.136739 0 0.136739 -0.990607 0 0 0 1"
+}
+// entity 1238
+{
+"classname" "atdm:oil_lamp_desk4"
+"name" "atdm_oil_lamp_desk4_silver_2"
+"origin" "-86.128 460.132 -123"
+"rotation" "0.475466 0.879734 0 -0.879734 0.475466 0 0 0 1"
+"set light_radius on flame" "100 100 140"
+}
+// entity 1239
+{
+"classname" "func_static"
+"name" "func_static_910"
+"model" "models/darkmod/furniture/seating/dchair2.lwo"
+"origin" "-42.128 484 -140"
+"rotation" "0.984962 -0.172771 0 0.172771 0.984962 0 0 0 1"
+}
+// entity 1240
+{
+"classname" "atdm:mover_door_sliding"
+"name" "desk2_drawer13"
+"accel_time" "0.4"
+"bind" "desk4"
+"immune_to_target_setfrobable" "1"
+"model" "models/darkmod/furniture/desk2_drawer.lwo"
+"move_time" "1"
+"origin" "-16.128 468 -154"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+"snd_close" "frob_drawer_close"
+"snd_open" "frob_drawer_open"
+"target" "desk2_drawer_frobcontrol12"
+"translate" "0 -16 0"
+"trigger_on_close" "1"
+"trigger_on_open" "1"
+}
+// entity 1241
+{
+"classname" "atdm:target_set_frobable"
+"name" "desk2_drawer_frobcontrol9"
+"model" "desk2_drawer_frobcontrol9"
+"origin" "-80.128 458 -148"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109227035544 ) ( 0 0.01562499999999972 1.033244205110087 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00135988274786 ) ( ( 0.015625 0 126.9667557948895 ) ( 0 0.015625 121.0468750000008 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00094784591512 ) ( ( 0.015625 0 111.2187352035589 ) ( 0 0.01562500000000178 121.0468749999986 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187352035585 ) ( 0 0.015625 126.9667557948906 ) ) "textures/common/clip" 0 0 0
+( 0 -1 0 -9.998640117252137 ) ( ( 0.01562500000000056 0 1.033244205110147 ) ( 0 0.015625 121.046875000005 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.999052154084879 ) ( ( 0.01562500000000072 0 16.78127147216242 ) ( 0 0.015625 121.0468749999995 ) ) "textures/common/clip" 0 0 0
+}
+}
+}
+// entity 1242
+{
+"classname" "atdm:target_set_frobable"
+"name" "desk2_drawer_frobcontrol10"
+"model" "desk2_drawer_frobcontrol10"
+"origin" "-16.128 458 -133"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109227035562 ) ( 0 0.015625 128.0332442051081 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00135988274786 ) ( ( 0.01562499999999992 0 -0.03324420511010162 ) ( 0 0.015625 121.2812500000006 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00094784591512 ) ( ( 0.015625 0 111.2187352035662 ) ( 0 0.015625 121.2812500000091 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187352035576 ) ( 0 0.01562500000000024 -0.03324420511010473 ) ) "textures/common/clip" 0 0 0
+( 0 -1 0 -9.998640117252137 ) ( ( 0.015625 0 128.0332442051126 ) ( 0 0.015625 121.2812500000032 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.999052154084879 ) ( ( 0.015625 0 16.7812714721629 ) ( 0 0.015625 121.2812500000077 ) ) "textures/common/clip" 0 0 0
+}
+}
+}
+// entity 1243
+{
+"classname" "atdm:mover_door_sliding"
+"name" "desk2_drawer14"
+"accel_time" "0.4"
+"bind" "desk4"
+"immune_to_target_setfrobable" "1"
+"model" "models/darkmod/furniture/desk2_drawer.lwo"
+"move_time" "1"
+"origin" "-16.128 468 -139"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+"snd_close" "frob_drawer_close"
+"snd_open" "frob_drawer_open"
+"target" "desk2_drawer_frobcontrol10"
+"translate" "0 -16 0"
+"trigger_on_close" "1"
+"trigger_on_open" "1"
+}
+// entity 1244
+{
+"classname" "atdm:target_set_frobable"
+"name" "desk2_drawer_frobcontrol11"
+"model" "desk2_drawer_frobcontrol11"
+"origin" "-80.128 458 -133"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109227035544 ) ( 0 0.01562499999999972 1.033244205110087 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00135988274786 ) ( ( 0.015625 0 126.9667557948892 ) ( 0 0.015625 121.2812499999993 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00094784591512 ) ( ( 0.015625 0 111.2187352035662 ) ( 0 0.015625 121.2812500000091 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187352035585 ) ( 0 0.015625 126.9667557948906 ) ) "textures/common/clip" 0 0 0
+( 0 -1 0 -9.998640117252137 ) ( ( 0.01562499999999962 0 1.033244205110069 ) ( 0 0.015625 121.2812499999977 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.999052154084879 ) ( ( 0.015625 0 16.7812714721629 ) ( 0 0.015625 121.2812500000077 ) ) "textures/common/clip" 0 0 0
+}
+}
+}
+// entity 1245
+{
+"classname" "atdm:mover_door_sliding"
+"name" "desk2_drawer15"
+"accel_time" "0.4"
+"bind" "desk4"
+"immune_to_target_setfrobable" "1"
+"model" "models/darkmod/furniture/desk2_drawer.lwo"
+"move_time" "1"
+"origin" "-80.128 468 -154"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+"snd_close" "frob_drawer_close"
+"snd_open" "frob_drawer_open"
+"target" "desk2_drawer_frobcontrol9"
+"translate" "0 -16 0"
+"trigger_on_close" "1"
+"trigger_on_open" "1"
+}
+// entity 1246
+{
+"classname" "atdm:mover_door_sliding"
+"name" "desk2_drawer16"
+"accel_time" "0.4"
+"bind" "desk4"
+"immune_to_target_setfrobable" "1"
+"model" "models/darkmod/furniture/desk2_drawer.lwo"
+"move_time" "1"
+"origin" "-80.128 468 -139"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+"snd_close" "frob_drawer_close"
+"snd_open" "frob_drawer_open"
+"target" "desk2_drawer_frobcontrol11"
+"translate" "0 -16 0"
+"trigger_on_close" "1"
+"trigger_on_open" "1"
+}
+// entity 1247
+{
+"classname" "atdm:target_set_frobable"
+"name" "desk2_drawer_frobcontrol12"
+"model" "desk2_drawer_frobcontrol12"
+"origin" "-16.128 458 -148"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -4.5 ) ( ( 0.015625 0 111.2109227035562 ) ( 0 0.015625 128.0332442051081 ) ) "textures/common/clip" 0 0 0
+( 0 1 0 -10.00135988274786 ) ( ( 0.015625 0 -0.03324420511009674 ) ( 0 0.015625 121.0468749999999 ) ) "textures/common/clip" 0 0 0
+( 1 0 0 -10.00094784591512 ) ( ( 0.015625 0 111.2187352035589 ) ( 0 0.01562500000000178 121.0468749999986 ) ) "textures/common/clip" 0 0 0
+( 0 0 -1 -4.5 ) ( ( 0.015625 0 111.2187352035576 ) ( 0 0.01562500000000024 -0.03324420511010473 ) ) "textures/common/clip" 0 0 0
+( 0 -1 0 -9.998640117252137 ) ( ( 0.015625 0 128.0332442051103 ) ( 0 0.015625 121.0468750000009 ) ) "textures/common/clip" 0 0 0
+( -1 0 0 -9.999052154084879 ) ( ( 0.01562500000000072 0 16.78127147216242 ) ( 0 0.015625 121.0468749999995 ) ) "textures/common/clip" 0 0 0
+}
+}
+}
+// entity 1248
+{
+"classname" "func_static"
+"name" "desk4"
+"model" "models/darkmod/furniture/desk2_nodrawers.lwo"
+"origin" "-48.128 452.5 -160"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
 }

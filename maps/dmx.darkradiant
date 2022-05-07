@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "695526" } 
-		KeyValue { "LastCameraAngle" "-5.7 7.13613 0" } 
-		KeyValue { "LastCameraPosition" "14.1473 453.063 -75.5185" } 
+		KeyValue { "EditTimeInSeconds" "695705" } 
+		KeyValue { "LastCameraAngle" "-24.3 76.1361 0" } 
+		KeyValue { "LastCameraPosition" "-39.074 359.137 -54.9325" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/polished_redbrown_ns" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 695526 }
+		TotalSecondsEdited { 695705 }
 	}
 	Layers
 	{
@@ -4558,6 +4558,25 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 3 } // entity (atdm_lamp_electric_fancy_up_lit_7)
+		Node { 0 } // entity (func_static_1807)
+		Node { 0 } // entity (func_static_1810)
+		Node { 0 } // entity (func_static_1812)
+		Node { 0 } // entity (func_static_1420)
+		Node { 0 } // entity (atdm_oil_lamp_desk4_silver_2)
+		Node { 0 } // entity (func_static_910)
+		Node { 0 } // entity (desk2_drawer13)
+		Node { 0 } // entity (desk2_drawer_frobcontrol9)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (desk2_drawer_frobcontrol10)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (desk2_drawer14)
+		Node { 0 } // entity (desk2_drawer_frobcontrol11)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (desk2_drawer15)
+		Node { 0 } // entity (desk2_drawer16)
+		Node { 0 } // entity (desk2_drawer_frobcontrol12)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (desk4)
 	}
 	SelectionGroups
 	{
@@ -4733,6 +4752,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1612 { "" }
 		SelectionGroup 1613 { "" }
 		SelectionGroup 1615 { "" }
+		SelectionGroup 1616 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -5698,6 +5718,21 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1232 3301 ) ( 1615 ) } // brush (Brush)
 		Node { ( 1232 3302 ) ( 1615 ) } // brush (Brush)
 		Node { ( 1232 3303 ) ( 1615 ) } // brush (Brush)
+		Node { ( 1234 ) ( 1616 ) } // entity (func_static_1807)
+		Node { ( 1235 ) ( 1616 ) } // entity (func_static_1810)
+		Node { ( 1236 ) ( 1616 ) } // entity (func_static_1812)
+		Node { ( 1237 ) ( 1616 ) } // entity (func_static_1420)
+		Node { ( 1238 ) ( 1616 ) } // entity (atdm_oil_lamp_desk4_silver_2)
+		Node { ( 1239 ) ( 1616 ) } // entity (func_static_910)
+		Node { ( 1240 ) ( 1616 ) } // entity (desk2_drawer13)
+		Node { ( 1241 ) ( 1616 ) } // entity (desk2_drawer_frobcontrol9)
+		Node { ( 1242 ) ( 1616 ) } // entity (desk2_drawer_frobcontrol10)
+		Node { ( 1243 ) ( 1616 ) } // entity (desk2_drawer14)
+		Node { ( 1244 ) ( 1616 ) } // entity (desk2_drawer_frobcontrol11)
+		Node { ( 1245 ) ( 1616 ) } // entity (desk2_drawer15)
+		Node { ( 1246 ) ( 1616 ) } // entity (desk2_drawer16)
+		Node { ( 1247 ) ( 1616 ) } // entity (desk2_drawer_frobcontrol12)
+		Node { ( 1248 ) ( 1616 ) } // entity (desk4)
 	}
 	SelectionSets
 	{

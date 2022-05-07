@@ -1,4 +1,4 @@
 Title: DMX
 Version: [VERSION]
 Author: Frost_Salamander
-Description: dmx
+Description: dmx (WIP)

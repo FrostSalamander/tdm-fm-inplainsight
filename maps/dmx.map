@@ -52367,11 +52367,3 @@ patchDef3
 "model" "models/darkmod/lights/non-extinguishable/electric_wall_fancy_up.lwo"
 "origin" "-200 392 -80"
 }
-// entity 1276
-{
-"classname" "func_static"
-"name" "func_static_932"
-"model" "models/map_specific/scaled/pot_ceramic_scaled1.ase"
-"origin" "-105.381 198.941 -136"
-"rotation" "1 0 0 0 1 0 0 0 1"
-}

@@ -59165,3 +59165,10 @@ patchDef2
 }
 }
 }
+// entity 1374
+{
+"classname" "atdm:readable_mobile_paper01"
+"name" "atdm_readable_mobile_paper01_1"
+"origin" "-106 -300 -89.5324"
+"rotation" "1 0 0 0 1 0 0 0 1"
+}

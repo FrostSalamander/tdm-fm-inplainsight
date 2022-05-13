@@ -19,7 +19,7 @@ Use your skills to investigate the town, looking for clues of the uprising.
 #### Bottom Floor
 
 ##### Innkeeper Office
-- Innkeeper office contains journal, hinting at events that happened in the guest room
+- Innkeeper office contains guest list?
 - Door to outside locked, need manager's key
 
 ##### Kitchen
@@ -27,9 +27,9 @@ Use your skills to investigate the town, looking for clues of the uprising.
 
 #### Top Floor
 
-##### Contact's Room
-- finds empty room where contact was supposed to be, sees mausoleum from window
-- finds note, hinting at dead drop location, self-ineptitude
+##### First Room
+- room where someone from out of town is staying
+- find some evidence they are there to facilitate funding in some way (mention person in posh house?)
 
 
 #####  Other guest room

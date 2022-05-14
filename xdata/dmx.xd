@@ -23,3 +23,25 @@ readables/dmx/note_inn_food
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/mausoleum_tour_flyer
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		"MAUSOLEUM TOURS"
+	}
+	"page1_body"	:
+	{
+		""
+		""
+		""
+		"Visit the stunning tomb of Alfred the Great. Led by our trained scholars, experience this historically significant burial chamber in all its glory."
+		""
+		"Tours start every weekday at 1500. Meet at the entrance of St. Peter's church."
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

@@ -1,0 +1,17 @@
+Version 2
+
+eaxreverb "location_start" {
+  preset CITY_SUBWAY
+}
+eaxreverb "location_inn_area" {
+  preset CITY_STREETS
+}
+eaxreverb "location_inn_bar" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_inn_side_entrance" {
+  preset WOODEN_SMALLROOM
+}
+
+
+ 

@@ -12,6 +12,15 @@ eaxreverb "location_inn_bar" {
 eaxreverb "location_inn_side_entrance" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_inn_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_inn_backyard" {
+  preset OUTDOORS_BACKYARD
+}
+eaxreverb "location_inn_side_tunnel" {
+  preset STONEROOM
+}
 
 
- 
+

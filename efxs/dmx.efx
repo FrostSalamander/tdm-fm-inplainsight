@@ -22,5 +22,13 @@ eaxreverb "location_inn_side_tunnel" {
   preset STONEROOM
 }
 
+// Post Office
+eaxreverb "location_post_office_entrance" {
+  preset STONEROOM
+}
+eaxreverb "location_post_office_top_floor" {
+  preset WOODEN_SMALLROOM
+}
+
 
 

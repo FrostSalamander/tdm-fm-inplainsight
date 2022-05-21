@@ -47,7 +47,10 @@ Use your skills to investigate the town, looking for clues of the uprising.
 - Innkeeper.  May have something you need to get into Inn garden (back door key, vine arrow for climbing wall, etc)
 
 ### House 2
-- The person funding the 'enemy spy' lives here.  He is traceable from the bank records.  
+- The person funding the 'enemy spy' lives here.  He is traceable from the bank records.  Also, he has a business in the city district.  Search it.
+
+### House 3
+Posh couple.  Not much to them but passage to other houses.
 
 ## Bank / City Watch Section
 

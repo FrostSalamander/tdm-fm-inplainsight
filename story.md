@@ -44,13 +44,17 @@ Use your skills to investigate the town, looking for clues of the uprising.
 ## Posh Houses
 
 ### House 1
-- Innkeeper.  May have something you need to get into Inn garden (back door key, vine arrow for climbing wall, etc)
+The Pembrokes.  Posh couple with maid.  Maid's brother (Paul?) is the begger outside.  Posh wife wants to get rid of him, so will talk to Troutbeck about hiring a guard because the City Watch guard outside says it's not his problem.  Threatening to fire maid over Paul
+
+Pembroke's are aware the begger is maid's brother. 
+
+Quest: steal food/money for Paul, and leave trace that it was a burglar (break window?) so Pembroke's won't suspect maid stole it. Will get rid of Paul and save maid's job.
 
 ### House 2
-- The person funding the 'enemy spy' lives here.  He is traceable from the bank records.  Also, he has a business in the city district.  Search it.
+- Troutbeck.  Funding the 'enemy spy'.  He is traceable from the bank records.  Also, he has a business (private security firm) in the city district.  Search it.
 
 ### House 3
-Posh couple.  Not much to them but passage to other houses.
+???
 
 ## Bank / City Watch Section
 

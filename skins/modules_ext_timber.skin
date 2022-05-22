@@ -149,3 +149,10 @@ skin window_clear
 	textures/glass/dull_opaque01     textures/darkmod/glass/clear
     textures/glass/dull_opaque01_lit textures/darkmod/glass/clear
 }
+
+skin ext_timber01_window_openable_polished_redbrown
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window_openable.lwo
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull     textures/darkmod/wood/boards/polished_redbrown
+	textures/darkmod/wood/boards/rough_wood_darkbrown_dull_ns  textures/darkmod/wood/boards/polished_redbrown
+}

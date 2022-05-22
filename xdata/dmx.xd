@@ -94,10 +94,11 @@ readables/dmx/diary_rose
 	}
 	"page1_right_body"	:
 	{
-		"They would surely fire me if they knew I was giving him food.  Even though they are wealthy, they don't have an ounce of charity in them."
+		"I heard Mrs. Pembroke shout the other day: \"If that wench's brother doesn't go away soon I'm giving her the sack!\""
 		""
-		"I don't know what to do.  I don't earn enough to support both Paul and myself.   If only I could find a way to get him enough money to at least pay for lodging for a while until he sorts himself out..."
+		"I could steal a little bit of gold from the Pembrokes and give it to Paul, but they would surely suspect me."
 		""
+		"I don't know what to do! If he doesn't get help he'll surely die on the streets, and I'm going to lose my job."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"

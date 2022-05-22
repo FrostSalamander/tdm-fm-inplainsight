@@ -1,0 +1,18 @@
+entityDef atdm:beggar_mattress
+{
+	"inherit"					    "atdm:entity_base"
+	"spawnclass"				    "idStaticEntity"
+	"editor_usage"					"Mattress that can have a custom frob action performed on it"
+	"editor_color"					"0.922 0.039 0.855" 
+		
+	//Model
+	"model"							"models/darkmod/furniture/beds/mattress_straw.lwo"
+	"solid"							"1"
+	
+	//Interaction
+	"frobable"						"0" // we set this later
+    "frob_distance"                 "100"
+	"used_action_script"            "give_beggar_loot"
+	"used_by"                       "beggar_loot"
+}
+

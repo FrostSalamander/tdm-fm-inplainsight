@@ -1,17 +1,1 @@
-void make_beggar_mattress_frobable()
-{
-    $beggar_mattress.setFrobable(1);
-}
-
-void give_beggar_loot(entity mattress)
-{
-    // remove loot from inventory
-    entity curr_item = $player1.getCurInvItemEntity();
-    $player1.changeInvItemCount(curr_item.getKey("inv_name"), curr_item.getKey("inv_category"), -1);
-
-    // done, prevent further frobbing
-    mattress.setFrobable(0);
-
-    // objective complete
-    $player1.setObjectiveState(1, 1);
-}
+// placeholder

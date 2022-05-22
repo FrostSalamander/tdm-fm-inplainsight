@@ -5,16 +5,16 @@ entityDef atdm:beggar_loot
 	"editor_usage"					"Custom use-on-frob item"
 	"editor_color"					"0.922 0.039 0.855" 
 		
-	//Model
+	// model
 	"model"							"models/darkmod/loot/coins/purse_p_goldspilt.lwo"
 	"mass"							"10"
 	"friction"						"0.7"
 	"solid"							"0"
 	
-	//Inventory stuff
+	// inventory stuff
 	"inv_name"            			"gold coins"
 	"inv_icon"			            "guis/assets/hud/inventory_icons/loot_icon_purse_coins_gold" // GUI icon.
-	"inv_droppable"         		"0" 
+	"inv_droppable"         		"1"        // yes because we need to place it somewhere for the objective
 	"inv_category"					"Special"
 	"inv_stackable"					"0"
 	"usable"                        "1"

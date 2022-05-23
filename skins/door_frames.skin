@@ -1,0 +1,5 @@
+skin doorframe_walnut
+{
+    model models/darkmod/architecture/doorframes/door_frame_curved_96x48.lwo
+    textures/darkmod/wood/boards/rough_wood_grey_ns textures/darkmod/wood/boards/wood_brown_walnut
+}

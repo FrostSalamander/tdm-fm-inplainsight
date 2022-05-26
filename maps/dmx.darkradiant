@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "945523" } 
-		KeyValue { "LastCameraAngle" "-3.59999 164.4 0" } 
-		KeyValue { "LastCameraPosition" "1400.42 -554.762 -84.3231" } 
+		KeyValue { "EditTimeInSeconds" "946618" } 
+		KeyValue { "LastCameraAngle" "-25.5 228.3 0" } 
+		KeyValue { "LastCameraPosition" "1374.31 -522.92 -285.671" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 945523 }
+		TotalSecondsEdited { 946618 }
 	}
 	Layers
 	{
@@ -7426,6 +7426,12 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (location_troutbeck_bedroom)
 		Node { 3 } // entity (info_locationseparator_70)
 		Node { 3 } // entity (location_troutbeck_stairwell)
+		Node { 3 } // entity (func_static_71)
+		Node { 3 } // entity (func_static_1407)
+		Node { 3 } // entity (func_static_1408)
+		Node { 3 } // entity (func_static_1409)
+		Node { 3 } // entity (func_static_1410)
+		Node { 3 } // entity (func_static_1411)
 	}
 	SelectionSets
 	{

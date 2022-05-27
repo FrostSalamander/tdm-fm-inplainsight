@@ -1,0 +1,11 @@
+textures/darkmod/decals/signs/bread
+{
+   nonsolid
+   noShadows
+
+   {
+        blend   diffusemap
+        map     textures/darkmod/decals/signs/bread
+        alphaTest 0.5
+   }
+}

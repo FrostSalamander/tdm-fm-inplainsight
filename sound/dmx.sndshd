@@ -1,0 +1,11 @@
+thunder_fs
+{
+    editor_displayFolder  map_specific
+	minDistance	999999
+	maxDistance	999999
+	volume		1
+	no_efx
+
+	sound/ambient/environmental/thunder_close01.wav         // sound by hantorio
+	sound/ambient/environmental/thunder_close02.wav
+}

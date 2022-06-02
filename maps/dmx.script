@@ -1,13 +1,85 @@
-// placeholder
+// DMX map script
 
-void disable_arc_transformer(entity arc)
+float tss_lights_on = 1;
+
+float getTSSCameraState() 
+{
+    return $tss_camera.getSecurityCameraState();
+}
+
+float isPowerEnabled()
+{
+    return $tss_transformer.isFrobable();
+}
+
+boolean isTSSCameraDisabled()
+{
+    return getTSSCameraState() == 4;
+}
+
+boolean isTSSLightsOn()
+{
+    return tss_lights_on == 1;
+}
+
+void triggerTSSLights()
+{
+    sys.trigger($tss_light1);
+    sys.trigger($tss_light2);
+    sys.trigger($tss_light3);
+
+    if (isTSSLightsOn())
+    {
+        tss_lights_on = 0;
+    }
+    else
+    {
+        tss_lights_on = 1;
+    }
+}
+
+void toggleTSSLights()
+{
+    if (isPowerEnabled())
+    {
+        triggerTSSLights();
+    }
+}
+
+void disableTSSCamera()
+{
+    if (!isTSSCameraDisabled())
+    {
+        sys.trigger($tss_camera);
+    }
+}
+
+void disableArcTransformer(entity arc)
 {
     arc.setSkin("arc_transformer_001_off");
     arc.setFrobable(0);
+    arc.startSound("snd_stop", SND_CHANNEL_UNUSED, false);
 
     // stop the transformer buzzing sound
     sys.trigger($transformer_speaker);
 
-    // turn off TSS security camera
-    sys.trigger($tss_camera);
+    disableTSSCamera();
+
+    // don't trigger the lights if they are already off
+    if (isTSSLightsOn())
+    {
+        triggerTSSLights();
+    }
 }
+
+void enableTSSCamera()
+{
+    if (isTSSCameraDisabled() && isPowerEnabled())
+    {
+        sys.trigger($tss_camera);
+    }
+}
+
+
+
+

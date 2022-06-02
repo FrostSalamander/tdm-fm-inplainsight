@@ -1,1 +1,13 @@
 // placeholder
+
+void disable_arc_transformer(entity arc)
+{
+    arc.setSkin("arc_transformer_001_off");
+    arc.setFrobable(0);
+
+    // stop the transformer buzzing sound
+    sys.trigger($transformer_speaker);
+
+    // turn off TSS security camera
+    sys.trigger($tss_camera);
+}

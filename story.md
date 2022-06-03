@@ -1,3 +1,5 @@
+# In Plain Sight
+
 # Game Flow
 
 ## Intro
@@ -39,6 +41,9 @@ Use your skills to investigate the town, looking for clues of the uprising.
 
 ### Post Office
 - passage to posh houses
+- the 'real' villians
+
+Final objective: abduct Ralph and bring him to the starting/exit point.
 
 
 ## Posh Houses
@@ -48,10 +53,10 @@ The Pembrokes.  Posh couple with maid.  Maid's brother (Paul?) is the begger out
 
 Pembroke's are aware the begger is maid's brother. 
 
-Quest: steal food/money for Paul, and leave trace that it was a burglar (break window?) so Pembroke's won't suspect maid stole it. Will get rid of Paul and save maid's job.
+Objective: steal food/money for Paul, and leave trace that it was a burglar (break window?) so Pembroke's won't suspect maid stole it. Will get rid of Paul and save maid's job.
 
 ### House 2
-- Troutbeck.  Funding the 'enemy spy'.  He is traceable from the bank records.  Also, he has a business (private security firm) in the city district.  Search it.
+- Troutbeck. He has a business (private security firm) in the city district.  Search it.
 
 ### House 3
 ???
@@ -60,14 +65,18 @@ Quest: steal food/money for Paul, and leave trace that it was a burglar (break w
 
 ### City Watch Station
 - pathway through here to get to Bank from 'posh houses' section
-- potential records about goings-on (your contact being taken, etc).  They don't know what's going on.
+- some faint hint about the post office stuff.  Dodgy shipments?  Nothing to obvious.
 - offices: Chief Inspector, Chief Constable
 
 ### Bank
-- records here about the person in the posh houses funding the enemy spy.  Some clue to lead the player there?
+- Owned by Eaton.  He wants to install security cameras there from Troutbeck.
+- has vault - just a loot place for now.
 
 ### City Watch Gate station
 - just a way to transit between bank section and church section.
+
+### TSS office/warehouse
+- find note about Eaton wanting to hire private mercenary army.  Makes him look suspicious..
 
 ## Church Section
 
@@ -75,7 +84,8 @@ Quest: steal food/money for Paul, and leave trace that it was a burglar (break w
 - tunnel to mausoleum.
 
 ### Mansion
-- ?
+- Find note about the mercenary army is just to defend his estate in the country.
+- Find something else pointing to the post office couple.  Possibly something about dealing with Troutbeck and hearing he has dealings with them as well.
 
 ## Mausoleum
 - dead drop letter under bench. Will hint at tracking the enemy spy via bank records.

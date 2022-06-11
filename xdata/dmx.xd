@@ -103,3 +103,179 @@ readables/dmx/diary_rose
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/letter_troutbeck_uprising
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"We are meeting tonight to discuss moving our plan forward.  It will be at the usual time and place.  We hope to see you there."
+		""
+		"Sincerely,"
+		""
+		"The Group"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/journal_troutbeck
+{
+	precache
+	"num_pages"	: "2"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"3 September,"
+		""
+		"Thank the builder! My business is doing fantasically well thanks to the progress I've made on the new security camera.  I've been able to buy this house in this wealthy neighbourhood - what a change after years of toiling away in my tiny flat."
+		"  Things are about to get even better.  Lord Eaton has  become Troutbeck Security "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"Services number one customer!  He has given the go ahead to purchase some of the new cameras for the bank.  He was very impressed after seeing them in action at the City Watch gates, and then my demonstration of the advanced prototype that is protecting my warehouse sealed the deal."
+		"    The installation at the bank will go ahead once Eaton upgrades the bank's electricity supply to use the "
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		"latest arc  transformers. "
+		"    Eaton has also asked for a security consultation for his mansion. I'm sending Johan over there first thing in the morning.  Can't let a customer like Lord Eaton wait too long!"
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+note_johan_to_troutbeck
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"Lord Eaton sent over a man this evening.  He enquired about our private security officer service. Wants to know if we can supply up to 100 men by the end of the month!"
+		""
+		"   I didn't know what to tell him, save that I needed to check the current staff levels with yourself before I made any promises."
+		""
+		"  100 men?  What on earth could he need that for?  He will have his own private army!  Surely he can draw from his vassals in the country if he needs extra"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"security?  Either way, his man said he was going to need an answer by the end of the week or he will take his business elsewhere..."
+		""
+		"Johan"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+note_troutbeck_to_johan
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Johan,"
+		""
+		"Head over to Lord Eaton's first thing this morning.  He's had a recent burglary and has dismissed his chief of security. He has asked for a full assessment."
+		""
+		"I recommend fitting for window alarms at the very minimum. "
+		"He informed me that he is going to be away for a few days and has left me the key to the front windows, so start there.  Apparently he doesn't even trust his staff with them anymore! "
+		""
+		"Troutbeck"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/journal_mrs_pembroke
+{
+	precache
+	"num_pages"	: "2"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"Sept 4"
+		""
+		"    Good heavens, how long must we put up with that hideous cretin knocking at our door?  I've been very firm with Rose: I don't care if it IS her brother, we do not associate with vagabonds!  Imagine if the Eatons found out that our maid's brother is sleeping outside our home?  We'd never be invited back for tea!"
+		"    Speaking of tea, I have yet"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"to receive a reply from Mrs Eaton in regards to my invitation.  Perhaps it was lost in the post.  Yes, that must be it - I shall send another first thing tomorrow!"
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		"Sept 5"
+		""
+		"That's it, I've had it!  I will speak to Mr. Troutbeck ASAP about hiring one of his 'private security officers'.  Those imbeciles from the City Watch refuse to do anything about that creature outside.  'Not our problem' they say!  Perhaps I should refuse to pay our council taxes next month then!"
+		"    I hope Mr. Troutbeck is in a receptive mood.  I was "
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		"slightly rude to him the other day.  How was I to know he dresses like that on purpose?  He looked like a chimney sweep!  I suppose someone has to work with machines, they are all the rage now I hear!  Surely he can hire someone else to do that work, can't he?"
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

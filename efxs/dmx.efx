@@ -35,3 +35,14 @@ eaxreverb "location_post_office_top_floor" {
 eaxreverb "location_pembroke_kitchen_cupboard" {
   preset WOODEN_CUPBOARD
 }
+
+// City
+eaxreverb "location_tss_tunnel" {
+  preset STONECORRIDOR
+}
+
+eaxreverb "location_city_apts_stairwell" {
+  preset SPACESTATION_SMALLROOM
+}
+
+

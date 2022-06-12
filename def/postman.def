@@ -1,0 +1,9 @@
+entityDef atdm:postman
+{
+	"inherit"						"atdm:ai_townsfolk_commoner"
+    "name"                          "ai_postman"
+	"origin"                        "-927.68 -535.22 -295.853"
+    "shouldered_name"               "Ralph"
+    "shouldered_name_dead"          "Ralph (dead)"
+    "skin"                          "commoner/default_leathergreaves"
+}

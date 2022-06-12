@@ -143,6 +143,13 @@ void frobAptAtticDoor(entity atticDoor)
     }
 }
 
+void move_postman()
+{
+    $ai_postman.remove();
+    ¦sys.setSpawnArg("sleeping", "0");
+    entity newPostman = sys.spawn("atdm:postman");
+}
+
 
 
 

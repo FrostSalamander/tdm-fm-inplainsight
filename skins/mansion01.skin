@@ -1,0 +1,78 @@
+skin mansion_dark_redwood_unlit
+{
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall02.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall03.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_upperwall01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall03_empty.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall04.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall04_halfleft.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall04_halfright.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_wall05.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_door01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_door02.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_door03.lwo"
+
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_window01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_window02.lwo"
+    model "models/darkmod/architecture/modules/interior_mansion01/mansion01_window02_open.lwo"
+
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_pillar01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_pillar02.lwo"
+  
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_arch01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_arch02.lwo"
+	model "models/darkmod/architecture/doors/door_3panel_104x56.lwo"
+	model "models/darkmod/architecture/doors/door_6panel_104x56.lwo"
+
+	model "models/darkmod/architecture/handrails/mansion01_railing_single.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_vertical_spacer01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_horiz_spacer01.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_ceiling01_128x128.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/mansion01_ceiling01_128strip.lwo"
+ 
+	model "models/darkmod/architecture/modules/interior_mansion01/frame01_empty_large.lwo"
+	model "models/darkmod/architecture/modules/interior_mansion01/frame01_empty_small.lwo"
+	model "models/darkmod/furniture/shelves/bookshelf_wide01_alt2.lwo"
+	model "models/darkmod/furniture/shelves/bookshelf_wide01_alt.lwo"
+	model "models/darkmod/furniture/shelves/bookshelf_wide01_alt2.lwo"
+	model "models/darkmod/furniture/shelves/bookshelf_wide01_alt_empty.lwo"
+	model "models/darkmod/furniture/book_mount_standing.lwo"
+
+
+	"textures/darkmod/wood/panels/molding_walnut" "textures/darkmod/wood/panels/molding_darkredwood"
+	"textures/darkmod/wood/panels/panel_carved_rectangles_01_walnut" "textures/darkmod/wood/panels/panel_carved_star"
+	"textures/darkmod/wood/panels/walnut_panel01" "textures/darkmod/wood/boards/dark_redwood"
+	"textures/darkmod/wood/panels/wood_walnut_panel02" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+	"textures/darkmod/wood/panels/thin_panels_with_trim_walnut" "textures/darkmod/wood/panels/thin_panels_with_trim_dark"
+	"textures/darkmod/metal/flat/gold01" "textures/darkmod/wood/panels/panel_decorative_frame_long"
+	"textures/darkmod/wood/panels/molding_white_painted" "textures/darkmod/wood/panels/molding_darkredwood"
+	"textures/darkmod/wood/panels/wood_white_panel02" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+	"textures/darkmod/wood/boards/white_painted_wood01" "textures/darkmod/wood/boards/dark_redwood"
+	"textures/darkmod/wood/panels/panel_vase_painted_white" "textures/darkmod/wood/panels/panel_carved_rectangles_01"
+	"textures/darkmod/wood/panels/thin_panels_white_painted" "textures/darkmod/wood/panels/thin_panels_with_trim_dark"
+	"textures/darkmod/wood/panels/panel_carved_rectangles_02_walnut" "textures/darkmod/wood/panels/panel_carved_rectangles_02_dark"
+	"textures/darkmod/wood/boards/wood_brown_walnut" "textures/darkmod/wood/boards/dark_redwood"
+	"textures/darkmod/wood/boards/wood_brown_walnut02" "textures/darkmod/wood/boards/dark_redwood"
+
+
+	"models/darkmod/wood/panels/panel_carved_rectangles_01_walnut_ns" "textures/darkmod/wood/panels/panel_carved_star"
+	"models/darkmod/wood/panels/thin_panels_with_trim_walnut_ns" "models/textures/darkmod/wood/boards/dark_redwood_ns"
+	"models/darkmod/wood/panels/molding_walnut_ns" "textures/darkmod/wood/panels/molding_darkredwood"
+	"models/darkmod/wood/panels/walnut_panel01_ns" "models/textures/darkmod/wood/boards/dark_redwood_ns"
+	"models/darkmod/wood/panels/wood_walnut_panel02_ns" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+	"models/darkmod/metal/flat/gold01_ns" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+
+	"models/darkmod/wood/boards/wood_brown_walnut02_ns" "models/textures/darkmod/wood/boards/dark_redwood_ns"
+	"models/darkmod/wood/boards/wood_brown_walnut_ns" "models/textures/darkmod/wood/boards/dark_redwood_ns"
+	"models/darkmod/wood/boards/white_painted_wood01_ns" "models/textures/darkmod/wood/boards/dark_redwood_ns"
+	"models/darkmod/wood/panels/wood_white_panel02_ns" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+	"models/darkmod/wood/panels/molding_white_painted_ns" "models/darkmod/wood/panels/molding_redwood_ns"
+
+	"models/darkmod/wood/panels/panel_carved_rectangles_01_ns" "textures/darkmod/wood/panels/panel_carved_star"
+	"models/darkmod/wood/panels/thin_panels_white_painted_ns" "models/darkmod/wood/panels/thin_panels_with_trim_dark_ns"
+	"models/darkmod/wood/panels/panel_vase_painted_white_ns" "models/darkmod/wood/panels/panel_carved_rectangles_01_ns"
+	"textures/darkmod/wood/panels/wood_brown_dull01_panel" "textures/darkmod/wood/panels/panel_decorative_frame"
+
+    "textures/glass/dull_opaque01_lit"	"textures/glass/dull_opaque01"
+}

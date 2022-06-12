@@ -81,72 +81,10 @@ void enableTSSCamera()
     }
 }
 
-/* 
- * Moves a sliding door in 2 directions in serial fashion.  Using the 'translate' spawnarg to do
- * this results in the door moving in both directions at once.
- *
- * door:       the door entity name
- * firstMove:  a vector describing the first sliding movement.  x for direction, y for distance.
- * secondMove: a vector describing the second sliding movement.  x for direction, y for distance
- * state:      a float describing the state. 1 for open, 0 for closed.
- */
-void moveSlidingDoor(entity door, vector firstMove, vector secondMove, float state)
-{
-        door.move(firstMove_x, firstMove_y);
-
-        // play sliding sound
-        door.startSound("snd_move", SND_CHANNEL_UNUSED, false);
-
-        // wait for it to stop moving
-        while (door.isMoving())
-        {
-            sys.wait(0.1);
-        }
-        door.move(secondMove_x, secondMove_y);
-
-        // set state
-        door.setKey("open_state", state);
-}
-
-/* 
- * Open/close the attic door.
- * Directional constants found in tdm_base01.pk4\script\tdm_defs.script
- */
-void frobAptAtticDoor(entity atticDoor)
-{
-    /*
-     * not really what vectors are for, but without arrays or objects 
-     * I wanted a way to describe movement without a lot of function arguments.
-     * We only use the x and y segments: x for direction and y for distance.
-     */ 
-
-    vector firstMove;
-    vector secondMove;
-
-    float isOpen = atticDoor.getIntKey("open_state");
-
-    if (isOpen)
-    {
-        // close the door
-        firstMove = '0 36 0';  // move EAST 36 units
-        secondMove = '-2 6 0'; // move DOWN 6 units
-        moveSlidingDoor(atticDoor, firstMove, secondMove, 0);
-        atticDoor.Close();
-    }
-    else
-    {
-        // open the door
-        atticDoor.Open();
-        firstMove = '-1 6 0';    // move UP 6 units
-        secondMove = '180 36 0'; // move WEST 36 units
-        moveSlidingDoor(atticDoor, firstMove, secondMove, 1);
-    }
-}
-
 void move_postman()
 {
     $ai_postman.remove();
-    ¦sys.setSpawnArg("sleeping", "0");
+    sys.setSpawnArg("sleeping", "0");
     entity newPostman = sys.spawn("atdm:postman");
 }
 

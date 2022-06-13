@@ -85,6 +85,7 @@ void move_postman()
 {
     $ai_postman.remove();
     sys.setSpawnArg("sleeping", "0");
+    sys.setSpawnArg("origin", "-927.68 -535.22 -295.853");
     entity newPostman = sys.spawn("atdm:postman");
 }
 

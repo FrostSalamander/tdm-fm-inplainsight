@@ -31,14 +31,16 @@ readables/dmx/mausoleum_tour_flyer
 	"num_pages"	: "1"
 	"page1_title"	:
 	{
-		"MAUSOLEUM TOURS"
+		"St. Peter's Crypt"
+		"      Tours"
 	}
 	"page1_body"	:
 	{
 		""
 		""
 		""
-		"Visit the stunning tomb of Alfred the Great. Led by our trained scholars, experience this historically significant burial chamber in all its glory."
+		""
+		"Experience this historically significant burial chamber in a guided tour led by one of our scholarly experts!"
 		""
 		"Tours start every weekday at 1500. Meet at the entrance of St. Peter's church."
 	}
@@ -63,7 +65,7 @@ readables/dmx/post_office_note
 		""
 		"It was quite late and I didn't want to disturb you.  I will be back first thing to help with the morning deliveries."
 		""
-		"Ralph"
+		"Nelson"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -212,7 +214,7 @@ note_johan_to_troutbeck
 note_troutbeck_to_johan
 {
 	precache
-	"num_pages"	: "1"
+	"num_pages"	: "2"
 	"page1_title"	:
 	{
 		""
@@ -223,12 +225,24 @@ note_troutbeck_to_johan
 		""
 		"Head over to Lord Eaton's first thing this morning.  He's had a recent burglary and has dismissed his chief of security. He has asked for a full assessment."
 		""
-		"I recommend fitting for window alarms at the very minimum. "
-		"He informed me that he is going to be away for a few days and has left me the key to the front windows, so start there.  Apparently he doesn't even trust his staff with them anymore! "
+		"    I recommend fitting for window alarms at the very minimum.  Lord Eaton informed me that he is going to be away for a few days and has left us the key to the front windows, so start there.  Apparently he doesn't even trust his staff with them anymore! "
+		""
+		"   One more thing, if you get any "
+		""
+		""
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"more of those strange letters from that conspiracy group, take them to the City Watch ASAP.  We can't afford to be associated with those nutters."
 		""
 		"Troutbeck"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -277,5 +291,30 @@ readables/dmx/journal_mrs_pembroke
 	}
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/jourmal_smyth
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    I finally found the old bird's loot stash! I've only taken a couple of goblets for now, I'd like to see if she notices.  If not I'll keep coming back until she does, then I can convince her she is in dire need of a new security alarm!  If she asks why I can charge half the price of what Troutbeck does, I'll just tell her that it's 'refurbished'. Heh heh..."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_camberic.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

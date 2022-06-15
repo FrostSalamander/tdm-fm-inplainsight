@@ -1,0 +1,5 @@
+skin privy_rough_wood_darkbrown_dull
+{
+    model models/darkmod/furniture/seating/privy_seat_single.lwo
+    textures/darkmod/wood/boards/rough_wood_grey textures/darkmod/wood/boards/rough_wood_darkbrown_dull
+}

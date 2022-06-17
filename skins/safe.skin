@@ -1,0 +1,16 @@
+skin safe01_rusty
+{
+    model models/darkmod/containers/openable/metal_safe01.lwo
+    model models/darkmod/containers/openable/metal_safe01_door.lwo
+    model models/darkmod/containers/openable/metal_safe01_door_bar.lwo
+
+    model models/darkmod/containers/openable/metal_safe01_door_small.lwo
+    model models/darkmod/containers/openable/metal_safe01_small.lwo
+    model models/darkmod/containers/openable/metal_safe01_door_small_bar.lwo
+
+    textures/darkmod/metal/flat/tiling_1d/gen_smooth_iron02 textures/darkmod/metal/flat/heavy_rust_pocked01
+    textures/darkmod/metal/detailed/panel_square_dark01     textures/darkmod/metal/flat/heavy_rust_pocked01
+    textures/darkmod/metal/flat/brush_steel_scratched01     textures/darkmod/metal/flat/heavy_rust_pocked01
+
+    textures/darkmod/metal/flat/tiling_1d/steel_plate_scratched textures/darkmod/metal/flat/heavy_rust_pocked01
+}

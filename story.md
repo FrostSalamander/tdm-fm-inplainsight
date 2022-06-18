@@ -9,6 +9,8 @@ You are in the employ of the Crown as an intelligence officer. Word of an uprisi
 
 Your cover is <cover name>, a merchant from Bridgeport.  If you are found out, minimal investigation by the local watch will reveal your 'true' identity as a thief of some renown who is on the run from the Bridgeport City Watch and seeking to ply your trade out of town.  Your identity as a spy will go unnoticed.
 
+The local watch is aware of the gestating plot, however they are ill-equipped to deal with such matters and their investigation is fruitless so far.
+
 Use your skills to investigate the town, looking for clues of the uprising.
 
 ## Objectives

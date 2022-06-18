@@ -318,3 +318,66 @@ readables/dmx/jourmal_smyth
 	"gui_page1"	: "guis/readables/books/book_calig_camberic.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/note_to_bank_manager
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"    Lord Eaton has requested a very substantial withdrawl.  I realise he literally owns the place, but I thought I would bring it to your attention regardless."
+		"    In any event, I will ensure we have sufficient liquidity to cover our existing clients."
+		""
+		"Bancroft"
+		""
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_bank_records_to_constable
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Chief Constable Hastings,"
+		""
+		"    In response to your enquiy regarding recent loan activity, I can provide the following information:"
+		""
+		"Nicholas Troutbeck: 60g, payble in 24 months. For expanding his business, Troutbeck Security Services."
+		""
+		"Samuel Parker: 30g, payable in 18 months. Wine shop improvements."
+		""
+		"Tobias Pembroke: 100g, payable in 36"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		" months. 'Personal reasons'."
+		""
+		"    The only oddity is that Mr. Troutbeck's loan was underwritten by Lord Eaton personsally rather than via his holding company.  Although this is rare, it's not unheard of.  You would need to interview Lord Eaton personally if you wish to pursue the matter."
+		""
+		"Sincerely,"
+		"Giles Lumley, Records Manager"
+		"Eaton Bank"
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/scrolls/scroll_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

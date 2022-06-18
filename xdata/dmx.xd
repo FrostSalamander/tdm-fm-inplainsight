@@ -381,3 +381,40 @@ readables/dmx/note_bank_records_to_constable
 	"gui_page2"	: "guis/readables/scrolls/scroll_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/book_vault_log
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		"Eaton Bank"
+		"Vault Vistor Log"
+	}
+	"page1_left_body"	:
+	{
+		""
+		""
+		""
+		"14/09/27"
+		""
+		"1540 - G. Lumley"
+		""
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+		""
+		""
+		"16/09/27"
+		""
+		"1130 - G. Lumley"
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

@@ -55,7 +55,7 @@ void disableTSSCamera()
     }
 }
 
-void disableArcTransformer(entity arc)
+void frobArcTransformer(entity arc)
 {
     arc.setSkin("arc_transformer_001_off");
     arc.setFrobable(0);
@@ -88,6 +88,28 @@ void move_postman()
     sys.setSpawnArg("origin", "-927.68 -535.22 -295.853");
     entity newPostman = sys.spawn("atdm:postman");
 }
+
+void removeSafeBar(entity safeBar)
+{
+  entity safeDoor = safeBar.getBindMaster();
+  safeBar.startSound("snd_acid", SND_CHANNEL_UNUSED, false);
+  sys.wait(4);
+  safeBar.remove();
+
+  safeDoor.setFrobable(1);
+}
+
+// 'use' the safe bar.  Run in new thread so sys.wait() will work
+void useSafeBar(entity safeBar)
+{
+  thread removeSafeBar(safeBar);
+}
+
+void frobSafeBar(entity safeBar)
+{
+    safeBar.startSound("snd_frob", SND_CHANNEL_UNUSED, false);
+}
+
 
 
 

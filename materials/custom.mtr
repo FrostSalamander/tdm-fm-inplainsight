@@ -9,3 +9,36 @@ textures/darkmod/decals/signs/bread
         alphaTest 0.5
    }
 }
+
+models/darkmod/potions/acid
+{
+
+	glass
+	qer_editorimage models/darkmod/props/textures/acid_ed
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/acid
+		scroll	time * 0.2 , time * 0	
+	}
+	{
+	//	if ( parm11 >= 0.5 ) 
+		blend	add
+		map	models/darkmod/props/textures/acid
+		rgb	0.2
+		scroll	time * 0 , time * 0.2	
+		//scale	 2 , 1
+	}
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/acid
+        rgb         0.15 * parm11
+    }
+}

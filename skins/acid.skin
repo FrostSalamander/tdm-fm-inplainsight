@@ -1,0 +1,5 @@
+skin potion_acid
+{
+    model models/darkmod/player_equipment/health_potion.lwo
+    models/darkmod/potions/health models/darkmod/potions/acid
+}

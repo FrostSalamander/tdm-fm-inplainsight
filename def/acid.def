@@ -12,8 +12,8 @@ entityDef atdm:acid
 	"solid"							"0"
 	
 	//Inventory stuff
-	"inv_name"            			"acid"
-	"inv_icon"			            "guis/assets/hud/inventory_icons/healthpotion_icon" // GUI icon.
+	"inv_name"            			"Acid"
+	"inv_icon"			            "guis/assets/hud/inventory_icons/acid_icon" // GUI icon.
 	"inv_droppable"         		"0" 
 	"inv_category"					"Special"
 	"inv_stackable"					"0"

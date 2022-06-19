@@ -368,7 +368,7 @@ readables/dmx/note_bank_records_to_constable
 	{
 		"Chief Constable Hastings,"
 		""
-		"    In response to your enquiy regarding recent loan activity, I can provide the following information:"
+		"    In response to your inquiy regarding recent loan activity, I can provide the following information:"
 		""
 		"Nicholas Troutbeck: 60g, payble in 24 months. For expanding his business, Troutbeck Security Services."
 		""
@@ -384,7 +384,7 @@ readables/dmx/note_bank_records_to_constable
 	{
 		" months. 'Personal reasons'."
 		""
-		"    The only oddity is that Mr. Troutbeck's loan was underwritten by Lord Eaton personsally rather than via his holding company.  Although this is rare, it's not unheard of.  You would need to interview Lord Eaton personally if you wish to pursue the matter."
+		"    The only oddity is that Mr. Troutbeck's loan was underwritten by Lord Eaton personsally rather than via his holding company.  Although this is rare, it's not unheard of.  You will need to interview Lord Eaton personally if you wish to pursue the matter."
 		""
 		"Sincerely,"
 		"Giles Lumley, Records Manager"
@@ -429,5 +429,49 @@ readables/dmx/book_vault_log
 		"1130 - H. Bancroft (vault inspection)"
 	}
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_bank_lazy
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Eaton,"
+		""
+		"    Please report to my office first thing.  I would like to speak to you about your... habits. There are certain standards to which we must uphold ourselves.  I'm certain your father would agree."
+		""
+		"Bancroft"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/letter_uprising
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"We are meeting tonight to discuss moving our plan forward.  It will be at the usual time and place.  We hope to see you there."
+		""
+		"Sincerely,"
+		""
+		"The Group"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

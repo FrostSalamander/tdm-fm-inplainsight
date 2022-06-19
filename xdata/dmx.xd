@@ -323,7 +323,7 @@ readables/dmx/jourmal_smyth
 readables/dmx/note_to_bank_manager
 {
 	precache
-	"num_pages"	: "1"
+	"num_pages"	: "2"
 	"page1_title"	:
 	{
 		""
@@ -333,12 +333,24 @@ readables/dmx/note_to_bank_manager
 		"Sir,"
 		""
 		"    Lord Eaton has requested a very substantial withdrawl.  I realise he literally owns the place, but I thought I would bring it to your attention regardless."
-		"    In any event, I will ensure we have sufficient liquidity to cover our existing clients."
+		"    "
+		"    To make matters worse, the constant flooding and damp in the basement vault area has caused the locking mechanisms on the safes to lock up due to rust. "
 		""
-		"Bancroft"
+		"    Unfortunately, our regular locksmith is away on holidays so I may have to recruit Smythe for help.  I don't like dealing with "
+	}
+	"page2_title"	:
+	{
 		""
 	}
+	"page2_body"	:
+	{
+		"characters like him, but we may have an emergency on our hands."
+		"    In any event, I will do my best to ensure we have sufficient liquidity to cover our existing clients."
+		""
+		"Bancroft"
+	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -399,7 +411,7 @@ readables/dmx/book_vault_log
 		""
 		"14/09/27"
 		""
-		"1540 - G. Lumley"
+		"1540 - H. Bancroft (vault inspection)"
 		""
 	}
 	"page1_right_title"	:
@@ -413,7 +425,7 @@ readables/dmx/book_vault_log
 		""
 		"16/09/27"
 		""
-		"1130 - G. Lumley"
+		"1130 - H. Bancroft (vault inspection)"
 	}
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"

@@ -1,0 +1,25 @@
+entityDef atdm:acid
+{
+	"inherit"						"atdm:moveable_small_base" 
+	
+	"editor_usage"					"Custom use-on-frob item"
+	"editor_color"					"0.922 0.039 0.855" 
+		
+	//Model
+	"model"							"models/darkmod/player_equipment/health_potion.lwo"
+	"mass"							"10"
+	"friction"						"0.7"
+	"solid"							"0"
+	
+	//Inventory stuff
+	"inv_name"            			"acid"
+	"inv_icon"			            "guis/assets/hud/inventory_icons/healthpotion_icon" // GUI icon.
+	"inv_droppable"         		"0" 
+	"inv_category"					"Special"
+	"inv_stackable"					"0"
+	"usable"                        "1"
+	
+	//sound
+	"snd_acquire"					"tool_pickup"
+	"snd_bounce"					"tdm_impact_metal_med_lesser"	
+}

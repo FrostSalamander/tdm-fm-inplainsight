@@ -1,25 +1,25 @@
 entityDef atdm:beggar_loot
 {
-	"inherit"						"atdm:moveable_small_base" 
+	"inherit"         "atdm:moveable_small_base" 
 	
-	"editor_usage"					"Custom use-on-frob item"
-	"editor_color"					"0.922 0.039 0.855" 
-		
+	"editor_usage"    "Custom use-on-frob item"
+	"editor_color"    "0.922 0.039 0.855" 
+
 	// model
-	"model"							"models/darkmod/loot/coins/purse_p_goldspilt.lwo"
-	"mass"							"10"
-	"friction"						"0.7"
-	"solid"							"0"
-	
+	"model"           "models/darkmod/loot/coins/purse_p_goldspilt.lwo"
+	"mass"            "10"
+	"friction"        "0.7"
+	"solid"           "0"
+
 	// inventory stuff
-	"inv_name"            			"gold coins"
-	"inv_icon"			            "guis/assets/hud/inventory_icons/loot_icon_purse_coins_gold" // GUI icon.
-	"inv_droppable"         		"1"        // yes because we need to place it somewhere for the objective
-	"inv_category"					"Special"
-	"inv_stackable"					"0"
-	"usable"                        "1"
-	
+	"inv_name"        "gold coins"
+	"inv_icon"        "guis/assets/hud/inventory_icons/loot_icon_purse_coins_gold" // GUI icon.
+	"inv_droppable"   "1"        // yes because we need to place it somewhere for the objective
+	"inv_category"    "Special"
+	"inv_stackable"   "0"
+	"usable"          "1"
+
 	//sound
-	"snd_acquire"					"tool_pickup"
-	"snd_bounce"					"tdm_impact_metal_med_lesser"	
+	"snd_acquire"     "tool_pickup"
+	"snd_bounce"      "tdm_impact_metal_med_lesser"	
 }

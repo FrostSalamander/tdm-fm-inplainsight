@@ -1,10 +1,10 @@
 entityDef atdm:postman
 {
-	"inherit"						"atdm:ai_townsfolk_commoner"
-    "name"                          "ai_postman"
-    "shouldered_name"               "Nelson"
-    "shouldered_name_dead"          "Nelson (dead)"
-    "skin"                          "commoner/default_leathergreaves"
-    "def_head"                      "atdm:ai_head01_commoner_old"
-    "def_vocal_set"                 "atdm:ai_vocal_set_jack_civilian_01"
+	"inherit"                 "atdm:ai_townsfolk_commoner"
+	"name"                    "ai_postman"
+	"shouldered_name"         "Nelson"
+	"shouldered_name_dead"    "Nelson (dead)"
+	"skin"                    "commoner/default_leathergreaves"
+	"def_head"                "atdm:ai_head01_commoner_old"
+	"def_vocal_set"           "atdm:ai_vocal_set_jack_civilian_01"
 }

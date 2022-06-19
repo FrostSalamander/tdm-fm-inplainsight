@@ -5,3 +5,11 @@ skin door_set01_walnut
     textures/darkmod/wood/panels/panel_carved_rectangles_01_dullbrown textures/darkmod/wood/panels/panel_carved_rectangles_01_walnut
     textures/darkmod/wood/panels/wood_brown_dull01_panel              textures/darkmod/wood/boards/wood_brown_walnut
 }
+
+skin door_set01_sand
+{
+    model models/darkmod/architecture/doors/set01_3panel_1.lwo
+    textures/darkmod/wood/boards/wood_brown_dull01                    textures/darkmod/wood/boards/rough_wood_sand
+    textures/darkmod/wood/panels/panel_carved_rectangles_01_dullbrown textures/darkmod/wood/boards/rough_wood_sand
+    textures/darkmod/wood/panels/wood_brown_dull01_panel              textures/darkmod/wood/boards/rough_wood_sand
+}

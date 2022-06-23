@@ -76,3 +76,24 @@ skin mansion_dark_redwood_unlit
 
     "textures/glass/dull_opaque01_lit"	"textures/glass/dull_opaque01"
 }
+
+skin mansion_dark_redwood_clear_window {
+	model models/darkmod/architecture/modules/interior_mansion01/mansion01_window01.lwo
+
+	"textures/darkmod/wood/panels/molding_walnut" "textures/darkmod/wood/panels/molding_darkredwood"
+	"textures/darkmod/wood/panels/panel_carved_rectangles_01_walnut" "textures/darkmod/wood/panels/panel_carved_star"
+	"textures/darkmod/wood/panels/walnut_panel01" "textures/darkmod/wood/boards/dark_redwood"
+	"textures/darkmod/wood/panels/wood_walnut_panel02" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+	"textures/darkmod/wood/panels/thin_panels_with_trim_walnut" "textures/darkmod/wood/panels/thin_panels_with_trim_dark"
+	"textures/darkmod/metal/flat/gold01" "textures/darkmod/wood/panels/panel_decorative_frame_long"
+	"textures/darkmod/wood/panels/molding_white_painted" "textures/darkmod/wood/panels/molding_darkredwood"
+	"textures/darkmod/wood/panels/wood_white_panel02" "textures/darkmod/wood/panels/panel_decorative_frame_long_darkred"
+	"textures/darkmod/wood/boards/white_painted_wood01" "textures/darkmod/wood/boards/dark_redwood"
+	"textures/darkmod/wood/panels/panel_vase_painted_white" "textures/darkmod/wood/panels/panel_carved_rectangles_01"
+	"textures/darkmod/wood/panels/thin_panels_white_painted" "textures/darkmod/wood/panels/thin_panels_with_trim_dark"
+	"textures/darkmod/wood/panels/panel_carved_rectangles_02_walnut" "textures/darkmod/wood/panels/panel_carved_rectangles_02_dark"
+	"textures/darkmod/wood/boards/wood_brown_walnut" "textures/darkmod/wood/boards/dark_redwood"
+	"textures/darkmod/wood/boards/wood_brown_walnut02" "textures/darkmod/wood/boards/dark_redwood"
+	
+	textures/glass/dull_opaque01  textures/darkmod/glass/clear
+}

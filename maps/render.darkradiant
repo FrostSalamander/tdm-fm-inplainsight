@@ -1,0 +1,132 @@
+DarkRadiant Map Information File Version 2
+{
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "548" } 
+		KeyValue { "LastCameraAngle" "-27 353.7 0" } 
+		KeyValue { "LastCameraPosition" "-69.3095 -22.422 88.69" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/glass/test_warp" } 
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 548 }
+	}
+	Layers
+	{
+		Layer 0 { Default }
+	}
+	NodeToLayerMapping
+	{
+		Node { 0 } // entity (world)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (ambient_world)
+		Node { 0 } // entity (info_player_start_1)
+		Node { 0 } // entity (CompassEasy2)
+		Node { 0 } // entity (LanternEasy2)
+		Node { 0 } // entity (SpyglassEasy2)
+		Node { 0 } // entity (HealthPotionsEasy2)
+		Node { 0 } // entity (SwordEasy2)
+		Node { 0 } // entity (BlackjackEasy2)
+		Node { 0 } // entity (BreathPotionsEasy2)
+		Node { 0 } // entity (FlashbombsEasy2)
+		Node { 0 } // entity (BroadheadsEasy2)
+		Node { 0 } // entity (BroadheadsHard2)
+		Node { 0 } // entity (BroadheadsExpert2)
+		Node { 0 } // entity (FireArrowsEasy2)
+		Node { 0 } // entity (FireArrowsHard2)
+		Node { 0 } // entity (FireArrowsExpert2)
+		Node { 0 } // entity (GasArrowsEasy2)
+		Node { 0 } // entity (GasArrowsHard2)
+		Node { 0 } // entity (GasArrowsExpert2)
+		Node { 0 } // entity (MossArrowsEasy2)
+		Node { 0 } // entity (MossArrowsExpert2)
+		Node { 0 } // entity (MossArrowsHard2)
+		Node { 0 } // entity (NoiseArrowsEasy2)
+		Node { 0 } // entity (NoiseArrowsHard2)
+		Node { 0 } // entity (NoiseArrowsExpert2)
+		Node { 0 } // entity (RopeArrowsEasy2)
+		Node { 0 } // entity (RopeArrowsHard2)
+		Node { 0 } // entity (RopeArrowsExpert2)
+		Node { 0 } // entity (VineArrowsEasy2)
+		Node { 0 } // entity (VineArrowsHard2)
+		Node { 0 } // entity (VineArrowsExpert2)
+		Node { 0 } // entity (WaterArrowsEasy2)
+		Node { 0 } // entity (WaterArrowsHard2)
+		Node { 0 } // entity (WaterArrowsExpert2)
+		Node { 0 } // entity (BlackjackHard2)
+		Node { 0 } // entity (BlackjackExpert2)
+		Node { 0 } // entity (SwordHard2)
+		Node { 0 } // entity (SwordExpert2)
+		Node { 0 } // entity (CompassHard2)
+		Node { 0 } // entity (CompassExpert2)
+		Node { 0 } // entity (LanternHard2)
+		Node { 0 } // entity (LanternExpert2)
+		Node { 0 } // entity (SpyglassHard2)
+		Node { 0 } // entity (SpyglassExpert2)
+		Node { 0 } // entity (FlashbombsHard2)
+		Node { 0 } // entity (FlashbombsExpert2)
+		Node { 0 } // entity (HealthPotionsHard2)
+		Node { 0 } // entity (HealthPotionsExpert2)
+		Node { 0 } // entity (BreathPotionsHard2)
+		Node { 0 } // entity (BreathPotionsExpert2)
+		Node { 0 } // entity (LockpickSnakeEasy2)
+		Node { 0 } // entity (LockpickTriangleEasy2)
+		Node { 0 } // entity (MinesEasy2)
+		Node { 0 } // entity (HolyWatersEasy2)
+		Node { 0 } // entity (FlashminesEasy2)
+		Node { 0 } // entity (LockpickSnakeHard2)
+		Node { 0 } // entity (LockpickSnakeExpert2)
+		Node { 0 } // entity (LockpickTriangleHard2)
+		Node { 0 } // entity (LockpickTriangleExpert2)
+		Node { 0 } // entity (FlashminesHard2)
+		Node { 0 } // entity (FlashminesExpert2)
+		Node { 0 } // entity (MinesHard2)
+		Node { 0 } // entity (MinesExpert2)
+		Node { 0 } // entity (HolyWatersHard2)
+		Node { 0 } // entity (HolyWatersExpert2)
+		Node { 0 } // entity (atdm_liquid_water_3)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_liquid_water_2)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_liquid_water_1)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (func_static_3)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (window_clear_warp)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (func_static_1)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_2)
+		Node { 0 } // patch (Patch)
+	}
+	SelectionGroups
+	{
+	}
+	SelectionGroupNodeMapping
+	{
+	}
+	SelectionSets
+	{
+	}
+}

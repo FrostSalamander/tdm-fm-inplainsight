@@ -97,3 +97,11 @@ skin mansion_dark_redwood_clear_window {
 	
 	textures/glass/dull_opaque01  textures/darkmod/glass/clear
 }
+
+skin mansion_pillar_redwood {
+	model models/darkmod/furniture/tables/display_pillar1_mansion01.lwo
+
+	textures/darkmod/wood/boards/wood_brown_walnut02           textures/darkmod/wood/boards/dark_redwood
+	textures/darkmod/wood/panels/molding_walnut                textures/darkmod/wood/panels/molding_darkredwood
+	textures/darkmod/wood/panels/thin_panels_with_trim_walnut  textures/darkmod/wood/panels/thin_panels_with_trim_dark
+}

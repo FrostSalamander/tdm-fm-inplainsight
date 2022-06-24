@@ -1,0 +1,75 @@
+textures/darkmod/glass/test_warp
+{
+
+	// Written by Tels, mainly based on 
+	// http://www.iddevnet.com/doom3/materials.php
+
+	noSelfShadow
+	noshadows
+	twoSided
+	translucent
+	forceoverlays
+	sort decal
+	glass
+	qer_editorimage	textures/darkmod/glass/clear_warp_ed
+
+	description "A reflecting, translucent material suited for large, flat glass panes"
+
+        // this block makes the glass distort what you see through it
+        // one unwanted side-effect is that this effect does not stack
+	// and distorbs objects in front of the glass, too
+        {
+                vertexProgram heatHazeWithDepth.vfp
+                vertexParm  0  0 , 0  // texture scrolling
+                vertexParm  1  .8  // magnitude of the distortion
+
+                fragmentProgram heatHazeWithDepth.vfp
+                fragmentMap 0  _currentRender
+                fragmentMap 1  textures/sfx/vp1 // the normal map for distortion
+                fragmentMap 2 _currentDepth
+        }
+
+	// this stage sets up the alpha mask (it doesnt render anything)
+	// we use another glass texture for the alpha map, so that the reflection
+	// shows more clearly and different from what the alpha map of our glass
+	// says, that makes it more interesting :)
+	{
+		maskcolor				
+		map makealpha(textures/glass/glass1)
+	}
+	// now use the alpha mask to add some fake reflections
+	{
+		blend gl_dst_alpha, gl_one
+		maskalpha
+		cubeMap env/gen2
+		// tone down the reflection a bit
+		red     Parm0 * .2
+		green   Parm1 * .2
+		blue    Parm2 * .2
+		texgen  reflect
+	}
+	// add our texture on top
+	{
+		blend   gl_dst_color, gl_one
+		map	textures/darkmod/glass/crystal_milky
+		red     Parm0 * 0.2
+		green   Parm1 * 0.2
+		blue    Parm2 * 0.2
+	}
+
+	// This is the code required for frob highlighting this texture
+	{
+		if ( parm11 > 0 )
+			blend       gl_dst_color, gl_one
+			map         _white
+			rgb         0.40 * parm11
+   	}
+	{
+		if ( parm11 > 0 )
+			blend       add
+			map         textures/darkmod/glass/crystal_milky
+			rgb         0.15 * parm11
+	}
+
+
+}

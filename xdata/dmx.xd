@@ -125,7 +125,7 @@ readables/dmx/letter_troutbeck_uprising
 		""
 		"The Group"
 	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -473,5 +473,76 @@ readables/dmx/letter_uprising
 		"The Group"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/scroll_eaton_meeting
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Lord Eaton,"
+		""
+		"    Forgive the direct approach, but I beg you to keep reading."
+		"    We have reason to believe you are dissatified with the direction the country is taking under its current leadership.  We are a small group of concerned citizens who wish to do something about this situation."
+		"    If I am correct and you wish to find out more, send a man to our regular meeting place. It is St. Peter's crypt, Saturday evenings at 0300."
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/journal_eaton
+{
+	precache
+	"num_pages"	: "2"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"06 September 1627"
+		""
+		"   The King has raised taxes yet again, all to fight this ridiculous war.  In turn, I have had to increase my own levies on the peasants.  Many of them cannot afford it and unrest is rife.  I now fear I have a revolt on my hands!"
+		"   I have put in a request with Troutbeck's new security firm to hire 100 of his 'security officers'.  This "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"should help with any troublemakers, at least temporarily."
+		""
+		""
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		"12 September 1627"
+		""
+		"    What is this?  A mysterious invitation to some gathering of local hoodlums?  Why on earth would anyone think I would associate myself with what sounds like treason?"
+		"    I'm tempted to send Buckley down there to investigate... but no - I can't risk it.  Regardless of the mess the King has gotten us all into, it's not worth losing"
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		"my head over. "
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

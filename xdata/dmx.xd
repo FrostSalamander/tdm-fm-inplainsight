@@ -546,3 +546,99 @@ readables/dmx/journal_eaton
 	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/journal_bourchier
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"8 Sept 1627"
+		""
+		"    I think I've finally managed to pack away all of Charles' things. Since he died in the war the place seems so empty now."
+		"    I feel especially vulnerable since that strange man moved in next door.  Smythe I think he said his name was.  He seems to get visitors at all sorts of strange hours. I do wonder if he's running some sort of illicit business or some such thing..."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_to_hastings_from_inspector
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Hastings,"
+		""
+		"    With regards to the invitations from this secret group, I would suggest that whoever is sending them has also retained one for themselves as to not arouse suspicion among his peers.  It will be very difficullt to determine the perpetrator using process of elimimation."
+		"    "
+		"    I suggest you gather the men and stake out the usual places.  Warehouses, alleyways, abandoned houses, etc.  You may have a few long nights ahead of you, in which case you are welcome to make use of the sofa"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		" in my office to rest when you require it."
+		""
+		"Chief Inspector Heywood"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_to_heywood
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"    Although several folks have come forward to turn in their letters in an effort to distance themselves from this 'group', we are still having difficulty pinpointing the location of the next meeting."
+		""
+		"    I suspect some of them know the location, but are keeping quiet to avoid getting friends and family members into trouble."
+		""
+		"    I have inquired at the bank about recent loan activity, as these sorts of things require "
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"funding.  However I feel I am being stalled by that pencil-pusher Lumley. In fact, it's making me downright suspicious..."
+		""
+		"    Finally, that thug in the cell downstairs turned out to be a dead end. Although he was shooting his mouth off about a 'new start', he was just regurgitating that nonsense in that literature that has been floating around recently.  He had a few too many at the Inn and doesn't appear to have had a hand in organising anything."
+		""
+		"Chief Constable Hastings"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

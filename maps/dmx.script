@@ -3,6 +3,8 @@
 // state of the lights in TSS office/warehouse.  1 is on, 0 is off
 float tss_lights_on = 1;
 
+float triggered = 0;
+
 float getTSSCameraState() 
 {
     return $tss_camera.getSecurityCameraState();
@@ -84,30 +86,71 @@ void enableTSSCamera()
 void move_postman()
 {
     $ai_postman.remove();
-    sys.setSpawnArg("sleeping", "0");
+
+    // place him in the crypt
     sys.setSpawnArg("origin", "-927.68 -535.22 -295.853");
+    sys.setSpawnArg("scriptobject", "ai_trigger_look");
+    sys.setSpawnArg("tol_distance", "120");
+    sys.setSpawnArg("tol_angle", "90");
+    sys.setSpawnArg("once", "1");
+    sys.setSpawnArg("target0", "target_change_meeting_place_objectives");
     entity newPostman = sys.spawn("atdm:postman");
+}
+
+void meeting_place_objective() {
+
+    if (!triggered)
+    {
+        triggered = 1;
+        sys.println("Test message.");
+
+        // Objective to go to the 'meeting place' becomes visible
+        $player1.setObjectiveVisible(5, 1);
+        move_postman();
+    }
+    else
+    {
+         sys.println("already triggered, skipping...");
+    }
+
+}
+
+void change_meeting_place_objectives()
+{
+    // objective to capture the perpetrator becomes visible
+    $player1.setObjectiveVisible(7, 1);
+
+    // wait a bit so these both don't happen at once
+    sys.wait(3);
+
+    // complete objective to investigate the meeting place
+    $player1.setObjectiveState(5, 1);
 }
 
 void removeSafeBar(entity safeBar)
 {
-  entity safeDoor = safeBar.getBindMaster();
-  safeBar.startSound("snd_acid", SND_CHANNEL_UNUSED, false);
-  sys.wait(4);
-  safeBar.remove();
+    entity safeDoor = safeBar.getBindMaster();
+    safeBar.startSound("snd_acid", SND_CHANNEL_UNUSED, false);
+    sys.wait(4);
+    safeBar.remove();
 
-  safeDoor.setFrobable(1);
+    safeDoor.setFrobable(1);
 }
 
 // 'use' the safe bar.  Run in new thread so sys.wait() will work
 void useSafeBar(entity safeBar)
 {
-  thread removeSafeBar(safeBar);
+    thread removeSafeBar(safeBar);
 }
 
 void frobSafeBar(entity safeBar)
 {
     safeBar.startSound("snd_frob", SND_CHANNEL_UNUSED, false);
+}
+
+void main()
+{
+    sys.waitFrame();
 }
 
 

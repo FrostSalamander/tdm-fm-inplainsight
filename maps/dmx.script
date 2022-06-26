@@ -85,16 +85,23 @@ void enableTSSCamera()
 
 void move_postman()
 {
+    // remove the initial AI who was in the Inn
     $ai_postman.remove();
 
     // place him in the crypt
     sys.setSpawnArg("origin", "-927.68 -535.22 -295.853");
+
+    // set up an 'ai_trigger_look' to trigger objective when the player looks at him
     sys.setSpawnArg("scriptobject", "ai_trigger_look");
     sys.setSpawnArg("tol_distance", "120");
-    sys.setSpawnArg("tol_angle", "90");
+    sys.setSpawnArg("tol_angle", "0.1");
     sys.setSpawnArg("once", "1");
     sys.setSpawnArg("target0", "target_change_meeting_place_objectives");
+
     entity newPostman = sys.spawn("atdm:postman");
+
+    // face the sarcophogus across the aisle to make sure he's facing the right way
+    newPostman.turnToEntity($func_static_2118);
 }
 
 void meeting_place_objective() {
@@ -148,6 +155,21 @@ void frobSafeBar(entity safeBar)
     safeBar.startSound("snd_frob", SND_CHANNEL_UNUSED, false);
 }
 
+void swish()
+{
+    player player_self = $player1;
+    sys.println(player_self.getMoveType());
+    //sys.println(player_self.AI_CROUCH);
+    //sys.println(player_self.AI_CROUCH);
+    //sys.println(player_self.AI_CROUCH);
+    //sys.println(player_self.AI_CROUCH);
+    
+    sys.trigger($speaker_swish);
+    
+}
+
+
+// main - keep at bottom
 void main()
 {
     sys.waitFrame();

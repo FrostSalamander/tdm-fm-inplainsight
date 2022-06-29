@@ -3,7 +3,7 @@
 // state of the lights in TSS office/warehouse.  1 is on, 0 is off
 float tss_lights_on = 1;
 
-float triggered = 0;
+float trigger_look_triggered = 0;
 
 float getTSSCameraState() 
 {
@@ -89,41 +89,33 @@ void move_postman()
     $ai_postman.remove();
 
     // place him in the crypt
-    sys.setSpawnArg("origin", "-927.68 -535.22 -295.853");
+    sys.setSpawnArg("origin", "-935.679 -535.221 -295.853");
 
     // set up an 'ai_trigger_look' to trigger objective when the player looks at him
     sys.setSpawnArg("scriptobject", "ai_trigger_look");
-    sys.setSpawnArg("tol_distance", "120");
-    sys.setSpawnArg("tol_angle", "0.1");
+    sys.setSpawnArg("tol_distance", "200");
+    sys.setSpawnArg("tol_angle", "2");
     sys.setSpawnArg("once", "1");
     sys.setSpawnArg("target0", "target_change_meeting_place_objectives");
 
     entity newPostman = sys.spawn("atdm:postman");
 
-    // face the sarcophogus across the aisle to make sure he's facing the right way
-    newPostman.turnToEntity($func_static_2118);
+    // make him face south
+    newPostman.setAngles('0 -90 0');
 }
 
 void meeting_place_objective() {
 
-    if (!triggered)
-    {
-        triggered = 1;
-        sys.println("Test message.");
-
-        // Objective to go to the 'meeting place' becomes visible
-        $player1.setObjectiveVisible(5, 1);
-        move_postman();
-    }
-    else
-    {
-         sys.println("already triggered, skipping...");
-    }
-
+    // Objective to go to the 'meeting place' becomes visible
+    $player1.setObjectiveVisible(5, 1);
+    move_postman();
 }
 
 void change_meeting_place_objectives()
 {
+    // DEBUG: remove
+    sys.println("ai_trigger_look triggered.");
+
     // objective to capture the perpetrator becomes visible
     $player1.setObjectiveVisible(7, 1);
 

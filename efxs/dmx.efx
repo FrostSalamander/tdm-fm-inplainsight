@@ -1,18 +1,42 @@
 Version 2
 
+//////////////
+// START AREA
+//////////////
 eaxreverb "location_start" {
   preset CITY_SUBWAY
 }
 eaxreverb "location_inn_area" {
   preset CITY_STREETS
 }
-eaxreverb "location_inn_bar" {
-  preset WOODEN_MEDIUMROOM
-}
 eaxreverb "location_inn_side_entrance" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_inn_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_inn_bar" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_inn_back_room" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_inn_bathroom" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_inn_kitchen" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_inn_stairs" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_inn_upstairs_hallway" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_inn_room1" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_inn_room2" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_inn_backyard" {

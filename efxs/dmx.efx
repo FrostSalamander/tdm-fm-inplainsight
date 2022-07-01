@@ -54,11 +54,177 @@ eaxreverb "location_post_office_top_floor" {
   preset WOODEN_SMALLROOM
 }
 
+// Courtyard / posh houses area
+eaxreverb "location_courtyard" {
+  preset OUTDOORS_BACKYARD
+}
 
+///////////////////
+// Troutbeck house
+///////////////////
+eaxreverb "location_troutbeck_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_troutbeck_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_troutbeck_study" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_troutbeck_stairwell" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_troutbeck_hallway" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_troutbeck_bathroom" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_troutbeck_entrance" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_troutbeck_kitchen" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_troutbeck_garden" {
+  preset OUTDOORS_BACKYARD
+}
+eaxreverb "location_troutbeck_shed" {
+  preset WOODEN_CUPBOARD
+}
+
+///////////////////
+// Bancroft house
+///////////////////
+eaxreverb "location_bancroft_garden" {
+  preset OUTDOORS_BACKYARD
+}
+eaxreverb "location_bancroft_kitchen" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bancroft_entry" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bancroft_bathroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bancroft_stairs" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_bancroft_upstairs" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_bancroft_lounge" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bancroft_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+
+//////////////////
 // Pembroke house
+//////////////////
 eaxreverb "location_pembroke_kitchen_cupboard" {
   preset WOODEN_CUPBOARD
 }
+eaxreverb "location_pembroke_crawlspace" {
+  preset DUSTYROOM
+}
+eaxreverb "location_pembroke_kitchen" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_pembroke_dining_room" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_pembroke_entrance" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_pembroke_lounge" {
+  preset LIVINGROOM
+}
+eaxreverb "location_pembroke_stairwell" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_pembroke_hallway" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_pembroke_hallway" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_pembroke_bathroom" {
+  preset BATHROOM
+}
+eaxreverb "location_pembroke_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_pembroke_maid_room" {
+  preset WOODEN_SMALLROOM
+}
+
+///////////////
+// Johan House
+///////////////
+eaxreverb "location_johan_upper" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_johan_lower" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_johan_bathroom" {
+  preset WOODEN_SMALLROOM
+}
+
+////////////////////////////////
+// Watch Station / Bank section
+////////////////////////////////
+eaxreverb "location_canal_tunnel" {
+  preset SEWERPIPE
+}
+eaxreverb "location_bank_street" {
+  preset CITY_STREETS
+}
+
+/////////////////
+// Watch Station 
+/////////////////
+eaxreverb "location_watch_station_upper_hall" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_heywood_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_evidence_room" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_hastings_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_watch_station_stairs" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_watch_station_groundfloor" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_watch_station_cells" {
+  preset CASTLE_SHORTPASSAGE
+}
+
+/////////////////////////////
+// Gate House and Overwatch
+/////////////////////////////
+eaxreverb "location_gate_house" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_gate_house_stairs" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_gate_overwatch" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_gate_overwatch_stairs" {
+  preset CASTLE_HALL
+}
+
 
 // City
 eaxreverb "location_tss_tunnel" {

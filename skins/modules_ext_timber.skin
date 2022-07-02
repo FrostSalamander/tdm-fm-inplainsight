@@ -11,6 +11,16 @@ skin wall04_blocks_flat_ochre_smoky
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_flat_ochre_smoky
 }
 
+skin wall04_blocks_flat_ochre_smoky_lit
+{
+    model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door02.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_flat_ochre_smoky
+	textures/darkmod/window/metal_diamond_pattern3          textures/darkmod/window/metal_diamond_pattern3_lit
+}
+
+
 skin ext_timber_old_worn_blocks_003
 {
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo

@@ -1,1 +1,2 @@
 #include "script/ai_trigger_look.script"
+#include "script/trigger_look.script"

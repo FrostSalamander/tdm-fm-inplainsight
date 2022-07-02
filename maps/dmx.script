@@ -3,7 +3,8 @@
 // state of the lights in TSS office/warehouse.  1 is on, 0 is off
 float tss_lights_on = 1;
 
-float trigger_look_triggered = 0;
+// state of crypt exit door
+float crypt_exit_triggered = 0;
 
 float getTSSCameraState() 
 {
@@ -169,21 +170,31 @@ boolean isPostmanShouldered()
 
 void complete_mission()
 {
-    sys.println("mission complete triggered.");
-    isPostmanShouldered();
-
     if ($player1.getObjectiveVisible(7) && isPostmanShouldered())
     {
         $player1.setObjectiveState(7, OBJ_COMPLETE);
     }
 }
 
+// used with a trigger_facing. If facing the statue and crouched, trigger the exit door.
+// track state because we can't use a trigger once
+void trigger_crypt_exit()
+{
+    player player_self = $player1;
+    if (player_self.AI_CROUCH && !crypt_exit_triggered)
+    {
+        sys.trigger($crypt_secret_exit_door);
+        crypt_exit_triggered = 1;
+    }
+}
 
 // main - keep at bottom
 void main()
 {
     sys.waitFrame();
 }
+
+
 
 
 

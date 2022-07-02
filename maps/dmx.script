@@ -153,13 +153,29 @@ void swish()
 {
     player player_self = $player1;
     sys.println(player_self.getMoveType());
-    //sys.println(player_self.AI_CROUCH);
-    //sys.println(player_self.AI_CROUCH);
-    //sys.println(player_self.AI_CROUCH);
-    //sys.println(player_self.AI_CROUCH);
     
     sys.trigger($speaker_swish);
     
+}
+
+boolean isPostmanShouldered()
+{
+    entity body = $player1.getShouldered();
+    string name = body.getName();
+    sys.println("name: " + name);
+
+    return (name == "ai_postman");
+}
+
+void complete_mission()
+{
+    sys.println("mission complete triggered.");
+    isPostmanShouldered();
+
+    if ($player1.getObjectiveVisible(7) && isPostmanShouldered())
+    {
+        $player1.setObjectiveState(7, OBJ_COMPLETE);
+    }
 }
 
 

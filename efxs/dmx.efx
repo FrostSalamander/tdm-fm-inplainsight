@@ -346,3 +346,15 @@ eaxreverb "location_mansion_neighbour_house" {
   preset WOODEN_MEDIUMROOM
 }
 
+/////////////////////
+// Church and Crypt
+/////////////////////
+eaxreverb "location_church" {
+  preset CASTLE_LARGEROOM
+}
+eaxreverb "location_crypt" {
+  preset STONEROOM
+}
+eaxreverb "location_crypt_secret_passage" {
+  preset CASTLE_LONGPASSAGE
+}

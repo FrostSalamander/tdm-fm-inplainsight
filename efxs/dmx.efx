@@ -221,6 +221,10 @@ eaxreverb "location_gate_overwatch" {
 eaxreverb "location_gate_overwatch_stairs" {
   preset CASTLE_HALL
 }
+eaxreverb "location_city_tunnel" {
+  preset CITY_SUBWAY
+}
+
 
 /////////
 // Bank

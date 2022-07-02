@@ -30,6 +30,8 @@ void triggerTSSLights()
     sys.trigger($tss_light1);
     sys.trigger($tss_light2);
     sys.trigger($tss_light3);
+    sys.trigger($tss_outdoor_light1);
+    sys.trigger($tss_outdoor_light2);
 
     if (isTSSLightsOn())
     {

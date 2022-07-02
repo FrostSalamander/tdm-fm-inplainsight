@@ -148,9 +148,6 @@ eaxreverb "location_pembroke_stairwell" {
 eaxreverb "location_pembroke_hallway" {
   preset WOODEN_SMALLROOM
 }
-eaxreverb "location_pembroke_hallway" {
-  preset WOODEN_SMALLROOM
-}
 eaxreverb "location_pembroke_bathroom" {
   preset BATHROOM
 }
@@ -225,14 +222,123 @@ eaxreverb "location_gate_overwatch_stairs" {
   preset CASTLE_HALL
 }
 
+/////////
+// Bank
+/////////
+eaxreverb "location_bank_basement" {
+  preset SEWERPIPE
+}
+eaxreverb "location_bank_basement_stairwell" {
+  preset STONECORRIDOR
+}
+eaxreverb "location_bank_hallway" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_bank_tellers" {
+  preset CASTLE_LARGEROOM
+}
+eaxreverb "location_bank_accounts" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_bank_stairwell" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_bank_appointments" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bank_office" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_bank_manager_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bank_records" {
+  preset WOODEN_MEDIUMROOM
+}
 
-// City
+//////////////
+// City Area
+//////////////
+eaxreverb "location_church_street" {
+  preset CITY_STREETS
+}
+
+
+//////////////////////////
+// Bakery and Upper Flats
+/////////////////////////
+eaxreverb "location_bakery" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bakery_flat" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bakery_flats_hallway" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_bakery_other_flat" {
+  preset WOODEN_SMALLROOM
+}
+
+/////////////////
+// Wine Shop
+/////////////////
+eaxreverb "location_wine_shop" {
+  preset WOODEN_SMALLROOM
+}
+
+////////
+// TSS
+////////
+eaxreverb "location_tss_warehouse" {
+  preset FACTORY_MEDIUMROOM
+}
+eaxreverb "location_tss_office" {
+  preset FACTORY_SMALLROOM
+}
 eaxreverb "location_tss_tunnel" {
   preset STONECORRIDOR
 }
 
+/////////////////
+// Apartments
+/////////////////
 eaxreverb "location_city_apts_stairwell" {
-  preset SPACESTATION_SMALLROOM
+  preset SPACESTATION_SHORTPASSAGE
+}
+eaxreverb "location_bouchier_apt" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bouchier_bathroom" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_city_apt_attic" {
+  preset DUSTYROOM
 }
 
+/////////////////////
+// Smythe Apartment
+/////////////////////
+eaxreverb "location_smythe_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_smythe_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_smythe_stairs" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_smythe_shop" {
+  preset WOODEN_SMALLROOM
+}
+
+/////////////////////
+// Back Section
+/////////////////////
+eaxreverb "location_city_mansion_section" {
+  preset CITY_STREETS
+}
+eaxreverb "location_mansion_neighbour_house" {
+  preset WOODEN_MEDIUMROOM
+}
 

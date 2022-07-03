@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1562837" } 
-		KeyValue { "LastCameraAngle" "-11.4 77.1 0" } 
-		KeyValue { "LastCameraPosition" "831.708 -586.015 -242.462" } 
+		KeyValue { "EditTimeInSeconds" "1564632" } 
+		KeyValue { "LastCameraAngle" "-2.7 119.1 0" } 
+		KeyValue { "LastCameraPosition" "-55.7367 376.68 -414.885" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1562837 }
+		TotalSecondsEdited { 1564632 }
 	}
 	Layers
 	{
@@ -14577,6 +14577,126 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_2762)
 		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_1)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_2)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_3)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_4)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_5)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_6)
+		Node { 0 } // entity (atdm_loot_purse_diamonds_1)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_7)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_8)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_9)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_large_11)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_4)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_5)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_6)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_7)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_8)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_9)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_10)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_11)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_13)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_14)
+		Node { 0 } // entity (atdm_moveable_loot_ingot_small_16)
+		Node { 0 } // entity (atdm_loot_coins_pile01_1)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_1)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_2)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_3)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_4)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_5)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_6)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_7)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_8)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_9)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_10)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_11)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_12)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_13)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_14)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_15)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_16)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_1)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_2)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_3)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_4)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_5)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_6)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_7)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_8)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_9)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_10)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_11)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_12)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_13)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_14)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_15)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_16)
+		Node { 0 } // entity (atdm_loot_coins_pile01_2)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_17)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_18)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_19)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_20)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_21)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_22)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_23)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_24)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_25)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_26)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_27)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_28)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_29)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_30)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_31)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_32)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_17)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_18)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_19)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_20)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_21)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_22)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_23)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_24)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_25)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_26)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_27)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_28)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_29)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_30)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_31)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_32)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_33)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_34)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_35)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_36)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_37)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_38)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_39)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_40)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_41)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_42)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_43)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_44)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_45)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_46)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_47)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_48)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_49)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_50)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_51)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_52)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_53)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_54)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_55)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_56)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_57)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_58)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_59)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_60)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_61)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_62)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_63)
+		Node { 0 } // entity (atdm_loot_coinstack_tall_silver_64)
 	}
 	SelectionGroups
 	{
@@ -15002,7 +15122,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2470 { "" }
 		SelectionGroup 2475 { "" }
 		SelectionGroup 2479 { "" }
-		SelectionGroup 2481 { "" }
 		SelectionGroup 2482 { "" }
 		SelectionGroup 2521 { "" }
 		SelectionGroup 2522 { "" }
@@ -15155,6 +15274,15 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2728 { "" }
 		SelectionGroup 2729 { "" }
 		SelectionGroup 2730 { "" }
+		SelectionGroup 2734 { "" }
+		SelectionGroup 2735 { "" }
+		SelectionGroup 2736 { "" }
+		SelectionGroup 2737 { "" }
+		SelectionGroup 2738 { "" }
+		SelectionGroup 2739 { "" }
+		SelectionGroup 2740 { "" }
+		SelectionGroup 2741 { "" }
+		SelectionGroup 2742 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -17318,8 +17446,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3463 ) ( 2435 ) } // entity (func_static_2252)
 		Node { ( 3464 ) ( 2435 ) } // entity (func_static_2253)
 		Node { ( 3465 ) ( 2435 ) } // entity (func_static_2254)
-		Node { ( 3471 ) ( 2481 ) } // entity (bank_safedoor_top)
-		Node { ( 3477 ) ( 2481 ) } // entity (bank_safedoor_top_lock)
 		Node { ( 3501 ) ( 2444 ) } // entity (func_static_2262)
 		Node { ( 3502 ) ( 2444 ) } // entity (func_static_2260)
 		Node { ( 3510 ) ( 2448 ) } // entity (CashboxLid_3)
@@ -17916,6 +18042,42 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4562 ) ( 2729 ) } // entity (func_static_2752)
 		Node { ( 4567 ) ( 2730 ) } // entity (light_62)
 		Node { ( 4568 ) ( 2730 ) } // entity (func_static_2552)
+		Node { ( 4616 ) ( 2734 ) } // entity (atdm_loot_coinstack_tall_4)
+		Node { ( 4618 ) ( 2734 ) } // entity (atdm_loot_coinstack_tall_6)
+		Node { ( 4623 ) ( 2734 ) } // entity (atdm_loot_coinstack_tall_11)
+		Node { ( 4627 ) ( 2734 ) } // entity (atdm_loot_coinstack_tall_15)
+		Node { ( 4629 ) ( 2735 ) } // entity (atdm_loot_coinstack_tall_silver_1)
+		Node { ( 4630 ) ( 2735 ) } // entity (atdm_loot_coinstack_tall_silver_2)
+		Node { ( 4631 ) ( 2735 ) } // entity (atdm_loot_coinstack_tall_silver_3)
+		Node { ( 4632 ) ( 2735 ) } // entity (atdm_loot_coinstack_tall_silver_4)
+		Node { ( 4646 ) ( 2736 ) } // entity (atdm_loot_coinstack_tall_17)
+		Node { ( 4647 ) ( 2736 ) } // entity (atdm_loot_coinstack_tall_18)
+		Node { ( 4648 ) ( 2736 ) } // entity (atdm_loot_coinstack_tall_19)
+		Node { ( 4649 ) ( 2736 ) } // entity (atdm_loot_coinstack_tall_20)
+		Node { ( 4650 ) ( 2737 ) } // entity (atdm_loot_coinstack_tall_21)
+		Node { ( 4651 ) ( 2737 ) } // entity (atdm_loot_coinstack_tall_22)
+		Node { ( 4652 ) ( 2737 ) } // entity (atdm_loot_coinstack_tall_23)
+		Node { ( 4653 ) ( 2737 ) } // entity (atdm_loot_coinstack_tall_24)
+		Node { ( 4654 ) ( 2739 ) } // entity (atdm_loot_coinstack_tall_25)
+		Node { ( 4655 ) ( 2738 ) } // entity (atdm_loot_coinstack_tall_26)
+		Node { ( 4656 ) ( 2738 ) } // entity (atdm_loot_coinstack_tall_27)
+		Node { ( 4657 ) ( 2739 ) } // entity (atdm_loot_coinstack_tall_28)
+		Node { ( 4658 ) ( 2739 ) } // entity (atdm_loot_coinstack_tall_29)
+		Node { ( 4659 ) ( 2738 ) } // entity (atdm_loot_coinstack_tall_30)
+		Node { ( 4660 ) ( 2738 ) } // entity (atdm_loot_coinstack_tall_31)
+		Node { ( 4661 ) ( 2739 ) } // entity (atdm_loot_coinstack_tall_32)
+		Node { ( 4662 ) ( 2740 ) } // entity (atdm_loot_coinstack_tall_silver_17)
+		Node { ( 4663 ) ( 2740 ) } // entity (atdm_loot_coinstack_tall_silver_18)
+		Node { ( 4664 ) ( 2740 ) } // entity (atdm_loot_coinstack_tall_silver_19)
+		Node { ( 4666 ) ( 2740 ) } // entity (atdm_loot_coinstack_tall_silver_21)
+		Node { ( 4678 ) ( 2741 ) } // entity (atdm_loot_coinstack_tall_silver_33)
+		Node { ( 4679 ) ( 2741 ) } // entity (atdm_loot_coinstack_tall_silver_34)
+		Node { ( 4682 ) ( 2741 ) } // entity (atdm_loot_coinstack_tall_silver_37)
+		Node { ( 4685 ) ( 2741 ) } // entity (atdm_loot_coinstack_tall_silver_40)
+		Node { ( 4694 ) ( 2742 ) } // entity (atdm_loot_coinstack_tall_silver_49)
+		Node { ( 4695 ) ( 2742 ) } // entity (atdm_loot_coinstack_tall_silver_50)
+		Node { ( 4696 ) ( 2742 ) } // entity (atdm_loot_coinstack_tall_silver_51)
+		Node { ( 4702 ) ( 2742 ) } // entity (atdm_loot_coinstack_tall_silver_57)
 	}
 	SelectionSets
 	{

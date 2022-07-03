@@ -1,0 +1,26 @@
+entityDef atdm:amulet_gift
+{
+	"inherit"         "atdm:moveable_small_base" 
+	
+	"editor_usage"    "Custom item"
+	"editor_color"    "0.922 0.039 0.855" 
+
+	// model
+	"model"           "models/darkmod/loot/jewellery/amulet_round_02.lwo"
+	"mass"            "1"
+	"friction"        "0.7"
+	"bouncyness"      "0"
+
+	// inventory stuff
+	"inv_name"        "Fancy amulet"
+	"inv_icon"        "guis/assets/hud/inventory_icons/loot_icon_amulet_round" // GUI icon.
+	"inv_droppable"   "1"        // yes because we need to place it somewhere for the objective
+	"inv_category"    "Special"
+	"inv_stackable"   "0"
+	"frobable"        "1"
+	"grabable"        "1"
+
+	//sound
+	"snd_acquire"     "tool_pickup"
+	"snd_bounce"      "tdm_impact_metal_med_lesser"	
+}

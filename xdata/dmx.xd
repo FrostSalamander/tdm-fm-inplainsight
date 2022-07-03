@@ -61,7 +61,7 @@ readables/dmx/post_office_note
 	{
 		"Agnes,"
 		""
-		"I've taken a room at the inn for the night.  I met George for a drink, and when I came home I realised I didn't have my key. It must be at the inn somewhere."
+		"I've taken a room at the inn for the night.  I met George and we were enjoying a drink in the night air before this awful weather came about.  When I came home I realised I didn't have my key. It must be at the inn somewhere."
 		""
 		"It was quite late and I didn't want to disturb you.  I will be back first thing to help with the morning deliveries."
 		""
@@ -105,30 +105,6 @@ readables/dmx/diary_rose
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
-
-
-readables/dmx/letter_troutbeck_uprising
-{
-	precache
-	"num_pages"	: "1"
-	"page1_title"	:
-	{
-		""
-	}
-	"page1_body"	:
-	{
-		"Sir,"
-		""
-		"We are meeting tonight to discuss moving our plan forward.  It will be at the usual time and place.  We hope to see you there."
-		""
-		"Sincerely,"
-		""
-		"The Group"
-	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
-	"snd_page_turn"	: "readable_page_turn"
-}
-
 
 readables/dmx/journal_troutbeck
 {
@@ -640,5 +616,96 @@ readables/dmx/note_to_heywood
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/journal_baker
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"13 Sept 27"
+		""
+		"    I don't know if I'll ever be able to work up the nerve to give Holly that letter.  What if she ignores it?  How awkward would that be, she lives right next door!  It wouldn't be the end of the world.  I've been alone so long now that I'm used to it. "
+		""
+		"    Maybe I should get her a present as well.  But what?  She's just moved here and I hardly know her..."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"14 Sept 27"
+		""
+		"    I got another one of those dodgy letters today.  I've just left it there this time, and once I'm done the morning baking I'm going straight to the CIty Watch to show them.  I don't want anyone thinking I'm up to no good!"
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_gerald_to_holly
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Dear Holly,"
+		""
+		"    I'm Gerald, the chap who lives next door.  I also work in the bakery downstairs.  You've been in a couple of times to buy bread."
+		""
+		"    I heard you playing your lute the other night and it was wonderful.  And your singing! "
+		""
+		"    Anyways.. you mentioned that you were new in town so I was wondering if you would like to maybe go for a drink sometime?"
+		""
+		"Gerald"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/letter_holly_parents
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Dear Mum,"
+		""
+		"    I'm settling in fine so far.  I've found a flat in the city, not far from the church.  I haven't managed to find any work yet, there is an Inn nearby though that I don't think has any entertainment.  The manager is away so they told me to come back in a few days."
+		""
+		"    My next door neighbour is a really nice man.  His name is Gerald and he owns the bakery downstairs.  I keep going to buy bread from him even though I don't really need it!  He seems lonely - one of these days "
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"I may have to just make up an excuse to knock on his door, even though it isn't proper!"
+		""
+		"    Anyways, say hi to Papa and and I will come home in a few weeks to visit!"
+		""
+		"Love,"
+		"Holly"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

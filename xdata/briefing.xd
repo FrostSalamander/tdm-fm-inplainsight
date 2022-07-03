@@ -1,0 +1,21 @@
+maps/dmx/mission_briefing
+{
+ "num_pages": "2"
+ 
+ "page1_body" :
+ {
+    "September, 1627."
+    ""
+    "You are in the employ of the Crown as an intelligence officer. Word of an uprising in a small remote town has reached your superiors and you have been dispatched to investigate."
+    ""
+    "Your cover is that of a thief of some renown who is on the run from the Bridgeport City Watch and seeking to ply his trade out of town.  Your identity as a spy will go unnoticed."
+    ""
+    "The local watch is aware of the gestating plot, however they are ill-equipped to deal with such matters and their investigation is fruitless so far."
+  }
+
+ "page2_body" :
+ {
+    "Use your skills to investigate the town and reveal the instigators behind the plot."
+ }
+
+}

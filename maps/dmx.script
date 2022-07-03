@@ -6,6 +6,10 @@ float tss_lights_on = 1;
 // state of crypt exit door
 float crypt_exit_triggered = 0;
 
+// Gerald/Holly objective states
+float gerald_journal_read = 0;
+float holly_letter_read = 0;
+
 float getTSSCameraState() 
 {
     return $tss_camera.getSecurityCameraState();
@@ -107,13 +111,6 @@ void move_postman()
     newPostman.setAngles('0 -90 0');
 }
 
-void meeting_place_objective() {
-
-    // Objective to go to the 'meeting place' becomes visible
-    $player1.setObjectiveVisible(5, 1);
-    move_postman();
-}
-
 void change_meeting_place_objectives()
 {
     // DEBUG: remove
@@ -125,7 +122,7 @@ void change_meeting_place_objectives()
     // wait a bit so these both don't happen at once
     sys.wait(3);
 
-    // complete objective to investigate the meeting place
+    // complete objective to find out who is behind the plot
     $player1.setObjectiveState(5, 1);
 }
 
@@ -186,6 +183,31 @@ void trigger_crypt_exit()
         sys.trigger($crypt_secret_exit_door);
         crypt_exit_triggered = 1;
     }
+}
+
+// If the Gerald/Holly objective isn't yet visible and you've
+// read both their readables, make the objective visible
+void gerald_holly_objective()
+{
+    if (!$player1.getObjectiveVisible(8))
+    {
+        if (holly_letter_read && gerald_journal_read)
+        {
+            $player1.setObjectiveVisible(8, 1);
+        }
+    }
+}
+
+void read_gerald_journal()
+{
+    gerald_journal_read = 1;
+    gerald_holly_objective();
+}
+
+void read_holly_letter()
+{
+    holly_letter_read = 1;
+    gerald_holly_objective();
 }
 
 // main - keep at bottom

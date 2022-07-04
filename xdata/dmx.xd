@@ -709,3 +709,28 @@ readables/dmx/letter_holly_parents
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+readables/dmx/pembroke_invite
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"07 Aug 1627"
+		""
+		"Lord and Lady Eaton,"
+		""
+		"    It is with great pleasure that I wish to invite you both to tea at our home on the 2nd Thursday of next month.  Mr. Pembroke and I very much look forward to seeing you then."
+		""
+		"Please RSVP"
+		""
+		"Priscilla Pembroke"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

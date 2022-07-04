@@ -230,7 +230,7 @@ eaxreverb "location_city_tunnel" {
 // Bank
 /////////
 eaxreverb "location_bank_basement" {
-  preset SEWERPIPE
+  preset SMALLWATERROOM
 }
 eaxreverb "location_bank_basement_stairwell" {
   preset STONECORRIDOR

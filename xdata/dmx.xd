@@ -734,3 +734,26 @@ readables/dmx/pembroke_invite
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/letter_pembroke_to_bancroft
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Mr Bancroft,"
+		""
+		"    Apologies for writing to you directly, but since we're neighbours i was hoping you could put in a good word for me regarding my loan application at the bank.  I don't forsee any problems, it's just that, well, a great deal hinges on obtaining this loan shall we say.  I do hope to return the favour one day, after all."
+		""
+		"Sincerely,"
+		""
+		"Tobias Pembroke"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

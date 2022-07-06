@@ -109,6 +109,9 @@ void move_postman()
 
     // make him face south
     newPostman.setAngles('0 -90 0');
+
+    // we don't want the player to discover the secret exit before now
+    $crypt_torch_lever.setFrobable(1);
 }
 
 void change_meeting_place_objectives()

@@ -1,5 +1,9 @@
 // DMX map script
 
+/////////////
+// GLOBALS
+/////////////
+
 // state of the lights in TSS office/warehouse.  1 is on, 0 is off
 float tss_lights_on = 1;
 
@@ -9,6 +13,35 @@ float crypt_exit_triggered = 0;
 // Gerald/Holly objective states
 float gerald_journal_read = 0;
 float holly_letter_read = 0;
+
+// Bank vault safe states
+float safe1_opened = 0;
+float safe2_opened = 0;
+
+////////////////
+// END GLOBALS
+////////////////
+
+void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
+{
+    if (!$player1.getObjectiveVisible(4))
+    {
+        string doorName = door.getName();
+        if (doorName == "bank_safedoor_1")
+        {
+            safe1_opened = 1;
+        }
+        else if (doorName == "bank_safedoor_2")
+        {
+            safe2_opened = 1;
+        }
+
+        if (safe1_opened && safe2_opened)
+        {
+            $player1.setObjectiveState(4, 1);
+        }
+    }
+}
 
 float getTSSCameraState() 
 {
@@ -101,7 +134,9 @@ void move_postman()
     // set up an 'ai_trigger_look' to trigger objective when the player looks at him
     sys.setSpawnArg("scriptobject", "ai_trigger_look");
     sys.setSpawnArg("tol_distance", "200");
-    sys.setSpawnArg("tol_angle", "2");
+
+    // tol_angle should be 0.1, but doesn't work: https://wiki.thedarkmod.com/index.php?title=Triggering_events_when_looking_at_something#Remarks
+    sys.setSpawnArg("tol_angle", "2"); 
     sys.setSpawnArg("once", "1");
     sys.setSpawnArg("target0", "target_change_meeting_place_objectives");
 
@@ -190,27 +225,25 @@ void trigger_crypt_exit()
 
 // If the Gerald/Holly objective isn't yet visible and you've
 // read both their readables, make the objective visible
-void gerald_holly_objective()
+void geraldHollyObjective(entity ent_target, entity readable, entity ent_callscriptfunction)
 {
     if (!$player1.getObjectiveVisible(8))
     {
+        string readableName = readable.getName();
+        if (readableName == "holly_letter")
+        {
+            holly_letter_read = 1;
+        }
+        else if (readableName == "gerald_journal")
+        {
+            gerald_journal_read = 1;
+        }
+
         if (holly_letter_read && gerald_journal_read)
         {
             $player1.setObjectiveVisible(8, 1);
         }
     }
-}
-
-void read_gerald_journal()
-{
-    gerald_journal_read = 1;
-    gerald_holly_objective();
-}
-
-void read_holly_letter()
-{
-    holly_letter_read = 1;
-    gerald_holly_objective();
 }
 
 // main - keep at bottom

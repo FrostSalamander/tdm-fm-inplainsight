@@ -705,10 +705,11 @@ readables/dmx/letter_holly_parents
 		"Love,"
 		"Holly"
 	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
-	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
 
 readables/dmx/pembroke_invite
 {
@@ -753,6 +754,33 @@ readables/dmx/letter_pembroke_to_bancroft
 		"Sincerely,"
 		""
 		"Tobias Pembroke"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_ship_to_bank
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"SHIP TO: EATON BANK"
+		""
+		"INVOICE NO. 056"
+		""
+		"CONTENTS:"
+		""
+		"4x security camera model II"
+		"4x display panel"
+		"4x control switch"
+		"4x mounting kit"
+		"1x spare parts pack"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"

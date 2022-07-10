@@ -15,7 +15,7 @@ windowDef Desktop
 			bordersize   1
  			bordercolor  1, 1, 1, 0.5
 		backcolor    1, 0, 0, 0.5
-		text         "In Plain Sight..."
+		text         "In Plain Sight"
 		textscale    1.25
 		font         "fonts/medusa"
 		textalign    1

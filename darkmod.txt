@@ -1,4 +1,4 @@
-Title: DMX
+Title: In Plain Sight
 Version: [VERSION]
 Author: Frost_Salamander
-Description: dmx (WIP)
+Description: You are an intelligence officer tasked with revealing the source of an uprising.

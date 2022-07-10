@@ -1,18 +1,37 @@
 skin wall04_old_bricks_dark_messy
 {
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_bricks_dark_messy
 }
 
 skin wall04_blocks_flat_ochre_smoky
 {
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
     model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door02.lwo
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_flat_ochre_smoky
 }
 
+skin wall04_old_bricks_dark_grey
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
+    model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door02.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_bricks_darkgrey
+}
+
+skin wall04_old_bricks_dark_brown
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
+    model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door02.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/bricks_darkbrown
+}
+
 skin wall04_blocks_flat_ochre_smoky_lit
 {
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
     model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_door02.lwo
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
 
@@ -29,18 +48,21 @@ skin ext_timber_old_worn_blocks_003
 
 skin wall04_blocks_sepia_grey
 {
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/blocks_sepia_grey
 }
 
 skin wall04_old_small_blueyellow_crumble
 {
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_small_blueyellow_crumble
 }
 
 skin wall04_rough_brick_grey
 {
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/rough_brick_grey
 }

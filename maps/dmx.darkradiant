@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1604671" } 
-		KeyValue { "LastCameraAngle" "-9.6 272.1 0" } 
-		KeyValue { "LastCameraPosition" "-784.718 -286.133 378.752" } 
+		KeyValue { "EditTimeInSeconds" "1605251" } 
+		KeyValue { "LastCameraAngle" "-3.3 264.9 0" } 
+		KeyValue { "LastCameraPosition" "-1107.04 577.194 -330.035" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/smf/portal_sky" } 
 	}
 	SelectionGroups
@@ -273,7 +273,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2066 { "" }
 		SelectionGroup 2067 { "" }
 		SelectionGroup 2069 { "" }
-		SelectionGroup 2070 { "" }
 		SelectionGroup 2072 { "" }
 		SelectionGroup 2073 { "" }
 		SelectionGroup 2074 { "" }
@@ -281,7 +280,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2076 { "" }
 		SelectionGroup 2077 { "" }
 		SelectionGroup 2078 { "" }
-		SelectionGroup 2079 { "" }
 		SelectionGroup 2083 { "" }
 		SelectionGroup 2084 { "" }
 		SelectionGroup 2093 { "" }
@@ -2220,8 +2218,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2567 ) ( 2069 ) } // entity (func_static_1801)
 		Node { ( 2568 ) ( 2069 ) } // entity (func_static_1802)
 		Node { ( 2569 ) ( 2069 ) } // entity (func_static_1804)
-		Node { ( 2570 ) ( 2070 ) } // entity (light_torchflame_with_glare_5)
-		Node { ( 2571 ) ( 2070 ) } // entity (func_static_1803)
 		Node { ( 2572 ) ( 2072 ) } // entity (func_static_1685)
 		Node { ( 2573 ) ( 2072 ) } // entity (func_static_1695)
 		Node { ( 2574 ) ( 2072 ) } // entity (func_static_1805)
@@ -2246,8 +2242,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2595 6510 ) ( 2074 2076 ) } // patch (Patch)
 		Node { ( 2595 6511 ) ( 2075 ) } // patch (Patch)
 		Node { ( 2595 6512 ) ( 2073 2077 ) } // patch (Patch)
-		Node { ( 2596 ) ( 2079 ) } // entity (light_torchflame_with_glare_6)
-		Node { ( 2597 ) ( 2079 ) } // entity (func_static_1815)
 		Node { ( 2598 6513 ) ( 2084 ) } // brush (Brush)
 		Node { ( 2598 6514 ) ( 2084 ) } // brush (Brush)
 		Node { ( 2598 6515 ) ( 2084 ) } // brush (Brush)
@@ -3351,7 +3345,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1604671 }
+		TotalSecondsEdited { 1605251 }
 	}
 	Layers
 	{

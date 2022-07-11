@@ -1,0 +1,131 @@
+models/darkmod/potions/blue
+{
+
+	glass
+	qer_editorimage models/darkmod/props/textures/acid_ed
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/blue_potion
+		scroll	time * 0.2 , time * 0	
+	}
+	{
+	//	if ( parm11 >= 0.5 ) 
+		blend	add
+		map	models/darkmod/props/textures/blue_potion
+		rgb	0.2
+		scroll	time * 0 , time * 0.2	
+		//scale	 2 , 1
+	}
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/blue_potion
+        rgb         0.15 * parm11
+    }
+}
+
+models/darkmod/potions/yellow
+{
+
+	glass
+	qer_editorimage models/darkmod/props/textures/acid_ed
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/yellow_potion
+		scroll	time * 0.2 , time * 0	
+	}
+	{
+	//	if ( parm11 >= 0.5 ) 
+		blend	add
+		map	models/darkmod/props/textures/yellow_potion
+		rgb	0.2
+		scroll	time * 0 , time * 0.2	
+		//scale	 2 , 1
+	}
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/yellow_potion
+        rgb         0.15 * parm11
+    }
+}
+
+models/darkmod/potions/purple
+{
+
+	glass
+	qer_editorimage models/darkmod/props/textures/acid_ed
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/purple_potion
+		scroll	time * 0.2 , time * 0	
+	}
+	{
+	//	if ( parm11 >= 0.5 ) 
+		blend	add
+		map	models/darkmod/props/textures/purple_potion
+		rgb	0.2
+		scroll	time * 0 , time * 0.2	
+		//scale	 2 , 1
+	}
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/purple_potion
+        rgb         0.15 * parm11
+    }
+}
+
+models/darkmod/potions/dark_purple
+{
+
+	glass
+	qer_editorimage models/darkmod/props/textures/acid_ed
+
+	{
+		blend	diffusemap
+		map	models/darkmod/props/textures/dark_purple_potion
+		scroll	time * 0.2 , time * 0	
+	}
+	{
+	//	if ( parm11 >= 0.5 ) 
+		blend	add
+		map	models/darkmod/props/textures/dark_purple_potion
+		rgb	0.2
+		scroll	time * 0 , time * 0.2	
+		//scale	 2 , 1
+	}
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/dark_purple_potion
+        rgb         0.15 * parm11
+    }
+}

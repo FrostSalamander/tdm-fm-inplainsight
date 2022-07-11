@@ -1,0 +1,29 @@
+skin potion_acid
+{
+    model models/darkmod/player_equipment/health_potion.lwo
+    models/darkmod/potions/health models/darkmod/potions/acid
+}
+
+skin blue_potion
+{
+    model models/darkmod/player_equipment/health_potion.lwo
+    models/darkmod/potions/health models/darkmod/potions/blue
+}
+
+skin yellow_potion
+{
+    model models/darkmod/player_equipment/health_potion.lwo
+    models/darkmod/potions/health models/darkmod/potions/yellow
+}
+
+skin purple_potion
+{
+    model models/darkmod/player_equipment/health_potion.lwo
+    models/darkmod/potions/health models/darkmod/potions/purple
+}
+
+skin dark_purple_potion
+{
+    model models/darkmod/player_equipment/health_potion.lwo
+    models/darkmod/potions/health models/darkmod/potions/dark_purple
+}

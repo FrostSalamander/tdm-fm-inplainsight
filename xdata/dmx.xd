@@ -785,3 +785,97 @@ readables/dmx/note_ship_to_bank
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/book_alchemy
+{
+	precache
+	"num_pages"	: "3"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+	}
+	"page1_right_title"	:
+	{
+		"            ALCHEMY"
+	}
+	"page1_right_body"	:
+	{
+		""
+		""
+		""
+		""
+		"    MYTH vs REALITY"
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		"(nothing much of interest...)"
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		""
+	}
+	"page3_left_title"	:
+	{
+		"Diamonds from Coal"
+	}
+	"page3_left_body"	:
+	{
+		""
+		""
+		"This is one of the biggest myths of them all.  Nothing but centuries of intense pressure and temperatures will produce..."
+		" "
+		"(continues on...)"
+	}
+	"page3_right_title"	:
+	{
+		""
+	}
+	"page3_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page3"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/journal_mage
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"I've bloody well done it!!!  Myth.... pffft!"
+		""
+		"I'm going to the pub to celebrate!"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

@@ -1,5 +1,6 @@
 skin wood_ladder
 {
+    model models/darkmod/architecture/ladders/ladder_4steps.ase
     model models/darkmod/architecture/ladders/ladder_8steps.ase
     textures/darkmod/metal/flat/simple_rough_grey01 textures/darkmod/wood/boards/rough_wood_brown
 }

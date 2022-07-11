@@ -9,6 +9,13 @@ eaxreverb "location_start" {
 eaxreverb "location_inn_area" {
   preset CITY_STREETS
 }
+eaxreverb "location_mage_library" {
+  preset WOODEN_SMALLROOM
+}
+
+////////
+// Inn
+////////
 eaxreverb "location_inn_side_entrance" {
   preset WOODEN_SMALLROOM
 }

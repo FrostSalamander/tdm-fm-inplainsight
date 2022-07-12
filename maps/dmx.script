@@ -218,7 +218,11 @@ void trigger_crypt_exit()
     player player_self = $player1;
     if (player_self.AI_CROUCH && !crypt_exit_triggered)
     {
+        // open the secret door
         sys.trigger($crypt_secret_exit_door);
+
+        // func_aas_obstacle used to prevent fleeing AI from using the secret door: https://bugs.thedarkmod.com/view.php?id=6005
+        sys.trigger($crypt_obstacle);
         crypt_exit_triggered = 1;
     }
 }

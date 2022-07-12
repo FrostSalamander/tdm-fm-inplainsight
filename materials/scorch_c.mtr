@@ -1,0 +1,14 @@
+textures/darkmod/custom/decals/scorch2_c
+{
+	translucent
+	nonsolid
+	noshadows
+	//sort 1
+	//qer_editorimage textures/decals/scorch2.tga
+
+	{       
+		blend		gl_dst_color,gl_zero
+		map		textures/darkmod/custom/decals/scorch2_c
+		
+	}
+}

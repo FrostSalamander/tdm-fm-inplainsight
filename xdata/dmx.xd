@@ -448,7 +448,7 @@ readables/dmx/letter_uprising
 		""
 		"The Group"
 	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -688,7 +688,7 @@ readables/dmx/letter_holly_parents
 	{
 		"Dear Mum,"
 		""
-		"    I'm settling in fine so far.  I've found a flat in the city, not far from the church.  I haven't managed to find any work yet, there is an Inn nearby though that I don't think has any entertainment.  The manager is away so they told me to come back in a few days."
+		"    I'm settling in fine so far.  I've found a flat in the city, not far from the church.  I haven't managed to find any work yet, although there is an Inn nearby that I don't think has any entertainment.  The manager is away so they told me to come back in a few days."
 		""
 		"    My next door neighbour is a really nice man.  His name is Gerald and he owns the bakery downstairs.  I keep going to buy bread from him even though I don't really need it!  He seems lonely - one of these days "
 	}

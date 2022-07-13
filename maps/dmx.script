@@ -24,7 +24,9 @@ float safe2_opened = 0;
 
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
 {
-    if (!$player1.getObjectiveVisible(4))
+    sys.println("checkVaultObjective called.");
+
+    if ($player1.getObjectiveVisible(4))
     {
         string doorName = door.getName();
         if (doorName == "bank_safedoor_1")
@@ -38,6 +40,7 @@ void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfu
 
         if (safe1_opened && safe2_opened)
         {
+            sys.println("Objective complete.");
             $player1.setObjectiveState(4, 1);
         }
     }

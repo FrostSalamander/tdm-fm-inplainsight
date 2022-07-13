@@ -9,3 +9,34 @@ thunder_fs
 	sound/ambient/environmental/thunder_close01.wav         // sound by hantorio
 	sound/ambient/environmental/thunder_close02.wav
 }
+
+city_sounds_varied_fs
+{
+    editor_displayFolder  map_specific
+	minDistance	999999
+	maxDistance	999999
+	volume		1
+
+    sound/ambient/environmental/animal_dog01.ogg
+    sound/ambient/environmental/animal_dog02.ogg
+
+    sound/ambient/environmental/animal_bird_wings01.ogg
+    sound/ambient/environmental/animal_pigeon_wings01.ogg
+
+    sound/sfx/world/doors/door_squeak01.ogg
+    sound/sfx/world/doors/door_shut_2.ogg
+
+    sound/ambient/environmental/people_man_yell03.ogg
+    sound/ambient/environmental/people_distant_cough01.ogg
+}
+
+city_sounds_dogs_fs
+{
+    editor_displayFolder  map_specific
+	minDistance	999999
+	maxDistance	999999
+	volume		1
+
+    sound/ambient/environmental/animal_dog01.ogg
+    sound/ambient/environmental/animal_dog02.ogg
+}

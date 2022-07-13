@@ -2,14 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1635334" } 
-		KeyValue { "LastCameraAngle" "-31.8 90 0" } 
-		KeyValue { "LastCameraPosition" "-105.63 -1116.7 -202.621" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/metal_irregularpanes" } 
+		KeyValue { "EditTimeInSeconds" "1635716" } 
+		KeyValue { "LastCameraAngle" "-33 293.7 0" } 
+		KeyValue { "LastCameraPosition" "-377.716 684.822 -333.421" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/editor/aasobstacle" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1635334 }
+		TotalSecondsEdited { 1635716 }
+	}
+	SelectionSets
+	{
 	}
 	Layers
 	{
@@ -15445,6 +15448,8 @@ DarkRadiant Map Information File Version 2
 		Node { 8 } // brush (Brush)
 		Node { 8 } // brush (Brush)
 		Node { 8 } // brush (Brush)
+		Node { 0 } // entity (func_aas_obstacle_1)
+		Node { 0 } // brush (Brush)
 	}
 	SelectionGroups
 	{
@@ -18847,8 +18852,5 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4983 10432 ) ( 2808 ) } // brush (Brush)
 		Node { ( 4983 10433 ) ( 2390 2812 ) } // brush (Brush)
 		Node { ( 4983 10434 ) ( 2812 ) } // brush (Brush)
-	}
-	SelectionSets
-	{
 	}
 }

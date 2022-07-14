@@ -1,21 +1,21 @@
 thunder_fs
 {
     editor_displayFolder  map_specific
-	minDistance	999999
-	maxDistance	999999
-	volume		1
-	no_efx
+    minDistance 999999
+    maxDistance 999999
+    volume  1
+    no_efx
 
-	sound/ambient/environmental/thunder_close01.wav         // sound by hantorio
-	sound/ambient/environmental/thunder_close02.wav
+    sound/ambient/environmental/thunder_close01.wav         // sound by hantorio
+    sound/ambient/environmental/thunder_close02.wav
 }
 
 city_sounds_varied_fs
 {
     editor_displayFolder  map_specific
-	minDistance	999999
-	maxDistance	999999
-	volume		1
+    minDistance 999999
+    maxDistance 999999
+    volume  1
 
     sound/ambient/environmental/animal_dog01.ogg
     sound/ambient/environmental/animal_dog02.ogg
@@ -33,9 +33,9 @@ city_sounds_varied_fs
 city_sounds_dogs_fs
 {
     editor_displayFolder  map_specific
-	minDistance	999999
-	maxDistance	999999
-	volume		1
+    minDistance 999999
+    maxDistance 999999
+    volume  1
 
     sound/ambient/environmental/animal_dog01.ogg
     sound/ambient/environmental/animal_dog02.ogg

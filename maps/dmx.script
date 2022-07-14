@@ -18,6 +18,9 @@ float holly_letter_read = 0;
 float safe1_opened = 0;
 float safe2_opened = 0;
 
+// Objectives
+float GET_TO_MEETING_PLACE = 12;
+
 ////////////////
 // END GLOBALS
 ////////////////
@@ -128,6 +131,10 @@ void enableTSSCamera()
 
 void move_postman()
 {
+
+    // objective to get to the meeting place becomes visible
+    $player1.setObjectiveVisible(GET_TO_MEETING_PLACE, 1);
+
     // remove the initial AI who was in the Inn
     $ai_postman.remove();
 
@@ -150,6 +157,17 @@ void move_postman()
 
     // we don't want the player to discover the secret exit before now
     $crypt_torch_lever.setFrobable(1);
+}
+
+void completeMeetingPlaceObjective()
+{
+    // TODO: DEBUG, remove
+    sys.println("completeMeetingPlaceObjective triggered...");
+
+    if ($player1.getObjectiveVisible(GET_TO_MEETING_PLACE))
+    {
+            $player1.setObjectiveState(GET_TO_MEETING_PLACE, 1);
+    }
 }
 
 void change_meeting_place_objectives()

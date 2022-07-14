@@ -587,7 +587,7 @@ readables/dmx/note_to_hastings_from_inspector
 readables/dmx/note_to_heywood
 {
 	precache
-	"num_pages"	: "2"
+	"num_pages"	: "3"
 	"page1_title"	:
 	{
 		""
@@ -610,12 +610,24 @@ readables/dmx/note_to_heywood
 	{
 		"funding.  However I feel I am being stalled by that pencil-pusher Lumley. In fact, it's making me downright suspicious..."
 		""
-		"    Finally, that thug in the cell downstairs turned out to be a dead end. Although he was shooting his mouth off about a 'new start', he was just regurgitating the nonsense in that literature that has been floating around recently.  He had a few too many at the Inn and doesn't appear to have had a hand in organising anything."
+		"    That thug in the cell downstairs turned out to be a dead end. He had a few too many at the Inn and was just shooting his mouth off.  I'll release him in the morning."
+		""
+		"    On another matter, a Mr. Troutbeck came by to report that some equipement was stolen from his warehouse.  Security cameras apparently.  I think I might know who is responsible, but he's a slippery character and"
+		""
+	}
+	"page3_title"	:
+	{
+		""
+	}
+	"page3_body"	:
+	{
+		"we'll need some proper evidence, or catch him in the act."
 		""
 		"Chief Constable Hastings"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page3"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 

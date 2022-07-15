@@ -1,4 +1,4 @@
-$rev = "0.3"
+$rev = "0.4"
 $revSuffix="_v$rev"
 
 $devMissionName = 'dmx'

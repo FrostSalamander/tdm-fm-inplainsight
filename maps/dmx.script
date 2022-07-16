@@ -27,8 +27,6 @@ float GET_TO_MEETING_PLACE = 12;
 
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
 {
-    sys.println("checkVaultObjective called.");
-
     if ($player1.getObjectiveVisible(4))
     {
         string doorName = door.getName();
@@ -43,7 +41,6 @@ void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfu
 
         if (safe1_opened && safe2_opened)
         {
-            sys.println("Objective complete.");
             $player1.setObjectiveState(4, 1);
         }
     }
@@ -161,9 +158,6 @@ void move_postman()
 
 void completeMeetingPlaceObjective()
 {
-    // TODO: DEBUG, remove
-    sys.println("completeMeetingPlaceObjective triggered...");
-
     if ($player1.getObjectiveVisible(GET_TO_MEETING_PLACE))
     {
             $player1.setObjectiveState(GET_TO_MEETING_PLACE, 1);
@@ -172,9 +166,6 @@ void completeMeetingPlaceObjective()
 
 void change_meeting_place_objectives()
 {
-    // DEBUG: remove
-    sys.println("ai_trigger_look triggered.");
-
     // objective to capture the perpetrator becomes visible
     $player1.setObjectiveVisible(7, 1);
 
@@ -208,18 +199,13 @@ void frobSafeBar(entity safeBar)
 
 void swish()
 {
-    player player_self = $player1;
-    sys.println(player_self.getMoveType());
-    
     sys.trigger($speaker_swish);
-    
 }
 
 boolean isPostmanShouldered()
 {
     entity body = $player1.getShouldered();
     string name = body.getName();
-    sys.println("name: " + name);
 
     return (name == "ai_postman");
 }

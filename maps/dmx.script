@@ -19,7 +19,11 @@ float safe1_opened = 0;
 float safe2_opened = 0;
 
 // Objectives
-float GET_TO_MEETING_PLACE = 12;
+float OBJ_BREAK_INTO_VAULT = 4;
+float OBJ_PLOT = 5;
+float OBJ_END_MISSION = 7;
+float OBJ_CUPID = 8;
+float OBJ_GET_TO_MEETING_PLACE = 12;
 
 ////////////////
 // END GLOBALS
@@ -27,7 +31,7 @@ float GET_TO_MEETING_PLACE = 12;
 
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
 {
-    if ($player1.getObjectiveVisible(4))
+    if ($player1.getObjectiveVisible(OBJ_BREAK_INTO_VAULT))
     {
         string doorName = door.getName();
         if (doorName == "bank_safedoor_1")
@@ -41,7 +45,7 @@ void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfu
 
         if (safe1_opened && safe2_opened)
         {
-            $player1.setObjectiveState(4, 1);
+            $player1.setObjectiveState(OBJ_BREAK_INTO_VAULT, 1);
         }
     }
 }
@@ -130,7 +134,7 @@ void move_postman()
 {
 
     // objective to get to the meeting place becomes visible
-    $player1.setObjectiveVisible(GET_TO_MEETING_PLACE, 1);
+    $player1.setObjectiveVisible(OBJ_GET_TO_MEETING_PLACE, 1);
 
     // remove the initial AI who was in the Inn
     $ai_postman.remove();
@@ -158,22 +162,22 @@ void move_postman()
 
 void completeMeetingPlaceObjective()
 {
-    if ($player1.getObjectiveVisible(GET_TO_MEETING_PLACE))
+    if ($player1.getObjectiveVisible(OBJ_GET_TO_MEETING_PLACE))
     {
-            $player1.setObjectiveState(GET_TO_MEETING_PLACE, 1);
+            $player1.setObjectiveState(OBJ_GET_TO_MEETING_PLACE, 1);
     }
 }
 
 void change_meeting_place_objectives()
 {
     // objective to capture the perpetrator becomes visible
-    $player1.setObjectiveVisible(7, 1);
+    $player1.setObjectiveVisible(OBJ_END_MISSION, 1);
 
     // wait a bit so these both don't happen at once
     sys.wait(3);
 
     // complete objective to find out who is behind the plot
-    $player1.setObjectiveState(5, 1);
+    $player1.setObjectiveState(OBJ_PLOT, 1);
 }
 
 void removeSafeBar(entity safeBar)
@@ -212,9 +216,9 @@ boolean isPostmanShouldered()
 
 void complete_mission()
 {
-    if ($player1.getObjectiveVisible(7) && isPostmanShouldered())
+    if ($player1.getObjectiveVisible(OBJ_END_MISSION) && isPostmanShouldered())
     {
-        $player1.setObjectiveState(7, OBJ_COMPLETE);
+        $player1.setObjectiveState(OBJ_END_MISSION, OBJ_COMPLETE);
     }
 }
 
@@ -238,7 +242,7 @@ void trigger_crypt_exit()
 // read both their readables, make the objective visible
 void geraldHollyObjective(entity ent_target, entity readable, entity ent_callscriptfunction)
 {
-    if (!$player1.getObjectiveVisible(8))
+    if (!$player1.getObjectiveVisible(OBJ_CUPID))
     {
         string readableName = readable.getName();
         if (readableName == "holly_letter")
@@ -252,7 +256,7 @@ void geraldHollyObjective(entity ent_target, entity readable, entity ent_callscr
 
         if (holly_letter_read && gerald_journal_read)
         {
-            $player1.setObjectiveVisible(8, 1);
+            $player1.setObjectiveVisible(OBJ_CUPID, 1);
         }
     }
 }

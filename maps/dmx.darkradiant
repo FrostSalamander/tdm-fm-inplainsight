@@ -2,10 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1651072" } 
-		KeyValue { "LastCameraAngle" "-9 114.3 0" } 
-		KeyValue { "LastCameraPosition" "-98.2192 -480.837 -214.731" } 
+		KeyValue { "EditTimeInSeconds" "1651206" } 
+		KeyValue { "LastCameraAngle" "-27.6 76.8 0" } 
+		KeyValue { "LastCameraPosition" "324.349 -789.481 -176.311" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_sand" } 
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 1651206 }
 	}
 	Layers
 	{
@@ -15508,13 +15512,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (troutbeck_theft_objective_visibility)
 		Node { 0 } // entity (atdm_door_handling_position_1)
 	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 1651072 }
-	}
-	SelectionSets
-	{
-	}
 	SelectionGroups
 	{
 		SelectionGroup 1 { "" }
@@ -18876,5 +18873,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5013 10453 ) ( 1991 ) } // brush (Brush)
 		Node { ( 5013 10454 ) ( 1998 ) } // brush (Brush)
 		Node { ( 5013 10455 ) ( 1998 ) } // brush (Brush)
+	}
+	SelectionSets
+	{
 	}
 }

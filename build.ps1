@@ -1,11 +1,11 @@
 $rev = "0.5"
 $revSuffix="_v$rev"
 
-$devMissionName = 'dmx'
+$devFolderName = 'dmx'
 $missionName = 'inplainsight'
-$missionDir = "C:\games\darkmod\fms\$devMissionName"
+$missionDir = "C:\games\darkmod\fms\$devFolderName"
 $stagingDir = 'C:\Temp\dm_staging'
-$stagingMissionDir = "$stagingDir\$devMissionName"
+$stagingMissionDir = "$stagingDir\$inplainsight"
 $darkmodtxt = "$stagingMissionDir\darkmod.txt"
 
 $pkg = "$stagingMissionDir\$missionName$revSuffix"

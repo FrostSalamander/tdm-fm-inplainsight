@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1651707" } 
-		KeyValue { "LastCameraAngle" "14.4 264 0" } 
-		KeyValue { "LastCameraPosition" "-218.905 -392.925 -120.019" } 
+		KeyValue { "EditTimeInSeconds" "1651898" } 
+		KeyValue { "LastCameraAngle" "-8.7 175.5 0" } 
+		KeyValue { "LastCameraPosition" "-606.329 -499.515 -46.3128" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/dark_varnished" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1651707 }
+		TotalSecondsEdited { 1651898 }
 	}
 	Layers
 	{
@@ -16104,6 +16104,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2821 { "" }
 		SelectionGroup 2822 { "" }
 		SelectionGroup 2823 { "" }
+		SelectionGroup 2825 { "" }
+		SelectionGroup 2826 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -16745,6 +16747,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 176 ) ( 57 ) } // entity (func_static_215)
 		Node { ( 180 ) ( 1571 ) } // entity (door_96x48x2hinge_1)
 		Node { ( 181 ) ( 1571 ) } // entity (doorhandle_96x48x2hinge_1)
+		Node { ( 205 ) ( 2826 ) } // entity (atdm_torch_metal_wall_1)
+		Node { ( 206 ) ( 2825 ) } // entity (atdm_torch_metal_wall_2)
 		Node { ( 207 ) ( 328 ) } // entity (light_5)
 		Node { ( 208 ) ( 328 ) } // entity (func_static_231)
 		Node { ( 209 ) ( 329 ) } // entity (func_static_314)
@@ -18805,6 +18809,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4943 10319 ) ( 2806 ) } // brush (Brush)
 		Node { ( 4943 10320 ) ( 2806 ) } // brush (Brush)
 		Node { ( 4943 10321 ) ( 2806 ) } // brush (Brush)
+		Node { ( 4959 ) ( 2825 ) } // entity (func_static_2947)
+		Node { ( 4960 ) ( 2826 ) } // entity (func_static_2948)
 		Node { ( 4967 10363 ) ( 2390 2812 ) } // brush (Brush)
 		Node { ( 4967 10364 ) ( 2390 2812 ) } // brush (Brush)
 		Node { ( 4967 10365 ) ( 2809 ) } // brush (Brush)

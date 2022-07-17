@@ -39,6 +39,7 @@ skin mansion_dark_redwood_unlit
 	model "models/darkmod/furniture/shelves/bookshelf_wide01_alt_empty.lwo"
 	model "models/darkmod/furniture/book_mount_standing.lwo"
 
+	model "models/darkmod/furniture/tables/pedestal01_mansion01_tall.lwo"
 
 	"textures/darkmod/wood/panels/molding_walnut" "textures/darkmod/wood/panels/molding_darkredwood"
 	"textures/darkmod/wood/panels/panel_carved_rectangles_01_walnut" "textures/darkmod/wood/panels/panel_carved_star"

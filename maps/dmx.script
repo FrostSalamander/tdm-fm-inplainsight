@@ -137,7 +137,7 @@ void move_postman()
     $player1.setObjectiveVisible(OBJ_GET_TO_MEETING_PLACE, 1);
 
     // remove the initial AI who was in the Inn
-    $ai_postman.remove();
+    $ai_postman_start.remove();
 
     // place him in the crypt
     sys.setSpawnArg("origin", "-935.679 -535.221 -295.853");
@@ -151,6 +151,7 @@ void move_postman()
     sys.setSpawnArg("once", "1");
     sys.setSpawnArg("target0", "target_change_meeting_place_objectives");
 
+    sys.setSpawnArg("name", "ai_postman");
     entity newPostman = sys.spawn("atdm:postman");
 
     // make him face south

@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1659653" } 
-		KeyValue { "LastCameraAngle" "-2.39999 150.3 0" } 
-		KeyValue { "LastCameraPosition" "-1160.77 1153.58 -26.0356" } 
+		KeyValue { "EditTimeInSeconds" "1659711" } 
+		KeyValue { "LastCameraAngle" "-31.8 117.9 0" } 
+		KeyValue { "LastCameraPosition" "-365.569 -472.977 -37.0843" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1659653 }
+		TotalSecondsEdited { 1659711 }
 	}
 	Layers
 	{
@@ -10638,7 +10638,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
-		Node { 0 } // entity (atdm_postman_2)
+		Node { 0 } // entity (ai_postman_start)
 		Node { 0 } // entity (post_office_key)
 		Node { 0 } // entity (atdm_moveable_stool_round_1)
 		Node { 0 } // entity (atdm_moveable_stool_round_2)

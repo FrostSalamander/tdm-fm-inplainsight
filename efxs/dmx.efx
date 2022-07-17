@@ -174,9 +174,6 @@ eaxreverb "location_johan_upper" {
 eaxreverb "location_johan_lower" {
   preset WOODEN_SMALLROOM
 }
-eaxreverb "location_johan_bathroom" {
-  preset WOODEN_SMALLROOM
-}
 
 ////////////////////////////////
 // Watch Station / Bank section

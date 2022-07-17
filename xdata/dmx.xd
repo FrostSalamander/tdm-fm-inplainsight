@@ -119,7 +119,7 @@ readables/dmx/journal_troutbeck
 		"3 September,"
 		""
 		"Thank the builder! My business is doing fantasically well thanks to the progress I've made on the new security camera.  I've been able to buy this house in this wealthy neighbourhood - what a change after years of toiling away in my tiny flat."
-		"  Things are about to get even better.  Lord Eaton has  become Troutbeck Security "
+		"  Things are about to get even better.  Lord Eaton has become Troutbeck Security "
 	}
 	"page1_right_title"	:
 	{
@@ -127,7 +127,7 @@ readables/dmx/journal_troutbeck
 	}
 	"page1_right_body"	:
 	{
-		"Services number one customer!  He has given the go ahead to purchase some of the new cameras for the bank.  He was very impressed after seeing them in action at the City Watch gates, and then my demonstration of the advanced prototype that is protecting my warehouse sealed the deal."
+		"Services number one customer!  He has given the go ahead to purchase some of the new cameras for the bank.  He was very impressed after my demonstration of the advanced prototype that is protecting my warehouse."
 		"    The installation at the bank will go ahead once Eaton upgrades the bank's electricity supply to use the "
 	}
 	"page2_left_title"	:
@@ -136,7 +136,7 @@ readables/dmx/journal_troutbeck
 	}
 	"page2_left_body"	:
 	{
-		"latest arc  transformers. "
+		"latest arc transformers. "
 		"    Eaton has also asked for a security consultation for his mansion. I'm sending Johan over there first thing in the morning.  Can't let a customer like Lord Eaton wait too long!"
 	}
 	"page2_right_title"	:
@@ -344,9 +344,9 @@ readables/dmx/note_bank_records_to_constable
 	{
 		"Chief Constable Hastings,"
 		""
-		"    In response to your inquiy regarding recent loan activity, I can provide the following information:"
+		"    In response to your inquiry regarding recent loan activity, I can provide the following information:"
 		""
-		"Nicholas Troutbeck: 60g, payble in 24 months. For expanding his business, Troutbeck Security Services."
+		"Nicholas Troutbeck: 60g, payable in 24 months. For expanding his business, 'Troutbeck Security Services'."
 		""
 		"Samuel Parker: 30g, payable in 18 months. Wine shop improvements."
 		""
@@ -360,7 +360,7 @@ readables/dmx/note_bank_records_to_constable
 	{
 		" months. 'Personal reasons'."
 		""
-		"    The only oddity is that Mr. Troutbeck's loan was underwritten by Lord Eaton personsally rather than via his holding company.  Although this is rare, it's not unheard of.  You will need to interview Lord Eaton personally if you wish to pursue the matter."
+		"    The only oddity is that Mr. Troutbeck's loan was underwritten by Lord Eaton personally rather than via his holding company.  Although this is rare, it's not unheard of.  You will need to interview Lord Eaton if you wish to pursue the matter."
 		""
 		"Sincerely,"
 		"Giles Lumley, Records Manager"
@@ -656,7 +656,7 @@ readables/dmx/journal_baker
 	{
 		"14 Sept 27"
 		""
-		"    I got another one of those dodgy letters today.  I've just left it there this time, and once I'm done the morning baking I'm going straight to the CIty Watch to show them.  I don't want anyone thinking I'm up to no good!"
+		"    I got another one of those dodgy letters today.  I've just left it there this time, and once I'm done the morning baking I'm going straight to the City Watch to show them.  I don't want anyone thinking I'm up to no good!"
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_jd_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -738,7 +738,7 @@ readables/dmx/pembroke_invite
 		""
 		"Lord and Lady Eaton,"
 		""
-		"    It is with great pleasure that I wish to invite you both to tea at our home on the 2nd Thursday of next month.  Mr. Pembroke and I very much look forward to seeing you then."
+		"    It is with great pleasure that I invite you both to tea at our home on the 2nd Thursday of next month.  Mr. Pembroke and I very much look forward to seeing you then."
 		""
 		"Please RSVP"
 		""

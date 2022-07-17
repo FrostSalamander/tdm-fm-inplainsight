@@ -1,7 +1,6 @@
 entityDef atdm:postman
 {
 	"inherit"                 "atdm:ai_townsfolk_commoner"
-	"name"                    "ai_postman"
 	"shouldered_name"         "Nelson"
 	"shouldered_name_dead"    "Nelson (dead)"
 	"skin"                    "commoner/default_leathergreaves"

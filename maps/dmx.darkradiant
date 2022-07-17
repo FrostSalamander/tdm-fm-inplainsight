@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1660758" } 
-		KeyValue { "LastCameraAngle" "-2.7 162.3 0" } 
-		KeyValue { "LastCameraPosition" "-306.238 -710.121 -193.657" } 
+		KeyValue { "EditTimeInSeconds" "1660896" } 
+		KeyValue { "LastCameraAngle" "-30.6 231.6 0" } 
+		KeyValue { "LastCameraPosition" "-1030.72 340.591 -180.962" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1660758 }
+		TotalSecondsEdited { 1660896 }
 	}
 	Layers
 	{
@@ -9766,10 +9766,10 @@ DarkRadiant Map Information File Version 2
 		Node { 8 } // entity (func_static_1973)
 		Node { 8 } // entity (func_static_1990)
 		Node { 8 } // entity (func_static_1991)
-		Node { 8 } // entity (JewelleryBoxBody_2)
-		Node { 8 } // entity (JewelleryBoxLid_2)
-		Node { 8 } // entity (JewelleryboxFrobControl_2)
-		Node { 8 } // brush (Brush)
+		Node { 3 } // entity (JewelleryBoxBody_2)
+		Node { 3 } // entity (JewelleryBoxLid_2)
+		Node { 3 } // entity (JewelleryboxFrobControl_2)
+		Node { 3 } // brush (Brush)
 		Node { 8 } // entity (func_static_1992)
 		Node { 8 } // entity (func_static_1993)
 		Node { 8 } // entity (func_static_1994)
@@ -15561,9 +15561,9 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // brush (Brush)
-	}
-	SelectionSets
-	{
+		Node { 0 } // entity (atdm_loot_coinstack_medium_silver_3)
+		Node { 0 } // entity (atdm_loot_coinstack_medium_silver_4)
+		Node { 0 } // entity (atdm_loot_coinstack_medium_1)
 	}
 	SelectionGroups
 	{
@@ -15859,7 +15859,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2179 { "" }
 		SelectionGroup 2182 { "" }
 		SelectionGroup 2186 { "" }
-		SelectionGroup 2189 { "" }
 		SelectionGroup 2191 { "" }
 		SelectionGroup 2192 { "" }
 		SelectionGroup 2194 { "" }
@@ -17854,9 +17853,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2757 ) ( 2186 ) } // entity (func_static_1985)
 		Node { ( 2759 ) ( 2191 ) } // entity (func_static_1987)
 		Node { ( 2760 ) ( 2191 ) } // entity (func_static_1988)
-		Node { ( 2765 ) ( 2189 ) } // entity (JewelleryBoxBody_2)
-		Node { ( 2766 ) ( 2189 ) } // entity (JewelleryBoxLid_2)
-		Node { ( 2767 ) ( 2189 ) } // entity (JewelleryboxFrobControl_2)
 		Node { ( 2774 ) ( 2191 ) } // entity (func_static_1997)
 		Node { ( 2784 ) ( 6 2212 ) } // entity (func_static_2001)
 		Node { ( 2785 ) ( 6 2212 ) } // entity (func_static_2003)
@@ -18919,5 +18915,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5039 10491 ) ( 2521 ) } // patch (Patch)
 		Node { ( 5039 10492 ) ( 2521 ) } // patch (Patch)
 		Node { ( 5039 10493 ) ( 2521 ) } // patch (Patch)
+	}
+	SelectionSets
+	{
 	}
 }

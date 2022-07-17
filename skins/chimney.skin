@@ -1,11 +1,20 @@
 skin old_worn_blocks_002
 {
     model models/darkmod/architecture/chimneys/chimney_right.lwo
+
     textures/darkmod/stone/brick/rough_brick_grey textures/darkmod/stone/brick/old_worn_blocks_002
 }
 
 skin old_worn_blocks_003
 {
     model models/darkmod/architecture/chimneys/chimney_right.lwo
+    
     textures/darkmod/stone/brick/rough_brick_grey textures/darkmod/stone/brick/old_worn_blocks_003
+}
+
+skin timber01_chimney_single01_old_worn_blocks_003
+{
+    model models/darkmod/architecture/chimneys/timber01_chimney_single01.lwo
+
+    textures/darkmod/stone/brick/red_brick_dull03 textures/darkmod/stone/brick/old_worn_blocks_003
 }

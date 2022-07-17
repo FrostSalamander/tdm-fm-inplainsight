@@ -5,6 +5,13 @@ skin wall04_old_bricks_dark_messy
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_bricks_dark_messy
 }
 
+skin wall04_old_small_bricks_grey
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_small_bricks_grey
+}
 skin wall04_blocks_flat_ochre_smoky
 {
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo

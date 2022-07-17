@@ -29,6 +29,24 @@ float OBJ_GET_TO_MEETING_PLACE = 12;
 // END GLOBALS
 ////////////////
 
+void setJohanShutterFrobable(float frobable)
+{
+    $johan_shutter1.setFrobable(frobable);
+    $johan_shutter2.setFrobable(frobable);
+    $johan_shutter3.setFrobable(frobable);
+    $johan_shutter4.setFrobable(frobable);
+}
+
+void setJohanShutterFrobableOn(entity zone)
+{
+    setJohanShutterFrobable(1);
+}
+
+void setJohanShutterFrobableOff(entity zone)
+{
+    setJohanShutterFrobable(0);
+}
+
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
 {
     if ($player1.getObjectiveVisible(OBJ_BREAK_INTO_VAULT))

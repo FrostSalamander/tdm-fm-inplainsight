@@ -106,6 +106,7 @@ readables/dmx/diary_rose
 	"snd_page_turn"	: "readable_page_turn"
 }
 
+
 readables/dmx/journal_troutbeck
 {
 	precache
@@ -118,7 +119,8 @@ readables/dmx/journal_troutbeck
 	{
 		"3 September,"
 		""
-		"Thank the builder! My business is doing fantasically well thanks to the progress I've made on the new security camera.  I've been able to buy this house in this wealthy neighbourhood - what a change after years of toiling away in my tiny flat."
+		"    Thank the builder! My business is doing fantasically well thanks to the progress I've made on the new security camera.  I've been able to buy this house in this wealthy neighbourhood - what a change after years of toiling away in my tiny flat."
+		""
 		"  Things are about to get even better.  Lord Eaton has become Troutbeck Security "
 	}
 	"page1_right_title"	:
@@ -128,7 +130,8 @@ readables/dmx/journal_troutbeck
 	"page1_right_body"	:
 	{
 		"Services number one customer!  He has given the go ahead to purchase some of the new cameras for the bank.  He was very impressed after my demonstration of the advanced prototype that is protecting my warehouse."
-		"    The installation at the bank will go ahead once Eaton upgrades the bank's electricity supply to use the "
+		""
+		"    The installation at the bank will go ahead once Eaton upgrades the bank's electricity supply to use the latest arc transformers. "
 	}
 	"page2_left_title"	:
 	{
@@ -136,7 +139,6 @@ readables/dmx/journal_troutbeck
 	}
 	"page2_left_body"	:
 	{
-		"latest arc transformers. "
 		"    Eaton has also asked for a security consultation for his mansion. I'm sending Johan over there first thing in the morning.  Can't let a customer like Lord Eaton wait too long!"
 	}
 	"page2_right_title"	:

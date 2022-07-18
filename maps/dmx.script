@@ -47,6 +47,25 @@ void setJohanShutterFrobableOff(entity zone)
     setJohanShutterFrobable(0);
 }
 
+void walkout()
+{
+    sys.trigger($crypt_gate);
+
+    // let it sink in.
+    sys.wait(5);
+
+    sys.trigger($atdm_ai_townsfolk_commoner_2);
+    sys.wait(6);
+
+    sys.trigger($atdm_ai_townsfolk_commoner_4);
+}
+
+void removeAI(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
+{
+    sys.println("triggered.");
+    triggerEntity.remove();
+}
+
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
 {
     if ($player1.getObjectiveVisible(OBJ_BREAK_INTO_VAULT))

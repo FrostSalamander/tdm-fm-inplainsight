@@ -58,6 +58,13 @@ void walkout()
     sys.wait(6);
 
     sys.trigger($atdm_ai_townsfolk_commoner_4);
+    sys.wait(7);
+
+    sys.trigger($crypt_monster_gate);
+    sys.trigger($crypt_revenant);
+    sys.wait(10);
+
+    sys.trigger($crypt_gate);
 }
 
 void removeAI(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)

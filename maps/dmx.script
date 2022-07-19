@@ -60,6 +60,9 @@ void walkout()
     sys.trigger($atdm_ai_townsfolk_commoner_4);
     sys.wait(7);
 
+    $crypt_ai_exit.Close();
+    $crypt_ai_exit.Lock();
+    
     sys.trigger($crypt_monster_gate);
     sys.trigger($crypt_revenant);
     sys.wait(10);

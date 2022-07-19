@@ -1,0 +1,8 @@
+entityDef atdm:ai_troutbeck
+{
+	"inherit"                 "atdm:ai_inventor_scientist"
+	"shouldered_name"         "Troutbeck"
+	"shouldered_name_dead"    "Troutbeck (dead)"
+	"def_head"                "atdm:ai_head_inventor_goggles_up"
+	"def_vocal_set"           "atdm:ai_vocal_set_critic_inventor_unarmed_01"
+}

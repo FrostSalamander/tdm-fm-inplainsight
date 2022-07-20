@@ -18,6 +18,9 @@ float holly_letter_read = 0;
 float safe1_opened = 0;
 float safe2_opened = 0;
 
+// crypt monster spawn state
+float crypt_monster_spawned = 0;
+
 // Objectives
 float OBJ_BREAK_INTO_VAULT = 4;
 float OBJ_PLOT = 5;
@@ -29,6 +32,7 @@ float OBJ_GET_TO_MEETING_PLACE = 12;
 vector ANGLE_EAST = '90 0 0';
 
 // Entities
+string PLAYER = "player1";
 string CRYPT_MONSTER = "crypt_monster";
 string NELSON = "new_nelson";
 string MRS_PEMBROKE = "new_mrs_pembroke";
@@ -60,26 +64,33 @@ void setJohanShutterFrobableOff(entity zone)
     setJohanShutterFrobable(0);
 }
 
-void spawnAI(string origin, string target, string name, string class, vector angle, string team)
+void removeAI(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
+{
+    if (triggerEntity.getName() != PLAYER)
+    {
+        triggerEntity.remove();
+    }
+}
+
+void spawnAI(string origin, string target, string name, string class, vector angle, string team, boolean mute)
 {
     sys.setSpawnArg("origin", origin);
+
+    if (mute)
+    {
+      sys.setSpawnArg("def_vocal_set", "atdm:ai_vocal_set_mute");
+    }
 
     // target their path_corner
     sys.setSpawnArg("target0", target);
 
     sys.setSpawnArg("team", team);
-
     sys.setSpawnArg("name", name);
+
     entity spawnedAI = sys.spawn(class);
 
     // face desired angle
     spawnedAI.setAngles(angle);
-}
-
-void changeTarget(entity triggerEntity, entity oldTarget, entity newTarget)
-{
-    triggerEntity.removeTarget(oldTarget);
-    triggerEntity.addTarget(newTarget);
 }
 
 // Triggered when last AI (Troutbeck) clears the chamber
@@ -93,7 +104,7 @@ void activateCryptMonster()
     $crypt_ai_exit.Lock();
 
     // spawn the crypt monster
-    spawnAI("-1259.62 -503.401 -295.708", "path_corner_139", CRYPT_MONSTER, "atdm:ai_undead_revenant", ANGLE_EAST, "2");
+    spawnAI("-1259.62 -503.401 -295.708", "path_corner_139", CRYPT_MONSTER, "atdm:ai_undead_revenant", ANGLE_EAST, "2", false);
 
     // wait a bit for the monster to reach his path_waitfortrigger
     sys.wait(2);
@@ -111,31 +122,62 @@ void activateCryptMonster()
     sys.trigger($crypt_gate);
 }
 
-void endSequence()
+void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
+{
+    string name = triggerEntity.getName();
+
+    sys.println(name);
+
+    if (name == NELSON)
+    {
+        sys.trigger(sys.getEntity(MRS_PEMBROKE));
+        triggerEntity.remove();
+    }
+    else if (name == MRS_PEMBROKE)
+    {
+        sys.trigger(sys.getEntity(BANCROFT));
+        triggerEntity.remove();
+    }
+    else if (name == BANCROFT)
+    {
+        sys.trigger(sys.getEntity(TROUTBECK));
+        triggerEntity.remove();
+    }
+    else if (name == TROUTBECK)
+    {
+        triggerEntity.remove();
+        
+        if (!crypt_monster_spawned)
+        {
+            crypt_monster_spawned = 1;
+            activateCryptMonster();
+        }
+    }
+}
+
+void respawnAI()
 {
     // Game characters are removed and re-spawned in case they were KO'd
 
     // replace Nelson
     $ai_postman_start.remove();
-    spawnAI("-1496 -672 -295.853", "path_corner_136", NELSON, "atdm:ai_nelson", ANGLE_EAST, "5");
+    spawnAI("-1496 -672 -295.853", "path_corner_136", NELSON, "atdm:ai_nelson", ANGLE_EAST, "5", true);
 
     // replace Mrs Pembroke
     $old_mrs_pembroke.remove();
-    spawnAI("-1496 -584 -295.853", "path_corner_138", MRS_PEMBROKE, "atdm:ai_mrs_pembroke", ANGLE_EAST, "5");
+    spawnAI("-1496 -584 -295.853", "path_corner_138", MRS_PEMBROKE, "atdm:ai_mrs_pembroke", ANGLE_EAST, "5", true);
 
     // replace Troutbeck
     $old_troutbeck.remove();
-    spawnAI("-1408 -744 -295.986", "path_corner_141", TROUTBECK, "atdm:ai_troutbeck", ANGLE_EAST, "5");
+    spawnAI("-1408 -744 -295.986", "path_corner_141", TROUTBECK, "atdm:ai_troutbeck", ANGLE_EAST, "5", true);
 
     // replace Bancroft
     $old_bancroft.remove();
-    spawnAI("-1432 -544 -295.853", "path_corner_142", BANCROFT, "atdm:ai_bancroft", ANGLE_EAST, "5");
+    spawnAI("-1432 -544 -295.853", "path_corner_142", BANCROFT, "atdm:ai_bancroft", ANGLE_EAST, "5", true);
+}
 
-    // These triggers had a dummy target because their real targets didn't exist until now
-    changeTarget($nelson_trigger, sys.getEntity(CRYPT_DUMMY_TARGET), sys.getEntity(MRS_PEMBROKE));
-    changeTarget($pembroke_trigger, sys.getEntity(CRYPT_DUMMY_TARGET), sys.getEntity(BANCROFT));
-    changeTarget($bancroft_trigger, sys.getEntity(CRYPT_DUMMY_TARGET), sys.getEntity(TROUTBECK));
-    
+void endSequence()
+{
     // close the gate in front of the player
     sys.trigger($crypt_gate);
 
@@ -144,12 +186,6 @@ void endSequence()
 
     // trigger Nelson
     sys.trigger(sys.getEntity(NELSON));
-}
-
-void removeAI(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
-{
-    sys.println("triggered.");
-    triggerEntity.remove();
 }
 
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)

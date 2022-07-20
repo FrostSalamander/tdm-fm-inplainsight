@@ -39,8 +39,9 @@ string MRS_PEMBROKE = "new_mrs_pembroke";
 string TROUTBECK = "new_troutbeck";
 string BANCROFT = "new_bancroft";
 
-string CRYPT_DUMMY_TARGET = "func_static_2997";
-string CSF_CRYPT_MONSTER = "activate_crypt_monster";
+string CRYPT_GATE = "crypt_gate";
+string CRYPT_MONSTER_GATE = "crypt_monster_gate";
+string CRYPT_AI_EXIT_DOOR = "crypt_ai_exit";
 
 ////////////////
 // END GLOBALS
@@ -62,14 +63,6 @@ void setJohanShutterFrobableOn(entity zone)
 void setJohanShutterFrobableOff(entity zone)
 {
     setJohanShutterFrobable(0);
-}
-
-void removeAI(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
-{
-    if (triggerEntity.getName() != PLAYER)
-    {
-        triggerEntity.remove();
-    }
 }
 
 void spawnAI(string origin, string target, string name, string class, vector angle, string team, boolean mute)
@@ -96,12 +89,10 @@ void spawnAI(string origin, string target, string name, string class, vector ang
 // Triggered when last AI (Troutbeck) clears the chamber
 void activateCryptMonster()
 {
-    // Let the AI clear the doorway first
-    sys.wait(3);
-
     // close and lock the door the AI just walked out of
-    $crypt_ai_exit.Close();
-    $crypt_ai_exit.Lock();
+    entity exitDoor = sys.getEntity(CRYPT_AI_EXIT_DOOR);
+    exitDoor.Close();
+    exitDoor.Lock();
 
     // spawn the crypt monster
     spawnAI("-1259.62 -503.401 -295.708", "path_corner_139", CRYPT_MONSTER, "atdm:ai_undead_revenant", ANGLE_EAST, "2", false);
@@ -109,17 +100,14 @@ void activateCryptMonster()
     // wait a bit for the monster to reach his path_waitfortrigger
     sys.wait(2);
 
-    // open the gate
-    sys.trigger($crypt_monster_gate);
-
     // trigger the monster to start patrolling
-    sys.trigger($crypt_monster);
+    sys.trigger(sys.getEntity(CRYPT_MONSTER));
 
     // Let the player stew for a while
     sys.wait(8);
 
     // open the gate blocking the player
-    sys.trigger($crypt_gate);
+    sys.getEntity(CRYPT_GATE).Open();
 }
 
 void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
@@ -135,18 +123,18 @@ void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscri
     }
     else if (name == MRS_PEMBROKE)
     {
-        sys.trigger(sys.getEntity(BANCROFT));
-        triggerEntity.remove();
-    }
-    else if (name == BANCROFT)
-    {
         sys.trigger(sys.getEntity(TROUTBECK));
         triggerEntity.remove();
     }
     else if (name == TROUTBECK)
     {
+        sys.trigger(sys.getEntity(BANCROFT));
         triggerEntity.remove();
-        
+    }
+    else if (name == BANCROFT)
+    {
+        triggerEntity.remove();
+
         if (!crypt_monster_spawned)
         {
             crypt_monster_spawned = 1;
@@ -179,7 +167,7 @@ void respawnAI()
 void endSequence()
 {
     // close the gate in front of the player
-    sys.trigger($crypt_gate);
+    sys.getEntity(CRYPT_GATE).Close();
 
     // let it sink in.
     sys.wait(5);
@@ -391,9 +379,6 @@ void trigger_crypt_exit()
     {
         // open the secret door
         sys.trigger($crypt_secret_exit_door);
-
-        // func_aas_obstacle used to prevent fleeing AI from using the secret door: https://bugs.thedarkmod.com/view.php?id=6005
-        sys.trigger($crypt_obstacle);
         crypt_exit_triggered = 1;
     }
 }

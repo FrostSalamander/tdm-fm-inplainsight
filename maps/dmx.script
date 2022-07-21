@@ -145,6 +145,9 @@ void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscri
 
 void respawnAI()
 {
+    // objective to get to the meeting place becomes visible
+    $player1.setObjectiveVisible(OBJ_GET_TO_MEETING_PLACE, 1);
+
     // Game characters are removed and re-spawned in case they were KO'd
 
     // replace Nelson
@@ -164,6 +167,18 @@ void respawnAI()
     spawnAI("-1432 -544 -295.853", "path_corner_142", BANCROFT, "atdm:ai_bancroft", ANGLE_EAST, "5", true);
 }
 
+void change_meeting_place_objectives()
+{
+    // objective to capture the perpetrator becomes visible
+    $player1.setObjectiveVisible(OBJ_END_MISSION, 1);
+
+    // wait a bit so these both don't happen at once
+    sys.wait(3);
+
+    // complete objective to find out who is behind the plot
+    $player1.setObjectiveState(OBJ_PLOT, 1);
+}
+
 void endSequence()
 {
     // close the gate in front of the player
@@ -174,6 +189,9 @@ void endSequence()
 
     // trigger Nelson
     sys.trigger(sys.getEntity(NELSON));
+
+    // manage the final objectives
+    change_meeting_place_objectives();
 }
 
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
@@ -277,55 +295,12 @@ void enableTSSCamera()
     }
 }
 
-void move_postman()
-{
-
-    // objective to get to the meeting place becomes visible
-    $player1.setObjectiveVisible(OBJ_GET_TO_MEETING_PLACE, 1);
-
-    // remove the initial AI who was in the Inn
-    $ai_postman_start.remove();
-
-    // place him in the crypt
-    sys.setSpawnArg("origin", "-935.679 -535.221 -295.853");
-
-    // set up an 'ai_trigger_look' to trigger objective when the player looks at him
-    sys.setSpawnArg("scriptobject", "ai_trigger_look");
-    sys.setSpawnArg("tol_distance", "200");
-
-    // tol_angle should be 0.1, but doesn't work: https://wiki.thedarkmod.com/index.php?title=Triggering_events_when_looking_at_something#Remarks
-    sys.setSpawnArg("tol_angle", "2"); 
-    sys.setSpawnArg("once", "1");
-    sys.setSpawnArg("target0", "target_change_meeting_place_objectives");
-
-    sys.setSpawnArg("name", "ai_postman");
-    entity newPostman = sys.spawn("atdm:postman");
-
-    // make him face south
-    newPostman.setAngles('0 -90 0');
-
-    // we don't want the player to discover the secret exit before now
-    $crypt_torch_lever.setFrobable(1);
-}
-
 void completeMeetingPlaceObjective()
 {
     if ($player1.getObjectiveVisible(OBJ_GET_TO_MEETING_PLACE))
     {
             $player1.setObjectiveState(OBJ_GET_TO_MEETING_PLACE, 1);
     }
-}
-
-void change_meeting_place_objectives()
-{
-    // objective to capture the perpetrator becomes visible
-    $player1.setObjectiveVisible(OBJ_END_MISSION, 1);
-
-    // wait a bit so these both don't happen at once
-    sys.wait(3);
-
-    // complete objective to find out who is behind the plot
-    $player1.setObjectiveState(OBJ_PLOT, 1);
 }
 
 void removeSafeBar(entity safeBar)
@@ -354,17 +329,9 @@ void swish()
     sys.trigger($speaker_swish);
 }
 
-boolean isPostmanShouldered()
-{
-    entity body = $player1.getShouldered();
-    string name = body.getName();
-
-    return (name == "ai_postman");
-}
-
 void complete_mission()
 {
-    if ($player1.getObjectiveVisible(OBJ_END_MISSION) && isPostmanShouldered())
+    if ($player1.getObjectiveVisible(OBJ_END_MISSION))
     {
         $player1.setObjectiveState(OBJ_END_MISSION, OBJ_COMPLETE);
     }

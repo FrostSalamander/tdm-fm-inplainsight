@@ -2,14 +2,10 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1689168" } 
-		KeyValue { "LastCameraAngle" "-10.5 352.271 0" } 
-		KeyValue { "LastCameraPosition" "1055.33 -1107.9 -258.803" } 
+		KeyValue { "EditTimeInSeconds" "1689416" } 
+		KeyValue { "LastCameraAngle" "-1.8 3.37099 0" } 
+		KeyValue { "LastCameraPosition" "-260.668 -628.736 -117.065" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/papers/burnedpaper01" } 
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 1689168 }
 	}
 	Layers
 	{
@@ -16390,6 +16386,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2879 { "" }
 		SelectionGroup 2880 { "" }
 		SelectionGroup 2881 { "" }
+		SelectionGroup 2882 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -17288,6 +17285,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 842 ) ( 2749 ) } // entity (func_emitter_9)
 		Node { ( 857 ) ( 1564 ) } // entity (func_static_803)
 		Node { ( 858 ) ( 1564 ) } // entity (atdm_moveable_candle_short_2)
+		Node { ( 865 ) ( 2882 ) } // entity (door_96x48x2hinge_8)
+		Node { ( 866 ) ( 2882 ) } // entity (doorhandle_96x48x2hinge_8)
 		Node { ( 868 ) ( 2753 ) } // entity (atdm_lamp_oil_wall_hanging_lit_4)
 		Node { ( 874 ) ( 1568 ) } // entity (atdm_door_96x48_2hinge_2)
 		Node { ( 875 ) ( 1568 ) } // entity (latch1)
@@ -19275,6 +19274,10 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5094 10653 ) ( 2768 ) } // brush (Brush)
 		Node { ( 5094 10655 ) ( 2768 ) } // brush (Brush)
 		Node { ( 5094 10656 ) ( 2767 ) } // brush (Brush)
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 1689416 }
 	}
 	SelectionSets
 	{

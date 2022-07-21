@@ -1,0 +1,8 @@
+entityDef atdm:ai_mrs_pembroke
+{
+	"inherit"                 "atdm:ai_noblewoman01"
+	"shouldered_name"         "Mrs Pembroke"
+	"shouldered_name_dead"    "Mrs Pembroke (dead)"
+	"def_head"                "atdm:ai_head_noblewoman"
+	"def_vocal_set"           "atdm:ai_vocal_set_lady_02"
+}

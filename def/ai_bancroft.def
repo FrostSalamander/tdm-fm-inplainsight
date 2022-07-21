@@ -1,0 +1,8 @@
+entityDef atdm:ai_bancroft
+{
+	"inherit"                 "atdm:ai_nobleman02_unarmed"
+	"shouldered_name"         "Bancroft"
+	"shouldered_name_dead"    "Bancroft (dead)"
+	"def_head"                "atdm:ai_head05_nobleman_young"
+	"def_vocal_set"           "atdm:ai_vocal_set_jack_merchant_01"
+}

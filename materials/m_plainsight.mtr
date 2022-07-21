@@ -1,0 +1,47 @@
+m_plainsight_inn
+{
+  wood
+
+
+   diffusemap   textures/darkmod/decals/signs/m_plainsight_inn
+   bumpmap	 textures/darkmod/decals/signs/sign_local2
+
+
+	
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/m_plainsight_inn
+        rgb         0.15 * parm11
+    }
+}
+
+m_plainsight_bakery
+{
+  wood
+
+
+   diffusemap   textures/darkmod/decals/signs/m_plainsight_bakery
+   bumpmap	 textures/darkmod/decals/signs/sign_local2
+
+
+	
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/m_plainsight_inn
+        rgb         0.15 * parm11
+    }
+}

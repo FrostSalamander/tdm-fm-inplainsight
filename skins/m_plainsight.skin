@@ -1,0 +1,19 @@
+skin m_plainsight_inn
+{
+	model "models/darkmod/decorative/signs/sign_square01.ase"
+	model "models/darkmod/decorative/signs/sign_squarish01.lwo"
+
+
+	"bc_sign01" "m_plainsight_inn"
+	"textures/darkmod/decals/signs/sign_empty" "m_plainsight_inn"
+}
+
+skin m_plainsight_bakery
+{
+	model "models/darkmod/decorative/signs/sign_square01.ase"
+	model "models/darkmod/decorative/signs/sign_squarish01.lwo"
+
+
+	"bc_sign01" "m_plainsight_bakery"
+	"textures/darkmod/decals/signs/sign_empty" "m_plainsight_bakery"
+}

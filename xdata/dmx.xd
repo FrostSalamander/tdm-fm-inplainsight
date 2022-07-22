@@ -192,7 +192,7 @@ note_johan_to_troutbeck
 note_troutbeck_to_johan
 {
 	precache
-	"num_pages"	: "2"
+	"num_pages"	: "1"
 	"page1_title"	:
 	{
 		""
@@ -201,26 +201,15 @@ note_troutbeck_to_johan
 	{
 		"Johan,"
 		""
-		"Head over to Lord Eaton's first thing this morning.  He's had a recent burglary and has dismissed his chief of security. He has asked for a full assessment."
-		""
+		"    Head over to Lord Eaton's first thing this morning.  He's had a recent burglary and has dismissed his chief of security. He has asked for a full assessment."
 		"    I recommend fitting for window alarms at the very minimum.  Lord Eaton informed me that he is going to be away for a few days and has left us the key to the front windows, so start there.  Apparently he doesn't even trust his staff with them anymore! "
 		""
-		"   One more thing, if you get any "
-		""
-		""
-	}
-	"page2_title"	:
-	{
-		""
-	}
-	"page2_body"	:
-	{
-		"more of those strange letters from that conspiracy group, take them to the City Watch ASAP.  We can't afford to be associated with those nutters."
-		""
 		"Troutbeck"
+		""
+		""
+		""
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
-	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -891,5 +880,80 @@ readables/dmx/journal_mage
 		""
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_rotten
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"would see Lord Eaton installed on the throne as he is of the appropriate lineage.  The town never got over the execution of their beloved King Cedric and his sibling Geoffrey, the builder priest whose ghost is rumoured to haunt the crypt at St. Peter's."
+		"    I shall next investigate this group further. They are"
+	}
+	"gui_page1"	: "guis/readables/rotten_paper_nancy_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_buckley
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Buckley,"
+		""
+		"    Whilst I'm away I would appreciate it greatly if you could deliver this builder's symbol to Cedric's tomb?  Apparently the previous one was stolen, no doubt by a member of one of those ridiculous 'tours'. I've left the key here on the desk for you."
+		""
+		"    Of course I would much rather do it myself during my regular vists, but business forbids it this time."
+		""
+		"Lord Eaton"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_dropped
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Nelson,"
+		""
+		"    As dicsussed, meet at the crypt just past midnight.  We are expecting a visitor and require strength of numbers if things don't go according to plan."
+		""
+		"    I wish I didn't feel I had to remind you, but please refrain from your usual evening visits to the Inn. You will need your wits about you tonight.  Bancroft assures us that he has 'Geoffrey' under control, but really knows with that thing."
+		""
+		"    Lastly, burn this letter"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		" immediately after reading please.  The last thing we need is the Watch finding out about all this."
+		""
+		"Troutbeck"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

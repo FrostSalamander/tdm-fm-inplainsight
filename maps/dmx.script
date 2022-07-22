@@ -24,9 +24,12 @@ float crypt_monster_spawned = 0;
 // Objectives
 float OBJ_BREAK_INTO_VAULT = 4;
 float OBJ_PLOT = 5;
-float OBJ_END_MISSION = 7;
-float OBJ_CUPID = 8;
-float OBJ_GET_TO_MEETING_PLACE = 12;
+float OBJ_CUPID = 7;
+float OBJ_EVIDENCE_PEMBROKE = 12;
+float OBJ_EVIDENCE_BANCROFT = 13;
+float OBJ_EVIDENCE_TROUTBECK = 14;
+float OBJ_EVIDENCE_NELSON = 15;
+float OBJ_EXIT = 16;
 
 // Angles
 vector ANGLE_EAST = '90 0 0';
@@ -65,6 +68,21 @@ void setJohanShutterFrobableOff(entity zone)
     setJohanShutterFrobable(0);
 }
 
+void setFinalObjectives()
+{
+    // set the 'evidence' objectives
+    $player1.setObjectiveVisible(OBJ_EVIDENCE_PEMBROKE, 1);
+    $player1.setObjectiveVisible(OBJ_EVIDENCE_BANCROFT, 1);
+    $player1.setObjectiveVisible(OBJ_EVIDENCE_TROUTBECK, 1);
+    $player1.setObjectiveVisible(OBJ_EVIDENCE_NELSON, 1);
+
+    // player exit objective
+    $player1.setObjectiveVisible(OBJ_EXIT, 1);
+
+    // complete the plot objective
+    $player1.setObjectiveState(OBJ_PLOT, 1);
+}
+
 void spawnAI(string origin, string target, string name, string class, vector angle, string team, boolean mute)
 {
     sys.setSpawnArg("origin", origin);
@@ -86,7 +104,7 @@ void spawnAI(string origin, string target, string name, string class, vector ang
     spawnedAI.setAngles(angle);
 }
 
-// Triggered when last AI (Troutbeck) clears the chamber
+// Triggered when last AI clears the chamber
 void activateCryptMonster()
 {
     // close and lock the door the AI just walked out of
@@ -102,12 +120,6 @@ void activateCryptMonster()
 
     // trigger the monster to start patrolling
     sys.trigger(sys.getEntity(CRYPT_MONSTER));
-
-    // Let the player stew for a while
-    sys.wait(8);
-
-    // open the gate blocking the player
-    sys.getEntity(CRYPT_GATE).Open();
 }
 
 void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
@@ -145,9 +157,6 @@ void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscri
 
 void respawnAI()
 {
-    // objective to get to the meeting place becomes visible
-    $player1.setObjectiveVisible(OBJ_GET_TO_MEETING_PLACE, 1);
-
     // Game characters are removed and re-spawned in case they were KO'd
 
     // replace Nelson
@@ -167,18 +176,6 @@ void respawnAI()
     spawnAI("-1432 -544 -295.853", "path_corner_142", BANCROFT, "atdm:ai_bancroft", ANGLE_EAST, "5", true);
 }
 
-void change_meeting_place_objectives()
-{
-    // objective to capture the perpetrator becomes visible
-    $player1.setObjectiveVisible(OBJ_END_MISSION, 1);
-
-    // wait a bit so these both don't happen at once
-    sys.wait(3);
-
-    // complete objective to find out who is behind the plot
-    $player1.setObjectiveState(OBJ_PLOT, 1);
-}
-
 void endSequence()
 {
     // close the gate in front of the player
@@ -189,9 +186,6 @@ void endSequence()
 
     // trigger Nelson
     sys.trigger(sys.getEntity(NELSON));
-
-    // manage the final objectives
-    change_meeting_place_objectives();
 }
 
 void checkVaultObjective(entity ent_target, entity door, entity ent_callscriptfunction)
@@ -295,14 +289,6 @@ void enableTSSCamera()
     }
 }
 
-void completeMeetingPlaceObjective()
-{
-    if ($player1.getObjectiveVisible(OBJ_GET_TO_MEETING_PLACE))
-    {
-            $player1.setObjectiveState(OBJ_GET_TO_MEETING_PLACE, 1);
-    }
-}
-
 void removeSafeBar(entity safeBar)
 {
     entity safeDoor = safeBar.getBindMaster();
@@ -327,14 +313,6 @@ void frobSafeBar(entity safeBar)
 void swish()
 {
     sys.trigger($speaker_swish);
-}
-
-void complete_mission()
-{
-    if ($player1.getObjectiveVisible(OBJ_END_MISSION))
-    {
-        $player1.setObjectiveState(OBJ_END_MISSION, OBJ_COMPLETE);
-    }
 }
 
 // used with a trigger_facing. If facing the statue and crouched, trigger the exit door.
@@ -378,12 +356,3 @@ void main()
 {
     sys.waitFrame();
 }
-
-
-
-
-
-
-
-
-

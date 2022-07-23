@@ -1,0 +1,630 @@
+/* =============================================================================================
+ *
+ * This file is included into The Dark Mod's Main Menu GUI.
+ *
+ * Mission Authors: You CAN safely edit and include it in your PK4. 
+ *
+ * This file can contain Mission-specific constants, like:
+ * videos and music, backgrounds, skipped states.
+ *
+ * Customization macros are defined like this:
+ *   #define NAME value
+ * This file contains all the supported defines with their default values.
+ * However, they are commented out with double-slash '//'.
+ * In order to set a different value, uncomment the define and edit its right side.
+ *
+ * If you have a campaign, then you can set different value for every mission like this:
+ *   #if MM_CURRENTMISSION == 1
+ *     #define NAME value1
+ *   #elif MM_CURRENTMISSION == 2
+ *     #define NAME value2
+ *   #elif MM_CURRENTMISSION == 3
+ *     #define NAME value3
+ *   #endif
+ * It is recommended to put a group of related macro definitions under every #if/#elif instead of just one.
+ *
+ * Note that some macros must be given plain values.
+ * In such case, you cannot write fancy formulas or use other defines on the right of #ifdef.
+ * See commends below to know which macros require plain value.
+ *
+ * ============================================================================================= */
+
+
+
+/* ------------------------------------------------------------
+ *
+ *      ENABLE/DISABLE STATES
+ *
+ * ------------------------------------------------------------- */
+
+/**
+ * stgatilov: when mission is started or finished, player goes through a sequence of screens.
+ * Here you can customize which screens ("states") are enabled, and which are skipped.
+ *
+ * Commented lines show which states are enabled by default.
+ * If you want to toggle some state, uncomment its line and invert the value.
+ * IMPORTANT: only plain values 0 and 1 work here!
+ *
+ * Note: state transitions are handled in C++, see "mainmenumodeselect" command.
+ * Shop state can also be disabled using "shop_skip" "1" spawnarg on worldspawn entity.
+ */
+
+//#define ENABLE_MAINMENU_BRIEFING_VIDEO 1
+//#define ENABLE_MAINMENU_BRIEFING 0
+//#define ENABLE_MAINMENU_DIFF_SELECT 1
+//#define ENABLE_MAINMENU_SHOP 1
+
+//#define ENABLE_MAINMENU_DEBRIEFING_VIDEO 0
+//#define ENABLE_MAINMENU_SUCCESS 1
+
+
+/* ------------------------------------------------------------
+ *
+ *      BACKGROUNDS
+ *
+ * ------------------------------------------------------------- */
+
+/**
+ * stgatilov: here you can change background in various states of main menu.
+ *
+ * Each menu state is assigned a set of "background layers" to display.
+ * Core background layers are defined in file mainmenu_background.gui.
+ * You may define custom background layers in file mainmenu_background_custom.gui.
+ * 
+ * When menu state is switched, C++ code compares sets of layers for the old and the new states.
+ * Removed layers are disabled, added layers are enabled, other layers just continue to be as they were.
+ * Note that layers are drawn in order of their definition in .gui files.
+ * There only way to customize draw order is to reorder the actual windows in mainmenu_background_custom.gui.
+ * 
+ * Write comma-separated list of layer names on the right side of each macro.
+ * IMPORTANT: only plain value accepted here!
+ */
+
+/// (Meta state) If you uncomment this, it will override all menu backgrounds.
+/// It includes: MAINMENU_XXX, EXTRAMENU_XXX, BRIEFING, DIFFSELECT, SHOP
+/// It excludes: SUCCESS, FAILURE
+//#define MM_BACKGROUNDS_META_ALLSIMPLE ???
+
+
+/// Default menu (game NOT started): starting screen, settings screens, load/save game, etc.
+/// Unlike "EXTRAMENU", the left half of the screen is well visible in these states.
+#define MM_BACKGROUNDS_MAINMENU_NOTINGAME MainMenuBackgroundSwirly,BackgroundCustomTexture
+
+/// Extra screens of default menu (game NOT started): mission selection, mission downloader, etc.
+/// Almost the whole screen is occluded by parchments in these states.
+//#define MM_BACKGROUNDS_EXTRAMENU_NOTINGAME MainMenuBackgroundSwirly,MainMenuBackgroundOverlay
+
+/// In-game menu (game being played).
+/// Unlike "EXTRAMENU", the left half of the screen is well visible in these states.
+#define MM_BACKGROUNDS_MAINMENU_INGAME MainMenuBackgroundSwirly,InGameCustomTexture
+
+/// Extra screens of default menu (game NOT started): objectives, etc.
+/// Almost the whole screen is occluded by parchments in these states.
+//#define MM_BACKGROUNDS_EXTRAMENU_INGAME MainMenuBackgroundSwirly,MainMenuBackgroundOverlay
+
+
+/// Briefing state.
+//#define MM_BACKGROUNDS_BRIEFING MainMenuBackgroundSwirly,MainMenuBackgroundOverlay
+
+/// Difficulty selection state.
+//#define MM_BACKGROUNDS_DIFFSELECT MainMenuBackgroundSwirly,MainMenuBackgroundOverlay
+
+/// Shop state.
+//#define MM_BACKGROUNDS_SHOP MainMenuBackgroundSwirly,MainMenuBackgroundOverlay
+
+
+/// Mission success state.
+#define MM_BACKGROUNDS_SUCCESS MainMenuBackgroundSwirly,InGameCustomTexture,SuccessBackgroundGleam,SuccessBackgroundTitle
+
+/// Mission failure state.
+#define MM_BACKGROUNDS_FAILURE MainMenuBackgroundSwirly,FailureBackgroundShading,FailureBackgroundWindow,FailureBackgroundSkull,FailureBackgroundChains,InGameCustomTexture,FailureBackgroundOuterdirt
+
+
+/* ------------------------------------------------------------
+ *
+ *      MUSIC
+ *
+ * ------------------------------------------------------------- */
+
+ /**
+ * stgatilov: customize music in various states of main menu.
+ *
+ * Each menu state is assigned some music command.
+ * When menu state is switched, C++ code disables old music and enables new one.
+
+ * Set value "music nosound;" if you want to disable music.
+ * IMPORTANT: exact syntax of values is important, including quotes, 'music' word, and semicolon at the end.
+ */
+
+/// Menu music after startup (not in-game)
+#define MM_MENU_SOUND_CMD "music m_lbb_menu;"
+
+/// Played in main menu when in-game (ESCaping out of the game)
+#define MM_INGAME_MENU_SOUND_CMD "music m_lbb_menu;"
+
+/// Played during non-video briefing
+#define MM_BRIEFING_SOUND_CMD "music welli_DistantSeaWall;"
+
+/// Played after completing a mission
+//#define MM_MISSION_SUCCESS_SOUND_CMD "music mission_complete;"
+
+/// Played on mission failure
+//#define MM_MISSION_FAILURE_SOUND_CMD "music mission_failed;"
+
+
+/* ------------------------------------------------------------
+ *
+ *      BRIEFING
+ *
+ * ------------------------------------------------------------- */
+
+/**
+ * Edit this to change the parchment on your briefing screen,
+ * if you do not override mainmenu_briefing.gui file.
+ */
+//#define BRIEFING_BACKGROUND_IMAGE	"guis/assets/briefing/parchment"
+//#define BRIEFING_BACKGROUND_SIZE	-40, -70, 680, 620
+
+
+/* ------------------------------------------------------------
+ *
+ *      BRIEFING VIDEO (plays BEFORE mission)
+ *
+ * ------------------------------------------------------------- */
+
+/**
+ * These macros define window coordinates of the briefing video.
+ */
+//#define MM_BRIEFING_VIDEO_TOP_X 0
+//#define MM_BRIEFING_VIDEO_TOP_Y 0
+//#define MM_BRIEFING_VIDEO_WIDTH 640
+//#define MM_BRIEFING_VIDEO_HEIGHT 480
+
+/**
+ * Defines the material color of the video window.
+ */
+//#define MM_BRIEFING_VIDEO_MATCOLOR 1,1,1,1
+
+/**
+ * Specifies name of material shader which plays the video file.
+ * More details here:
+ *   https://wiki.thedarkmod.com/index.php?title=Cutscene_video_with_FFmpeg
+ */
+//#define MM_BRIEFING_VIDEO_MATERIAL_1 "video/m_lbb_briefing"
+
+/**
+ * Specifies the sound shader to be played during the briefing video.
+ * IMPORTANT: exact syntax of value is important.
+ *
+ * It is possible to play main sound track directly from MP4 video file.
+ * See here how to set it up:
+ *   https://wiki.thedarkmod.com/index.php?title=Cutscene_video_with_FFmpeg#Play_video_with_sound
+ */
+//#define MM_BRIEFING_VIDEO_SOUND_CMD "music video/m_lbb_briefing;"
+
+
+/**
+ * These are some extra defines, which are not necessary in most cases.
+ * For a normal MP4 video, please comment out MM_BRIEFING_VIDEO_LENGTH_1 definition and skip all the rest.
+ * If you are interested in details, read further.
+ *
+ * One ROQ video was/is limited to ~60 seconds duration, so long videos had to be split into pieces before TDM 2.06.
+ * Moreover, the engine could not determine duration of the video file automatically, so it had to be specified here.
+ *
+ * For a ROQ video, LENGTH macro must be set to the duration of the video file in milliseconds.
+ * After this amount of time, the mainmenu will switch forward to the next state.
+ * Setting 0 (zero) will allow the video to play infinitely.
+ * Note that mainmenu also automatically switches forward when MP4 video file ends.
+ * See also:
+ *   https://wiki.thedarkmod.com/index.php?title=Cutscene_video_with_FFmpeg#Automatic_duration
+ *
+ * Additional MATERIAL/LENGTH macros (2-10) are used to play more video chunks.
+ * If you have your video in several parts, then specify lengths below.
+ * Be sure to specify lengths by adding on the length of the previous section.
+ * E.g.: You have 3 parts, first is 1600 milliseconds, second 1500 and third 500,
+ * then LENGTH_1 will be 1600, LENGTH_2 3100, and LENGTH_3 3600.
+ * Failing to specify length correctly will result in skipping parts of video.
+ */
+//#define MM_BRIEFING_VIDEO_LENGTH_1 10000		// for backwards compatibility only
+//#define MM_BRIEFING_VIDEO_MATERIAL_2 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_3 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_4 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_5 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_6 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_7 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_8 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_9 ""
+//#define MM_BRIEFING_VIDEO_MATERIAL_10 ""
+//#define MM_BRIEFING_VIDEO_LENGTH_2 0
+//#define MM_BRIEFING_VIDEO_LENGTH_3 0
+//#define MM_BRIEFING_VIDEO_LENGTH_4 0
+//#define MM_BRIEFING_VIDEO_LENGTH_5 0
+//#define MM_BRIEFING_VIDEO_LENGTH_6 0
+//#define MM_BRIEFING_VIDEO_LENGTH_7 0
+//#define MM_BRIEFING_VIDEO_LENGTH_8 0
+//#define MM_BRIEFING_VIDEO_LENGTH_9 0
+//#define MM_BRIEFING_VIDEO_LENGTH_10 0
+
+
+/* ------------------------------------------------------------
+ *
+ *      DEBRIEFING VIDEO (plays AFTER mission)
+ *
+ * ------------------------------------------------------------- */
+
+/**
+ * All the macros here have exactly the same meaning as the macros in BRIEFING VIDEO section.
+ * The only difference is in their name.
+ * IMPORTANT: don't forget to enable DEBRIEFING_VIDEO state.
+ */
+//#define MM_DEBRIEFING_VIDEO_TOP_X 0
+//#define MM_DEBRIEFING_VIDEO_TOP_Y 0
+//#define MM_DEBRIEFING_VIDEO_WIDTH 640
+//#define MM_DEBRIEFING_VIDEO_HEIGHT 480
+//#define MM_DEBRIEFING_VIDEO_MATCOLOR 1,1,1,1
+
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_1 ""
+//#define MM_DEBRIEFING_VIDEO_SOUND_CMD "music nosound;"
+
+/**
+ * Extra stuff for debriefing video.
+ */
+//#define MM_DEBRIEFING_VIDEO_LENGTH_1 0
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_2 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_3 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_4 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_5 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_6 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_7 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_8 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_9 ""
+//#define MM_DEBRIEFING_VIDEO_MATERIAL_10 ""
+//#define MM_DEBRIEFING_VIDEO_LENGTH_2 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_3 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_4 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_5 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_6 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_7 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_8 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_9 0
+//#define MM_DEBRIEFING_VIDEO_LENGTH_10 0
+
+
+
+/* =============================================================================================
+ * =============================================================================================
+ * =============================================================================================
+ *
+ *                             ! DEPRECATED CODE BELOW !
+ *
+ * =============================================================================================
+ * =============================================================================================
+ * ============================================================================================= */
+
+ 
+/* ---------------------------------------------------------------
+ *
+ *      Custom Title Graphics
+ *
+ * -------------------------------------------------------------*/
+
+// Uncomment this to enable a custom main menu title graphics
+// Use the defines below to specify which image to use and its size and position
+//#define MM_SHOW_CUSTOM_MAINMENU_TITLE 1
+
+/**
+ * This path refers to this file:
+ *
+ * TGA version: guis/assets/custom_title.tga 
+ *
+ *    OR (if the TGA cannot be found)
+ * 
+ * DDS version: dds/guis/assets/custom_title.dds 
+ */
+#define MM_CUSTOM_MAINMENU_TITLE_IMAGE			"guis/assets/custom_title"
+
+// This is measured from the top left window border at 0,0
+#define MM_CUSTOM_MAINMENU_TITLE_IMAGE_LEFT		280
+#define MM_CUSTOM_MAINMENU_TITLE_IMAGE_TOP		0
+#define MM_CUSTOM_MAINMENU_TITLE_IMAGE_WIDTH	320
+#define MM_CUSTOM_MAINMENU_TITLE_IMAGE_HEIGHT	54
+
+
+/**
+ * greebo: If XXX_VIDEO_CONTROLLED_BY_SDK is defined the (de)briefing video GUI
+ * will behave differently and will delegate video selection and timing to
+ * the C++ code within the SDK. Remove the comment to enable this option.
+ */
+//#define BRIEFING_VIDEO_CONTROLLED_BY_SDK 1
+//#define DEBRIEFING_VIDEO_CONTROLLED_BY_SDK 1
+
+
+/* ---------------------------------------------------------------
+ *
+ * MULTI-MISSION BRIEFING VIDEO DEFINITIONS
+ *
+ * If you're setting up a campaign, these are the settings you need to change.
+ *
+ * --------------------------------------------------------------- */
+
+/**
+ * greebo: Defines the material shaders that point to the ROQ video file. Note that the
+ * maximum length of an ROQ file is 1 minute, so break your briefing up (just video)
+ * into parts of maximum length 1 minute.
+ * 
+ * Each mission can have an arbitrary number of video materials, the information
+ * is passed to the game code in string form, where each video material is 
+ * separated by semicolons. As the code can't determine the length of the video on its own
+ * you need to specify the length of each clip in msecs in the MM_BRIEFING_<N>_VIDEO_LENGTHS string,
+ * again each length is separated by a semicolon
+ *
+ * If a mission doesn't feature a briefing video, just leave the string empty.
+ *
+ * The MM_BRIEFING_<N>_VIDEO_SOUND_CMD lines define the soundshaders to be 
+ * played during the briefing videos.
+ *
+ * Important: The syntax is "music YOURSHADER;", the "music" part is important
+ * and should not be deleted, neither the trailing semicolon. 
+ * This is the actual GUI command issued to the C++ code.
+ *
+ * The first mission has the number 1, the max number of missions is defined as 30.
+ */
+
+#define MM_BRIEFING_1_VIDEO_MATERIALS "video/tdm_briefing_video;"
+#define MM_BRIEFING_1_VIDEO_LENGTHS "10000;"
+#define MM_BRIEFING_1_VIDEO_SOUND_CMD "music video/tdm_briefing_video_sound;"
+
+#define MM_BRIEFING_2_VIDEO_MATERIALS ""
+#define MM_BRIEFING_2_VIDEO_LENGTHS ""
+#define MM_BRIEFING_2_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_3_VIDEO_MATERIALS ""
+#define MM_BRIEFING_3_VIDEO_LENGTHS ""
+#define MM_BRIEFING_3_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_4_VIDEO_MATERIALS ""
+#define MM_BRIEFING_4_VIDEO_LENGTHS ""
+#define MM_BRIEFING_4_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_5_VIDEO_MATERIALS ""
+#define MM_BRIEFING_5_VIDEO_LENGTHS ""
+#define MM_BRIEFING_5_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_6_VIDEO_MATERIALS ""
+#define MM_BRIEFING_6_VIDEO_LENGTHS ""
+#define MM_BRIEFING_6_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_7_VIDEO_MATERIALS ""
+#define MM_BRIEFING_7_VIDEO_LENGTHS ""
+#define MM_BRIEFING_7_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_8_VIDEO_MATERIALS ""
+#define MM_BRIEFING_8_VIDEO_LENGTHS ""
+#define MM_BRIEFING_8_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_9_VIDEO_MATERIALS ""
+#define MM_BRIEFING_9_VIDEO_LENGTHS ""
+#define MM_BRIEFING_9_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_10_VIDEO_MATERIALS ""
+#define MM_BRIEFING_10_VIDEO_LENGTHS ""
+#define MM_BRIEFING_10_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_11_VIDEO_MATERIALS ""
+#define MM_BRIEFING_11_VIDEO_LENGTHS ""
+#define MM_BRIEFING_11_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_12_VIDEO_MATERIALS ""
+#define MM_BRIEFING_12_VIDEO_LENGTHS ""
+#define MM_BRIEFING_12_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_13_VIDEO_MATERIALS ""
+#define MM_BRIEFING_13_VIDEO_LENGTHS ""
+#define MM_BRIEFING_13_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_14_VIDEO_MATERIALS ""
+#define MM_BRIEFING_14_VIDEO_LENGTHS ""
+#define MM_BRIEFING_14_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_15_VIDEO_MATERIALS ""
+#define MM_BRIEFING_15_VIDEO_LENGTHS ""
+#define MM_BRIEFING_15_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_16_VIDEO_MATERIALS ""
+#define MM_BRIEFING_16_VIDEO_LENGTHS ""
+#define MM_BRIEFING_16_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_17_VIDEO_MATERIALS ""
+#define MM_BRIEFING_17_VIDEO_LENGTHS ""
+#define MM_BRIEFING_17_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_18_VIDEO_MATERIALS ""
+#define MM_BRIEFING_18_VIDEO_LENGTHS ""
+#define MM_BRIEFING_18_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_19_VIDEO_MATERIALS ""
+#define MM_BRIEFING_19_VIDEO_LENGTHS ""
+#define MM_BRIEFING_19_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_20_VIDEO_MATERIALS ""
+#define MM_BRIEFING_20_VIDEO_LENGTHS ""
+#define MM_BRIEFING_20_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_21_VIDEO_MATERIALS ""
+#define MM_BRIEFING_21_VIDEO_LENGTHS ""
+#define MM_BRIEFING_21_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_22_VIDEO_MATERIALS ""
+#define MM_BRIEFING_22_VIDEO_LENGTHS ""
+#define MM_BRIEFING_22_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_23_VIDEO_MATERIALS ""
+#define MM_BRIEFING_23_VIDEO_LENGTHS ""
+#define MM_BRIEFING_23_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_24_VIDEO_MATERIALS ""
+#define MM_BRIEFING_24_VIDEO_LENGTHS ""
+#define MM_BRIEFING_24_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_25_VIDEO_MATERIALS ""
+#define MM_BRIEFING_25_VIDEO_LENGTHS ""
+#define MM_BRIEFING_25_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_26_VIDEO_MATERIALS ""
+#define MM_BRIEFING_26_VIDEO_LENGTHS ""
+#define MM_BRIEFING_26_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_27_VIDEO_MATERIALS ""
+#define MM_BRIEFING_27_VIDEO_LENGTHS ""
+#define MM_BRIEFING_27_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_28_VIDEO_MATERIALS ""
+#define MM_BRIEFING_28_VIDEO_LENGTHS ""
+#define MM_BRIEFING_28_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_29_VIDEO_MATERIALS ""
+#define MM_BRIEFING_29_VIDEO_LENGTHS ""
+#define MM_BRIEFING_29_VIDEO_SOUND_CMD ""
+
+#define MM_BRIEFING_30_VIDEO_MATERIALS ""
+#define MM_BRIEFING_30_VIDEO_LENGTHS ""
+#define MM_BRIEFING_30_VIDEO_SOUND_CMD ""
+
+/* ---------------------------------------------------------------
+ *
+ * DE-BRIEFING VIDEO DEFINITIONS (<== yes, DE-briefing, briefing is handled above)
+ *
+ * If you're setting up de-briefing videos, these are the settings you need to change.
+ * These settings are not limited to campaigns, single-missions can have debriefing 
+ * videos as well.
+ *
+ * The MM_DEBRIEFING_<N>_VIDEO_SOUND_CMD lines define the soundshaders 
+ * to be played during the de-briefing videos.
+ *
+ * Important: The syntax is "music YOURSHADER;", the "music" part is important
+ * and should not be deleted, neither the trailing semicolon. 
+ * This is the actual GUI command issued to the C++ code.
+ *
+ * Each mission has its own sound cmd, the first mission has number 1.
+ *
+ * --------------------------------------------------------------- */
+
+#define MM_DEBRIEFING_1_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_1_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_1_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_2_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_2_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_2_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_3_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_3_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_3_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_4_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_4_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_4_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_5_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_5_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_5_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_6_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_6_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_6_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_7_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_7_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_7_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_8_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_8_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_8_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_9_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_9_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_9_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_10_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_10_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_10_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_11_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_11_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_11_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_12_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_12_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_12_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_13_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_13_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_13_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_14_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_14_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_14_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_15_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_15_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_15_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_16_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_16_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_16_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_17_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_17_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_17_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_18_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_18_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_18_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_19_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_19_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_19_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_20_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_20_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_20_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_21_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_21_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_21_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_22_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_22_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_22_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_23_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_23_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_23_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_24_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_24_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_24_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_25_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_25_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_25_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_26_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_26_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_26_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_27_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_27_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_27_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_28_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_28_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_28_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_29_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_29_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_29_VIDEO_SOUND_CMD ""
+
+#define MM_DEBRIEFING_30_VIDEO_MATERIALS ""
+#define MM_DEBRIEFING_30_VIDEO_LENGTHS ""
+#define MM_DEBRIEFING_30_VIDEO_SOUND_CMD ""

@@ -17,3 +17,13 @@ skin m_plainsight_bakery
 	"bc_sign01" "m_plainsight_bakery"
 	"textures/darkmod/decals/signs/sign_empty" "m_plainsight_bakery"
 }
+
+skin m_plainsight_post
+{
+	model "models/darkmod/decorative/signs/sign_tudor01.lwo"
+	model "models/darkmod/decorative/signs/sign_tudor01_large.lwo"
+
+
+	"textures/darkmod/wood/signs/tavern01" "m_plainsight_post"
+
+}

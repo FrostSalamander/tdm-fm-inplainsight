@@ -1,0 +1,40 @@
+/* =============================================================================================
+ *
+ * This file is included into The Dark Mod's Main Menu GUI.
+ *
+ * Mission Authors: You CAN safely edit and include in your PK4. 
+ *
+ * When this file is included in your PK4 as "guis/mainmenu_background_custom.gui", it will
+ * override the standard TDM file with the same name and the definitions within.
+ *
+ * stgatilov: You can add mission-specific background layers here.
+ * See mainmenu_background.gui for examples of background layers used in core game.
+ * Make sure to use macro BACKGROUND_DEFAULT_BEHAVIOR or maintain the same naming convention and behavior.
+ * Note that relative order of layers cannot be changed.
+ *
+ * ============================================================================================= */
+
+
+/**
+ * Example: custom background texture.
+ * The simplest way of using it is:
+ *   1. Uncomment it by removing "#if 0" and "#endif" lines.
+ *   2. Rename BackgroundCustomTexture (both occurences). You should put the name into MM_BACKGROUNDS_XXX defines.
+ *   3. Replace "guis/assets/custom_background" with material path or texture path you want to show.
+ */
+
+windowDef BackgroundCustomTexture
+{
+	rect		0, 0, 640, 480
+	background	"guis/assets/mainmenu.tga"
+
+	BACKGROUND_DEFAULT_BEHAVIOR(BackgroundCustomTexture)
+}
+
+windowDef InGameCustomTexture
+{
+	rect		0, 0, 640, 480
+	background	"guis/assets/generic_loading2.tga"
+
+	BACKGROUND_DEFAULT_BEHAVIOR(InGameCustomTexture)
+}

@@ -45,3 +45,51 @@ m_plainsight_bakery
         rgb         0.15 * parm11
     }
 }
+
+m_plainsight_post
+{
+  wood
+
+
+   diffusemap   textures/darkmod/wood/signs/m_plainsight_post
+   bumpmap	 textures/darkmod/wood/boards/worn_02_local
+
+
+	
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/m_plainsight_inn
+        rgb         0.15 * parm11
+    }
+}
+
+m_plainsight_TSS
+{
+  wood
+
+
+   diffusemap   textures/darkmod/wood/signs/m_plainsight_TSS
+   bumpmap	 textures/darkmod/wood/boards/worn_02_local
+
+
+	
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/m_plainsight_inn
+        rgb         0.15 * parm11
+    }
+}

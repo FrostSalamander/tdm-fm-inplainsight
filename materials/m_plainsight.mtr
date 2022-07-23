@@ -17,7 +17,7 @@ m_plainsight_inn
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/m_plainsight_inn
+        map         textures/darkmod/decals/signs/m_plainsight_inn
         rgb         0.15 * parm11
     }
 }
@@ -41,7 +41,7 @@ m_plainsight_bakery
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/m_plainsight_inn
+        map         textures/darkmod/decals/signs/m_plainsight_inn
         rgb         0.15 * parm11
     }
 }
@@ -65,7 +65,7 @@ m_plainsight_post
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/m_plainsight_inn
+        map         textures/darkmod/decals/signs/m_plainsight_inn
         rgb         0.15 * parm11
     }
 }
@@ -89,7 +89,7 @@ m_plainsight_TSS
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/m_plainsight_inn
+        map         textures/darkmod/decals/signs/m_plainsight_inn
         rgb         0.15 * parm11
     }
 }

@@ -125,8 +125,6 @@ void triggerWalkout(entity ent_target, entity triggerEntity, entity ent_callscri
 {
     string name = triggerEntity.getName();
 
-    sys.println(name);
-
     if (name == NELSON)
     {
         sys.trigger(sys.getEntity(MRS_PEMBROKE));

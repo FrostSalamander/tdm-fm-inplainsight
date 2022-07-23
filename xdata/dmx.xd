@@ -192,7 +192,7 @@ note_johan_to_troutbeck
 note_troutbeck_to_johan
 {
 	precache
-	"num_pages"	: "2"
+	"num_pages"	: "1"
 	"page1_title"	:
 	{
 		""
@@ -201,26 +201,15 @@ note_troutbeck_to_johan
 	{
 		"Johan,"
 		""
-		"Head over to Lord Eaton's first thing this morning.  He's had a recent burglary and has dismissed his chief of security. He has asked for a full assessment."
-		""
+		"    Head over to Lord Eaton's first thing this morning.  He's had a recent burglary and has dismissed his chief of security. He has asked for a full assessment."
 		"    I recommend fitting for window alarms at the very minimum.  Lord Eaton informed me that he is going to be away for a few days and has left us the key to the front windows, so start there.  Apparently he doesn't even trust his staff with them anymore! "
 		""
-		"   One more thing, if you get any "
-		""
-		""
-	}
-	"page2_title"	:
-	{
-		""
-	}
-	"page2_body"	:
-	{
-		"more of those strange letters from that conspiracy group, take them to the City Watch ASAP.  We can't afford to be associated with those nutters."
-		""
 		"Troutbeck"
+		""
+		""
+		""
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
-	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -488,8 +477,8 @@ readables/dmx/journal_eaton
 	{
 		"06 September 1627"
 		""
-		"   The King has raised taxes yet again, all to fight this ridiculous war.  In turn, I have had to increase my own levies on the peasants.  Many of them cannot afford it and unrest is rife.  I now fear I have a revolt on my hands!"
-		"   I have put in a request with Troutbeck's new security firm to hire 100 of his 'security officers'.  This "
+		"   The King has raised taxes yet again, all to fight this ridiculous war.  In turn, I have had to increase my own levies on the peasants.  Many of them cannot afford it and unrest is rife. This madness must end! Everyone knows I should be sitting on that throne!"
+		""
 	}
 	"page1_right_title"	:
 	{
@@ -497,8 +486,7 @@ readables/dmx/journal_eaton
 	}
 	"page1_right_body"	:
 	{
-		"should help with any troublemakers, at least temporarily.  I'm not convinced he has the resources, so I've encouraged him to apply for a loan.  It will look risky as I am by far his largest customer, so I've personally underwritten his loan application.  "
-		""
+		"    The extra security provided by Troutbeck's men should quell any violence.  His business seems a sound investment, especially in the current climate."
 		""
 	}
 	"page2_left_title"	:
@@ -509,8 +497,7 @@ readables/dmx/journal_eaton
 	{
 		"12 September 1627"
 		""
-		"    What is this?  A mysterious invitation to some gathering of local hoodlums?  Why on earth would anyone think I would associate myself with what sounds like treason?"
-		"    I'm tempted to send Buckley down there to investigate... but no - I can't risk it.  Regardless of the mess the King has gotten us all into, it's not worth losing"
+		"That letter from Troutbeck troubles me.  Yes I have a legitmate claim to the throne, but what did he mean by 'the days ahead'?  I know I have my supporters, but I hope they are not planning anything rash, especially if it involves treason..."
 	}
 	"page2_right_title"	:
 	{
@@ -518,10 +505,10 @@ readables/dmx/journal_eaton
 	}
 	"page2_right_body"	:
 	{
-		"my head over. "
+		""
 	}
-	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
-	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"gui_page2"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -763,11 +750,9 @@ readables/dmx/letter_pembroke_to_bancroft
 	{
 		"Mr Bancroft,"
 		""
-		"    Apologies for writing to you directly, but since we're neighbours i was hoping you could put in a good word for me regarding my loan application at the bank.  I don't forsee any problems, it's just that, well, a great deal hinges on obtaining this loan shall we say.  I do hope to return the favour one day, after all."
+		"    I have applied for the loan as agreed.  I trust you will take the necessary measures to ensure the application is successful.  If we want to see Lord Eaton on the throne, buying the trust of the court will be essential."
 		""
-		"Sincerely,"
-		""
-		"Tobias Pembroke"
+		"Priscilla Pembroke"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -891,5 +876,127 @@ readables/dmx/journal_mage
 		""
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_rotten
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"would see Lord Eaton installed on the throne as he is of the appropriate lineage.  The town never got over the execution of their beloved King Cedric and his sibling Geoffrey, the builder priest whose ghost is rumoured to haunt the crypt at St. Peter's."
+		"    I shall next investigate this group further. They are"
+	}
+	"gui_page1"	: "guis/readables/rotten_paper_nancy_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_buckley
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Buckley,"
+		""
+		"    I would appreciate it greatly if you could take this builder's symbol and place it on Cedric's sarcophogus.  Apparently the previous one was stolen, no doubt by a member of one of those ridiculous 'tours'. I've left the key here on the desk for you."
+		""
+		"    Of course I would much rather do it myself during my regular vists, but unfortunately business calls me away."
+		""
+		"Lord Eaton"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_dropped
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Nelson,"
+		""
+		"    As dicsussed, meet at the crypt just past midnight.  We are expecting a visitor and require strength of numbers if things don't go according to plan."
+		""
+		"    I wish I didn't feel I had to remind you, but please refrain from your usual evening visit to the Inn. You will need your wits about you tonight.  Bancroft assures us that he has 'Geoffrey' under control, but who really knows with that thing."
+		""
+		"    Lastly, burn this letter"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		" immediately after reading please.  The last thing we need is the Watch finding out about all this."
+		""
+		"Troutbeck"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/bancroft_instructions
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Lumley,"
+		""
+		"    You should be receiving a loan application from one Priscilla Pembroke shortly.   I want you to ensure that it is approved.  She is a close friend of Lord Eaton, and negative publicity from failed loan applications just wouldn't do."
+		"    Do not worry about any impropriety.  I've discussed the matter with the manager and it's all above board."
+		""
+		"Bancroft"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/troutbeck_evidence_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Lord Eaton,"
+		""
+		"    I wish to personally extend my gratitude for supporting my growing business.  Troutbeck Security Services at full strength can only help in the days ahead."
+		""
+		"    We are all behind your claim to the throne, and may we see it happen in our lifetime."
+		""
+		"Sincerely,"
+		""
+		"Walter Troutbeck"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

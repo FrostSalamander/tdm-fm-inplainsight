@@ -35,7 +35,7 @@ eaxreverb "location_inn_kitchen" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_inn_stairs" {
-  preset WOODEN_HALL
+  preset HALLWAY
 }
 eaxreverb "location_inn_upstairs_hallway" {
   preset WOODEN_SHORTPASSAGE
@@ -79,7 +79,7 @@ eaxreverb "location_troutbeck_study" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_troutbeck_stairwell" {
-  preset WOODEN_HALL
+  preset HALLWAY
 }
 eaxreverb "location_troutbeck_hallway" {
   preset WOODEN_SHORTPASSAGE
@@ -116,7 +116,7 @@ eaxreverb "location_bancroft_bathroom" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_bancroft_stairs" {
-  preset WOODEN_HALL
+  preset HALLWAY
 }
 eaxreverb "location_bancroft_upstairs" {
   preset WOODEN_SHORTPASSAGE
@@ -201,7 +201,7 @@ eaxreverb "location_hastings_office" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_watch_station_stairs" {
-  preset WOODEN_HALL
+  preset HALLWAY
 }
 eaxreverb "location_watch_station_groundfloor" {
   preset CASTLE_SMALLROOM
@@ -334,7 +334,7 @@ eaxreverb "location_smythe_bedroom" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_smythe_stairs" {
-  preset WOODEN_HALL
+  preset HALLWAY
 }
 eaxreverb "location_smythe_shop" {
   preset WOODEN_SMALLROOM

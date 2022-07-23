@@ -360,5 +360,14 @@ eaxreverb "location_crypt" {
   preset STONEROOM
 }
 eaxreverb "location_crypt_secret_passage" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_crypt_meeting_room" {
+  preset STONEROOM
+}
+eaxreverb "location_crypt_side_room" {
+  preset STONEROOM
+}
+eaxreverb "location_crypt_exit_passage" {
   preset CASTLE_LONGPASSAGE
 }

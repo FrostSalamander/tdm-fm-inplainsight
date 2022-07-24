@@ -20,9 +20,6 @@ city_sounds_varied_fs
     sound/ambient/environmental/animal_dog01.ogg
     sound/ambient/environmental/animal_dog02.ogg
 
-    sound/ambient/environmental/animal_bird_wings01.ogg
-    sound/ambient/environmental/animal_pigeon_wings01.ogg
-
     sound/sfx/world/doors/door_shut_2.ogg
 
     sound/ambient/environmental/people_man_yell03.ogg

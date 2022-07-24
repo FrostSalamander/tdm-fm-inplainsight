@@ -22,5 +22,5 @@ entityDef atdm:amulet_gift
 
 	//sound
 	"snd_acquire"     "tool_pickup"
-	"snd_bounce"      "tdm_impact_metal_med_lesser"	
+	"snd_bounce"      "tdm_impact_necklace_01"	
 }

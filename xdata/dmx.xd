@@ -121,7 +121,7 @@ readables/dmx/journal_troutbeck
 		""
 		"    Thank the builder! My business is doing fantasically well thanks to the progress I've made on the new security camera.  I've been able to buy this house in this wealthy neighbourhood - what a change after years of toiling away in my tiny flat."
 		""
-		"  Things are about to get even better.  Lord Eaton has become Troutbeck Security "
+		"  Things are about to get even better.  Lord Eaton has "
 	}
 	"page1_right_title"	:
 	{
@@ -129,6 +129,7 @@ readables/dmx/journal_troutbeck
 	}
 	"page1_right_body"	:
 	{
+		"become Troutbeck Security "
 		"Services number one customer!  He has given the go ahead to purchase some of the new cameras for the bank.  He was very impressed after my demonstration of the advanced prototype that is protecting my warehouse."
 		""
 		"    The installation at the bank will go ahead once Eaton upgrades the bank's electricity supply to use the latest arc transformers. "

@@ -527,7 +527,8 @@ readables/dmx/journal_bourchier
 		"8 Sept 1627"
 		""
 		"    I think I've finally managed to pack away all of Charles' things. Since he died in the war the place seems so empty now."
-		"    I feel especially vulnerable since that strange man moved in next door.  Smythe I think he said his name was.  He seems to get visitors at all sorts of strange hours. I do wonder if he's running some sort of illicit business or some such thing..."
+		"    I feel especially vulnerable since that strange man moved in next door.  'Smythe' I think he said his name was.  He seems to get visitors at strange hours and I've been hearing odd noises from the attic."
+		"    I do wonder if he's running some sort of illicit "
 	}
 	"page1_right_title"	:
 	{
@@ -536,6 +537,7 @@ readables/dmx/journal_bourchier
 	"page1_right_body"	:
 	{
 		""
+		"business or some such thing..."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"

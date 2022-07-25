@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1730444" } 
-		KeyValue { "LastCameraAngle" "-36.9 222.6 0" } 
-		KeyValue { "LastCameraPosition" "440.555 582.705 -104.744" } 
+		KeyValue { "EditTimeInSeconds" "1730571" } 
+		KeyValue { "LastCameraAngle" "-22.2 280.8 0" } 
+		KeyValue { "LastCameraPosition" "-402.811 -457.394 -80.0751" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	SelectionGroups
@@ -3487,7 +3487,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1730444 }
+		TotalSecondsEdited { 1730571 }
 	}
 	SelectionSets
 	{
@@ -19362,5 +19362,6 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (desk2_drawer40)
 		Node { 3 } // entity (desk2_drawer38)
 		Node { 3 } // entity (desk2_drawer37)
+		Node { 0 } // entity (atdm_moveable_loot_ring_gold_skull_1)
 	}
 }

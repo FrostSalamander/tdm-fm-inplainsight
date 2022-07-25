@@ -178,6 +178,8 @@ void endSequence()
     // close the gate in front of the player
     sys.getEntity(CRYPT_GATE).Close();
 
+    setFinalObjectives();
+    
     // let it sink in.
     sys.wait(5);
 

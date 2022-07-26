@@ -338,7 +338,7 @@ readables/dmx/note_bank_records_to_constable
 		""
 		"    In response to your inquiry regarding recent loan activity, I can provide the following information:"
 		""
-		"Nicholas Troutbeck: 60g, payable in 24 months. For expanding his business, 'Troutbeck Security Services'."
+		"Walter Troutbeck: 60g, payable in 24 months. For expanding his business, 'Troutbeck Security Services'."
 		""
 		"Samuel Parker: 30g, payable in 18 months. Wine shop improvements."
 		""
@@ -432,7 +432,7 @@ readables/dmx/letter_uprising
 	}
 	"page1_body"	:
 	{
-		"Sir,"
+		"Sir / Ma'am,"
 		""
 		"We are meeting tonight to discuss moving our plan forward.  It will be at the usual time and place.  We hope to see you there."
 		""

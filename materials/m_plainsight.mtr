@@ -93,3 +93,29 @@ m_plainsight_TSS
         rgb         0.15 * parm11
     }
 }
+
+m_plainsight_map
+{
+   nonsolid
+   noShadows
+
+   {
+        blend   diffusemap
+        map     guis/assets/game_maps/map_of
+        alphaTest 0.5
+   }
+
+   {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+   }
+   
+   {
+        if ( parm11 > 0 )
+        blend       add
+        map         guis/assets/game_maps/map_of
+        rgb         0.15 * parm11
+   }
+}

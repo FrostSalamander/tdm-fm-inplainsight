@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1745858" } 
-		KeyValue { "LastCameraAngle" "-8.39999 179.1 0" } 
-		KeyValue { "LastCameraPosition" "-158.501 -804.194 -206.901" } 
+		KeyValue { "EditTimeInSeconds" "1748594" } 
+		KeyValue { "LastCameraAngle" "-36.3 272.7 0" } 
+		KeyValue { "LastCameraPosition" "347.721 -415.248 -206.275" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_sand" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1745858 }
+		TotalSecondsEdited { 1748594 }
 	}
 	Layers
 	{
@@ -15596,7 +15596,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (atdm_readable_mobile_paper01_3)
 		Node { 0 } // entity (atdm_moveable_loot_religious_symbol_small_3)
-		Node { 0 } // entity (nelson_evidence_note)
+		Node { 0 } // entity (troutbeck_evidence_note)
 		Node { 0 } // entity (path_corner_145)
 		Node { 0 } // entity (path_corner_146)
 		Node { 0 } // entity (path_corner_147)
@@ -15622,7 +15622,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (troutbeck_evidence_note)
+		Node { 0 } // entity (note_troutbeck_eaton)
 		Node { 0 } // entity (player_exit)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (crypt_key)
@@ -16081,6 +16081,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_3083)
 		Node { 0 } // entity (inn_nearside_decision)
 		Node { 0 } // entity (inn_farside_decision)
+		Node { 0 } // entity (note_nelson_evidence)
 	}
 	SelectionGroups
 	{

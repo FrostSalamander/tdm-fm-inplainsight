@@ -119,3 +119,44 @@ m_plainsight_map
         rgb         0.15 * parm11
    }
 }
+
+m_plainsight_beergarden
+{
+  wood
+
+
+   diffusemap   textures/darkmod/decals/signs/m_plainsight_beergarden
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/m_plainsight_beergarden
+        rgb         0.15 * parm11
+    }
+}
+
+
+m_plainsight_beergarden_blank
+{
+  wood
+
+
+   diffusemap   textures/darkmod/decals/signs/m_plainsight_beergarden_blank
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/m_plainsight_beergarden_blank
+        rgb         0.15 * parm11
+    }
+}

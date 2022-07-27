@@ -34,6 +34,9 @@ float OBJ_EXIT = 16;
 vector ANGLE_EAST = '90 0 0';
 
 // Entities
+string CITY_MAP = "city_map";       // map entity on the wall
+string MAP_OF   = "atdm_map_of_1";  // in-game map entity
+
 string PLAYER = "player1";
 string CRYPT_MONSTER = "crypt_monster";
 string NELSON = "new_nelson";
@@ -48,6 +51,18 @@ string CRYPT_AI_EXIT_DOOR = "crypt_ai_exit";
 ////////////////
 // END GLOBALS
 ////////////////
+
+void getMap()
+{   
+    entity map = sys.getEntity(CITY_MAP);
+
+    map.startSound("snd_acquire", SND_CHANNEL_UNUSED, false);
+    map.remove();
+
+    player player_self = sys.getEntity(PLAYER);
+    player_self.addInvItem(sys.getEntity(MAP_OF));
+    player_self.setCurInvItem("Map");
+}
 
 void setJohanShutterFrobable(float frobable)
 {

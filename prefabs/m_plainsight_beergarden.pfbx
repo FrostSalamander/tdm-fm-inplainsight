@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default"/>
+  </layers>
+  <selectionGroups/>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="667"/>
+    <property key="LastCameraAngle" value="-18.6 172.8 0"/>
+    <property key="LastCameraPosition" value="-471.097 -231.036 -231.045"/>
+    <property key="LastShaderClipboardMaterial" value="textures/darkmod/wood/panels/beam_brown_old"/>
+  </properties>
+  <entity number="0">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="-28.467264"/>
+            <textureProjection xx="0" yx="0.039062" tx="-31.667295" xy="-0.078125" yy="0.000000" ty="-23.378906"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="0.006783" yx="-0.038469" tx="27.071043" xy="0.076938" yy="0.013566" ty="-24.858028"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0" yx="-0.039062" tx="-3.153565" xy="0.078125" yy="0" ty="38.476562"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="-17.032736"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="13.132139" xy="0.078125" yy="0" ty="60.449218"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="-0.006783" yx="-0.038469" tx="-14.843018" xy="0.076938" yy="-0.013566" ty="64.740840"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="15.381591" xy="0.078125" yy="0" ty="1.406250"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="1">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="-25.967264"/>
+            <textureProjection xx="-0.078125" yx="-0.000000" tx="0.000000" xy="0.000000" yy="-0.078125" ty="3.807247"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="0.076938" yx="0.013566" tx="-3.807247" xy="-0.013566" yy="0.076938" ty="8.635256"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0.035714" yx="0" tx="-0.571428" xy="0" yy="0.023256" ty="0.830963"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="-17.032736"/>
+            <textureProjection xx="0.078125" yx="-0.000000" tx="-1.000000" xy="0.000000" yy="0.078125" ty="-2.807247"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="0.076938" yx="-0.013566" tx="2.807247" xy="0.013566" yy="0.076938" ty="8.557131"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="0.039062" yx="0" tx="0" xy="0" yy="0.078125" ty="0"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="2">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="19.532736"/>
+            <textureProjection xx="0" yx="0.039062" tx="-31.667295" xy="-0.078125" yy="0" ty="-23.378906"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="0.006783" yx="-0.038469" tx="28.242918" xy="0.076938" yy="0.013566" ty="-22.514278"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0" yx="-0.039062" tx="-1.981690" xy="0.078125" yy="0" ty="40.820312"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="-29.032736"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="13.132139" xy="0.078125" yy="0" ty="60.449218"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="-0.006783" yx="-0.038469" tx="-13.671143" xy="0.076938" yy="-0.013566" ty="67.084590"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="0" yx="-0.039062" tx="16.553465" xy="0.078125" yy="0" ty="3.750000"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="3">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="-28.467264"/>
+            <textureProjection xx="-0.039062" yx="-0.000000" tx="0.000000" xy="0.000000" yy="-0.078125" ty="2.885372"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="0.038469" yx="0.006783" tx="-1.442686" xy="-0.013566" yy="0.076938" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0.039062" yx="0" tx="0.000000" xy="0" yy="0.078125" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="25.967264"/>
+            <textureProjection xx="0.039062" yx="-0.000000" tx="0.000000" xy="0.000000" yy="0.078125" ty="-2.885372"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="0.038469" yx="-0.006783" tx="1.442686" xy="0.013566" yy="0.076938" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="0.039062" yx="0.000000" tx="0.000000" xy="0" yy="0.078125" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="4">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="-28.467264"/>
+            <textureProjection xx="0.000000" yx="0.039062" tx="-30.475889" xy="-0.078125" yy="0" ty="-25.761718"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="0.006783" yx="-0.038469" tx="27.071043" xy="0.076938" yy="0.013566" ty="-24.858028"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0" yx="-0.039062" tx="-1.962159" xy="0.078125" yy="0" ty="36.093749"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="-17.032736"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="14.323545" xy="0.078125" yy="0.000000" ty="58.066405"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="-0.006783" yx="-0.038469" tx="-14.843018" xy="0.076938" yy="-0.013566" ty="64.740840"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="0" yx="-0.039062" tx="14.190184" xy="0.078125" yy="0" ty="3.789062"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="5">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="19.532736"/>
+            <textureProjection xx="0.000000" yx="0.039062" tx="-30.475889" xy="-0.078125" yy="0" ty="-25.761718"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="0.006783" yx="-0.038469" tx="28.242918" xy="0.076938" yy="0.013566" ty="-22.514278"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="-0.790284" xy="0.078125" yy="0" ty="38.437499"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="-29.032736"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="14.323545" xy="0.078125" yy="0.000000" ty="58.066405"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="-0.006783" yx="-0.038469" tx="-13.671143" xy="0.076938" yy="-0.013566" ty="67.084590"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="0" yx="-0.039062" tx="15.362059" xy="0.078125" yy="0" ty="6.132812"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="6">
+        <faces>
+          <face>
+            <plane x="-0.173648" y="0" z="0.984808" d="17.032736"/>
+            <textureProjection xx="-0.039062" yx="0.000000" tx="-0.000000" xy="-0.000000" yy="-0.078125" ty="2.885372"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="0.038469" yx="0.006783" tx="-1.442686" xy="-0.013566" yy="0.076938" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.984808" y="0" z="0.173648" d="0.057518"/>
+            <textureProjection xx="0.039062" yx="0" tx="-0.000000" xy="0" yy="0.078125" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.173648" y="0" z="-0.984808" d="-19.532736"/>
+            <textureProjection xx="0.039062" yx="0.000000" tx="-0.000000" xy="0" yy="0.078125" ty="-2.885372"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="0.038469" yx="-0.006783" tx="1.442686" xy="0.013566" yy="0.076938" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.984808" y="0" z="-0.173648" d="-1.057518"/>
+            <textureProjection xx="0.039062" yx="0.000000" tx="0.000000" xy="0" yy="0.078125" ty="7.713381"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="7">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="-25.859656"/>
+            <textureProjection xx="0" yx="0.039062" tx="9.670449" xy="0.078125" yy="0.000000" ty="-23.378906"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="-0.007884" yx="-0.038259" tx="34.979844" xy="-0.076517" yy="0.015768" ty="57.817461"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="0" yx="-0.039062" tx="4.755235" xy="-0.078125" yy="0" ty="38.476562"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="-19.640344"/>
+            <textureProjection xx="0" yx="-0.039062" tx="-28.205605" xy="-0.078125" yy="0" ty="60.449218"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="0.007884" yx="-0.038259" tx="-6.934218" xy="-0.076517" yy="-0.015768" ty="-17.934649"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="23.290391" xy="-0.078125" yy="0" ty="1.406250"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="8">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="-23.359656"/>
+            <textureProjection xx="0.078125" yx="-0.000000" tx="-0.000000" xy="-0.000000" yy="-0.078125" ty="-78.868242"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="-0.076517" yx="0.015768" tx="78.868242" xy="0.015768" yy="0.076517" ty="-7.182345"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="-0.035714" yx="0.000000" tx="-0.571428" xy="0.000000" yy="0.023256" ty="0.122467"/>
+            <material name="m_plainsight_beergarden_blank"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="-19.640344"/>
+            <textureProjection xx="-0.078125" yx="-0.000000" tx="-1.000000" xy="-0.000000" yy="0.078125" ty="79.868242"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="-0.076517" yx="-0.015768" tx="-79.868242" xy="-0.015768" yy="0.076517" ty="-7.260470"/>
+            <material name="m_plainsight_beergarden"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="-0.053571" yx="0.000000" tx="-0.428558" xy="0.000000" yy="0.093023" ty="0.122467"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="9">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="22.140344"/>
+            <textureProjection xx="0" yx="0.039062" tx="9.670449" xy="0.078125" yy="0" ty="-23.378906"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="-0.007884" yx="-0.038259" tx="36.151719" xy="-0.076517" yy="0.015768" ty="60.161211"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="0" yx="-0.039062" tx="5.927110" xy="-0.078125" yy="0" ty="40.820312"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="-31.640344"/>
+            <textureProjection xx="0" yx="-0.039062" tx="-28.205605" xy="-0.078125" yy="0" ty="60.449218"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="0.007884" yx="-0.038259" tx="-5.762343" xy="-0.076517" yy="-0.015768" ty="-15.590899"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="0" yx="-0.039062" tx="24.462266" xy="-0.078125" yy="0" ty="3.750000"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="10">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="-25.859656"/>
+            <textureProjection xx="0.039062" yx="-0.000000" tx="-0.000000" xy="-0.000000" yy="-0.078125" ty="-79.790117"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="-0.038259" yx="0.007884" tx="39.895058" xy="0.015768" yy="0.076517" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="-0.039062" yx="0" tx="0.000000" xy="0" yy="0.078125" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="23.359656"/>
+            <textureProjection xx="-0.039062" yx="-0.000000" tx="-0.000000" xy="-0.000000" yy="0.078125" ty="79.790117"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-14.000000"/>
+            <textureProjection xx="-0.038259" yx="-0.007884" tx="-39.895058" xy="-0.015768" yy="0.076517" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="-0.039062" yx="0.000000" tx="-0.000000" xy="0" yy="0.078125" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="11">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="-25.859656"/>
+            <textureProjection xx="-0.000000" yx="0.039062" tx="10.861856" xy="0.078125" yy="0" ty="-25.761718"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="-0.007884" yx="-0.038259" tx="34.979844" xy="-0.076517" yy="0.015768" ty="57.817461"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="5.946641" xy="-0.078125" yy="0" ty="36.093749"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="-19.640344"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="-27.014199" xy="-0.078125" yy="0.000000" ty="58.066405"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="0.007884" yx="-0.038259" tx="-6.934218" xy="-0.076517" yy="-0.015768" ty="-17.934649"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="0" yx="-0.039062" tx="22.098985" xy="-0.078125" yy="0" ty="3.789062"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="12">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="22.140344"/>
+            <textureProjection xx="-0.000000" yx="0.039062" tx="10.861856" xy="0.078125" yy="0" ty="-25.761718"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="-0.007884" yx="-0.038259" tx="36.151719" xy="-0.076517" yy="0.015768" ty="60.161211"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="0" yx="-0.039062" tx="7.118516" xy="-0.078125" yy="0" ty="38.437499"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="-31.640344"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="-27.014199" xy="-0.078125" yy="0.000000" ty="58.066405"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="14.000000"/>
+            <textureProjection xx="0.007884" yx="-0.038259" tx="-5.762343" xy="-0.076517" yy="-0.015768" ty="-15.590899"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="0" yx="-0.039062" tx="23.270860" xy="-0.078125" yy="0" ty="6.132812"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="13">
+        <faces>
+          <face>
+            <plane x="0.201826" y="0" z="0.979421" d="19.640344"/>
+            <textureProjection xx="0.039062" yx="0.000000" tx="-0.000000" xy="0.000000" yy="-0.078125" ty="-79.790117"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="-0.038259" yx="0.007884" tx="39.895058" xy="0.015768" yy="0.076517" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.979421" y="0" z="0.201826" d="-12.666984"/>
+            <textureProjection xx="-0.039062" yx="0" tx="0.000000" xy="0" yy="0.078125" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.201826" y="0" z="-0.979421" d="-22.140344"/>
+            <textureProjection xx="-0.039062" yx="0.000000" tx="-0.000000" xy="0" yy="0.078125" ty="79.790117"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.500000"/>
+            <textureProjection xx="-0.038259" yx="-0.007884" tx="-39.895058" xy="-0.015768" yy="0.076517" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.979421" y="0" z="-0.201826" d="11.666984"/>
+            <textureProjection xx="-0.039062" yx="0.000000" tx="-0.000000" xy="0" yy="0.078125" ty="-8.104220"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="14">
+        <faces>
+          <face>
+            <plane x="0.110432" y="0" z="0.993884" d="18.414457"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="-29.340508" xy="0.078125" yy="0.000000" ty="-21.571642"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="15.000000"/>
+            <textureProjection xx="-0.039062" yx="-0.000000" tx="42.773437" xy="0.000000" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.110432" y="0" z="-0.993884" d="-19.408341"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="-10.781508" xy="0.078125" yy="0" ty="-58.672389"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.000000"/>
+            <textureProjection xx="-0.039062" yx="0" tx="-42.773437" xy="-0.000000" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-16.000000"/>
+            <textureProjection xx="0" yx="-0.039062" tx="20.078125" xy="0.078125" yy="0" ty="3.046875"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="7.000000"/>
+            <textureProjection xx="0" yx="-0.039062" tx="1.562500" xy="0.078125" yy="0" ty="40.234374"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="15">
+        <faces>
+          <face>
+            <plane x="-0.110432" y="0" z="0.993884" d="16.868416"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="31.376590" xy="0.078125" yy="0" ty="25.643805"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="15.000000"/>
+            <textureProjection xx="-0.039062" yx="0" tx="42.070312" xy="0.000000" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-2.000000"/>
+            <textureProjection xx="0" yx="-0.039062" tx="1.523437" xy="0.078125" yy="0.000000" ty="40.156249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.110432" y="0" z="-0.993884" d="-17.862299"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="12.826216" xy="0.078125" yy="0.000000" ty="62.761807"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-16.000000"/>
+            <textureProjection xx="-0.039062" yx="0.000000" tx="-42.070312" xy="0" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-7.000000"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="20.117187" xy="0.078125" yy="0" ty="3.125000"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="16">
+        <faces>
+          <face>
+            <plane x="0.110432" y="0" z="0.993884" d="18.414457"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="-29.340508" xy="0.078125" yy="0" ty="-23.993517"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.000000"/>
+            <textureProjection xx="-0.039062" yx="-0.000000" tx="42.773437" xy="0" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.110432" y="0" z="-0.993884" d="-19.408341"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="-10.781508" xy="0.078125" yy="0" ty="-56.250514"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="15.000000"/>
+            <textureProjection xx="-0.039062" yx="0" tx="-42.773437" xy="0.000000" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-16.000000"/>
+            <textureProjection xx="0" yx="-0.039062" tx="20.078125" xy="0.078125" yy="0" ty="5.468750"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="7.000000"/>
+            <textureProjection xx="0" yx="-0.039062" tx="1.562500" xy="0.078125" yy="0" ty="37.812499"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="17">
+        <faces>
+          <face>
+            <plane x="-0.110432" y="0" z="0.993884" d="16.868416"/>
+            <textureProjection xx="0" yx="-0.039062" tx="31.376590" xy="0.078125" yy="0" ty="28.065680"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-16.000000"/>
+            <textureProjection xx="-0.039062" yx="0" tx="42.070312" xy="0.000000" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-2.000000"/>
+            <textureProjection xx="0" yx="-0.039062" tx="1.523437" xy="0.078125" yy="0.000000" ty="37.734374"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.110432" y="0" z="-0.993884" d="-17.862299"/>
+            <textureProjection xx="0.000000" yx="-0.039062" tx="12.826216" xy="0.078125" yy="0.000000" ty="60.339932"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="15.000000"/>
+            <textureProjection xx="-0.039062" yx="0.000000" tx="-42.070312" xy="-0.000000" yy="-0.078125" ty="43.281249"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-7.000000"/>
+            <textureProjection xx="-0.000000" yx="-0.039062" tx="20.117187" xy="0.078125" yy="0" ty="5.546875"/>
+            <material name="textures/darkmod/wood/panels/beam_brown_old"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_3029"/>
+      <keyValue key="model" value="func_static_3029"/>
+      <keyValue key="origin" value="-536 -222 -259.25"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+</map>

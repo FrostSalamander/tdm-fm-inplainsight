@@ -338,7 +338,7 @@ readables/dmx/note_bank_records_to_constable
 		""
 		"    In response to your inquiry regarding recent loan activity, I can provide the following information:"
 		""
-		"Nicholas Troutbeck: 60g, payable in 24 months. For expanding his business, 'Troutbeck Security Services'."
+		"Walter Troutbeck: 60g, payable in 24 months. For expanding his business, 'Troutbeck Security Services'."
 		""
 		"Samuel Parker: 30g, payable in 18 months. Wine shop improvements."
 		""
@@ -432,9 +432,9 @@ readables/dmx/letter_uprising
 	}
 	"page1_body"	:
 	{
-		"Sir,"
+		"Sir / Ma'am,"
 		""
-		"We are meeting tonight to discuss moving our plan forward.  It will be at the usual time and place.  We hope to see you there."
+		"We are meeting tonite to discuss moving our plan forward.  It will be at the usual time and place.  We hope to see you there."
 		""
 		"Sincerely,"
 		""
@@ -979,8 +979,7 @@ readables/dmx/bancroft_instructions
 	"snd_page_turn"	: "readable_page_turn"
 }
 
-
-readables/dmx/troutbeck_evidence_note
+readables/dmx/note_troutbeck_eaton
 {
 	precache
 	"num_pages"	: "1"
@@ -1001,5 +1000,26 @@ readables/dmx/troutbeck_evidence_note
 		"Walter Troutbeck"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_nelson_evidence
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Nelson,"
+		" "
+		"    I've tidied up your desk for you.  You might want to redo those letters you plan to send out to your 'politics group'.  I'm fairly certain you spelled 'tonight' incorrectly."
+		""
+		"Agnes"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

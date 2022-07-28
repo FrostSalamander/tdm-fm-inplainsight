@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1761744" } 
-		KeyValue { "LastCameraAngle" "-8.40001 193.2 0" } 
-		KeyValue { "LastCameraPosition" "781.429 202.003 -354.2" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/sfx/black_matt" } 
+		KeyValue { "EditTimeInSeconds" "1761884" } 
+		KeyValue { "LastCameraAngle" "-8.70001 119.7 0" } 
+		KeyValue { "LastCameraPosition" "250.025 -248.247 -216.892" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/blocks_large_mildew" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1761744 }
+		TotalSecondsEdited { 1761884 }
 	}
 	SelectionGroups
 	{
@@ -633,6 +633,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2947 { "" }
 		SelectionGroup 2948 { "" }
 		SelectionGroup 2950 { "" }
+		SelectionGroup 2951 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -2028,6 +2029,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2071 6125 ) ( 1894 ) } // brush (Brush)
 		Node { ( 2071 6126 ) ( 1894 ) } // brush (Brush)
 		Node { ( 2071 6127 ) ( 1894 ) } // brush (Brush)
+		Node { ( 2075 ) ( 2951 ) } // entity (func_static_1495)
+		Node { ( 2076 ) ( 2951 ) } // entity (lever1)
+		Node { ( 2077 ) ( 2951 ) } // entity (func_static_1496)
 		Node { ( 2078 6128 ) ( 1906 1907 ) } // patch (Patch)
 		Node { ( 2078 6129 ) ( 1906 1907 ) } // patch (Patch)
 		Node { ( 2078 6130 ) ( 1906 1907 ) } // patch (Patch)

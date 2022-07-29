@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default"/>
+    <layer id="1" name="trees"/>
+    <layer id="2" name="roof"/>
+    <layer id="3" name="prefabs"/>
+    <layer id="4" name="stairwalls"/>
+    <layer id="5" name="spiralstairs"/>
+    <layer id="6" name="gate"/>
+    <layer id="7" name="camera"/>
+    <layer id="8" name="city"/>
+    <layer id="9" name="police"/>
+  </layers>
+  <selectionGroups>
+    <selectionGroup id="1" name=""/>
+    <selectionGroup id="2" name=""/>
+    <selectionGroup id="3" name=""/>
+    <selectionGroup id="4" name=""/>
+    <selectionGroup id="5" name=""/>
+    <selectionGroup id="6" name=""/>
+    <selectionGroup id="7" name=""/>
+    <selectionGroup id="8" name=""/>
+    <selectionGroup id="9" name=""/>
+    <selectionGroup id="10" name=""/>
+    <selectionGroup id="11" name=""/>
+    <selectionGroup id="12" name=""/>
+    <selectionGroup id="20" name=""/>
+    <selectionGroup id="32" name=""/>
+    <selectionGroup id="325" name=""/>
+    <selectionGroup id="329" name=""/>
+    <selectionGroup id="331" name=""/>
+    <selectionGroup id="334" name=""/>
+    <selectionGroup id="336" name=""/>
+    <selectionGroup id="337" name=""/>
+    <selectionGroup id="711" name=""/>
+    <selectionGroup id="712" name=""/>
+    <selectionGroup id="721" name=""/>
+    <selectionGroup id="888" name=""/>
+    <selectionGroup id="902" name=""/>
+    <selectionGroup id="953" name=""/>
+    <selectionGroup id="1283" name=""/>
+    <selectionGroup id="1306" name=""/>
+    <selectionGroup id="1310" name=""/>
+    <selectionGroup id="1314" name=""/>
+    <selectionGroup id="1343" name=""/>
+    <selectionGroup id="1344" name=""/>
+    <selectionGroup id="1347" name=""/>
+    <selectionGroup id="1348" name=""/>
+    <selectionGroup id="1349" name=""/>
+    <selectionGroup id="1351" name=""/>
+    <selectionGroup id="1352" name=""/>
+    <selectionGroup id="1358" name=""/>
+    <selectionGroup id="1366" name=""/>
+    <selectionGroup id="1367" name=""/>
+    <selectionGroup id="1375" name=""/>
+    <selectionGroup id="1376" name=""/>
+    <selectionGroup id="1380" name=""/>
+    <selectionGroup id="1381" name=""/>
+    <selectionGroup id="1382" name=""/>
+    <selectionGroup id="1385" name=""/>
+    <selectionGroup id="1391" name=""/>
+    <selectionGroup id="1392" name=""/>
+    <selectionGroup id="1393" name=""/>
+    <selectionGroup id="1397" name=""/>
+    <selectionGroup id="1398" name=""/>
+    <selectionGroup id="1401" name=""/>
+    <selectionGroup id="1402" name=""/>
+    <selectionGroup id="1409" name=""/>
+    <selectionGroup id="1415" name=""/>
+    <selectionGroup id="1416" name=""/>
+    <selectionGroup id="1427" name=""/>
+    <selectionGroup id="1431" name=""/>
+    <selectionGroup id="1432" name=""/>
+    <selectionGroup id="1433" name=""/>
+    <selectionGroup id="1434" name=""/>
+    <selectionGroup id="1435" name=""/>
+    <selectionGroup id="1436" name=""/>
+    <selectionGroup id="1438" name=""/>
+    <selectionGroup id="1441" name=""/>
+    <selectionGroup id="1442" name=""/>
+    <selectionGroup id="1443" name=""/>
+    <selectionGroup id="1444" name=""/>
+    <selectionGroup id="1445" name=""/>
+    <selectionGroup id="1446" name=""/>
+    <selectionGroup id="1450" name=""/>
+    <selectionGroup id="1453" name=""/>
+    <selectionGroup id="1461" name=""/>
+    <selectionGroup id="1473" name=""/>
+    <selectionGroup id="1476" name=""/>
+    <selectionGroup id="1478" name=""/>
+    <selectionGroup id="1479" name=""/>
+    <selectionGroup id="1515" name=""/>
+    <selectionGroup id="1516" name=""/>
+    <selectionGroup id="1517" name=""/>
+    <selectionGroup id="1518" name=""/>
+    <selectionGroup id="1519" name=""/>
+    <selectionGroup id="1520" name=""/>
+    <selectionGroup id="1521" name=""/>
+    <selectionGroup id="1522" name=""/>
+    <selectionGroup id="1534" name=""/>
+    <selectionGroup id="1535" name=""/>
+    <selectionGroup id="1538" name=""/>
+    <selectionGroup id="1540" name=""/>
+    <selectionGroup id="1541" name=""/>
+    <selectionGroup id="1542" name=""/>
+    <selectionGroup id="1543" name=""/>
+    <selectionGroup id="1544" name=""/>
+    <selectionGroup id="1545" name=""/>
+    <selectionGroup id="1546" name=""/>
+    <selectionGroup id="1547" name=""/>
+    <selectionGroup id="1557" name=""/>
+    <selectionGroup id="1558" name=""/>
+    <selectionGroup id="1559" name=""/>
+    <selectionGroup id="1561" name=""/>
+    <selectionGroup id="1562" name=""/>
+    <selectionGroup id="1564" name=""/>
+    <selectionGroup id="1570" name=""/>
+    <selectionGroup id="1578" name=""/>
+    <selectionGroup id="1585" name=""/>
+    <selectionGroup id="1588" name=""/>
+    <selectionGroup id="1589" name=""/>
+    <selectionGroup id="1590" name=""/>
+    <selectionGroup id="1597" name=""/>
+    <selectionGroup id="1599" name=""/>
+    <selectionGroup id="1604" name=""/>
+    <selectionGroup id="1615" name=""/>
+    <selectionGroup id="1618" name=""/>
+    <selectionGroup id="1624" name=""/>
+    <selectionGroup id="1631" name=""/>
+    <selectionGroup id="1632" name=""/>
+    <selectionGroup id="1639" name=""/>
+    <selectionGroup id="1640" name=""/>
+    <selectionGroup id="1641" name=""/>
+    <selectionGroup id="1643" name=""/>
+    <selectionGroup id="1644" name=""/>
+    <selectionGroup id="1646" name=""/>
+    <selectionGroup id="1647" name=""/>
+    <selectionGroup id="1652" name=""/>
+    <selectionGroup id="1653" name=""/>
+    <selectionGroup id="1654" name=""/>
+    <selectionGroup id="1662" name=""/>
+    <selectionGroup id="1664" name=""/>
+    <selectionGroup id="1669" name=""/>
+    <selectionGroup id="1674" name=""/>
+    <selectionGroup id="1681" name=""/>
+    <selectionGroup id="1683" name=""/>
+    <selectionGroup id="1685" name=""/>
+    <selectionGroup id="1686" name=""/>
+    <selectionGroup id="1687" name=""/>
+    <selectionGroup id="1693" name=""/>
+    <selectionGroup id="1698" name=""/>
+    <selectionGroup id="1699" name=""/>
+    <selectionGroup id="1700" name=""/>
+    <selectionGroup id="1701" name=""/>
+    <selectionGroup id="1703" name=""/>
+    <selectionGroup id="1707" name=""/>
+    <selectionGroup id="1709" name=""/>
+    <selectionGroup id="1714" name=""/>
+    <selectionGroup id="1719" name=""/>
+    <selectionGroup id="1720" name=""/>
+    <selectionGroup id="1724" name=""/>
+    <selectionGroup id="1730" name=""/>
+    <selectionGroup id="1731" name=""/>
+    <selectionGroup id="1734" name=""/>
+    <selectionGroup id="1735" name=""/>
+    <selectionGroup id="1736" name=""/>
+    <selectionGroup id="1737" name=""/>
+    <selectionGroup id="1739" name=""/>
+    <selectionGroup id="1741" name=""/>
+    <selectionGroup id="1742" name=""/>
+    <selectionGroup id="1743" name=""/>
+    <selectionGroup id="1748" name=""/>
+    <selectionGroup id="1749" name=""/>
+    <selectionGroup id="1759" name=""/>
+    <selectionGroup id="1760" name=""/>
+    <selectionGroup id="1762" name=""/>
+    <selectionGroup id="1763" name=""/>
+    <selectionGroup id="1778" name=""/>
+    <selectionGroup id="1782" name=""/>
+    <selectionGroup id="1783" name=""/>
+    <selectionGroup id="1787" name=""/>
+    <selectionGroup id="1788" name=""/>
+    <selectionGroup id="1791" name=""/>
+    <selectionGroup id="1801" name=""/>
+    <selectionGroup id="1803" name=""/>
+    <selectionGroup id="1827" name=""/>
+    <selectionGroup id="1828" name=""/>
+    <selectionGroup id="1844" name=""/>
+    <selectionGroup id="1851" name=""/>
+    <selectionGroup id="1854" name=""/>
+    <selectionGroup id="1855" name=""/>
+    <selectionGroup id="1857" name=""/>
+    <selectionGroup id="1858" name=""/>
+    <selectionGroup id="1861" name=""/>
+    <selectionGroup id="1863" name=""/>
+    <selectionGroup id="1865" name=""/>
+    <selectionGroup id="1894" name=""/>
+    <selectionGroup id="1906" name=""/>
+    <selectionGroup id="1907" name=""/>
+    <selectionGroup id="1915" name=""/>
+    <selectionGroup id="1922" name=""/>
+    <selectionGroup id="1929" name=""/>
+    <selectionGroup id="1931" name=""/>
+    <selectionGroup id="1932" name=""/>
+    <selectionGroup id="1933" name=""/>
+    <selectionGroup id="1934" name=""/>
+    <selectionGroup id="1936" name=""/>
+    <selectionGroup id="1937" name=""/>
+    <selectionGroup id="1939" name=""/>
+    <selectionGroup id="1944" name=""/>
+    <selectionGroup id="1945" name=""/>
+    <selectionGroup id="1948" name=""/>
+    <selectionGroup id="1953" name=""/>
+    <selectionGroup id="1954" name=""/>
+    <selectionGroup id="1956" name=""/>
+    <selectionGroup id="1958" name=""/>
+    <selectionGroup id="1959" name=""/>
+    <selectionGroup id="1960" name=""/>
+    <selectionGroup id="1965" name=""/>
+    <selectionGroup id="1966" name=""/>
+    <selectionGroup id="1970" name=""/>
+    <selectionGroup id="1972" name=""/>
+    <selectionGroup id="1973" name=""/>
+    <selectionGroup id="1984" name=""/>
+    <selectionGroup id="1985" name=""/>
+    <selectionGroup id="1991" name=""/>
+    <selectionGroup id="1998" name=""/>
+    <selectionGroup id="2007" name=""/>
+    <selectionGroup id="2019" name=""/>
+    <selectionGroup id="2020" name=""/>
+    <selectionGroup id="2022" name=""/>
+    <selectionGroup id="2023" name=""/>
+    <selectionGroup id="2024" name=""/>
+    <selectionGroup id="2026" name=""/>
+    <selectionGroup id="2027" name=""/>
+    <selectionGroup id="2033" name=""/>
+    <selectionGroup id="2034" name=""/>
+    <selectionGroup id="2036" name=""/>
+    <selectionGroup id="2037" name=""/>
+    <selectionGroup id="2038" name=""/>
+    <selectionGroup id="2039" name=""/>
+    <selectionGroup id="2040" name=""/>
+    <selectionGroup id="2041" name=""/>
+    <selectionGroup id="2042" name=""/>
+    <selectionGroup id="2043" name=""/>
+    <selectionGroup id="2044" name=""/>
+    <selectionGroup id="2046" name=""/>
+    <selectionGroup id="2047" name=""/>
+    <selectionGroup id="2049" name=""/>
+    <selectionGroup id="2050" name=""/>
+    <selectionGroup id="2051" name=""/>
+    <selectionGroup id="2062" name=""/>
+    <selectionGroup id="2063" name=""/>
+    <selectionGroup id="2064" name=""/>
+    <selectionGroup id="2066" name=""/>
+    <selectionGroup id="2067" name=""/>
+    <selectionGroup id="2072" name=""/>
+    <selectionGroup id="2073" name=""/>
+    <selectionGroup id="2074" name=""/>
+    <selectionGroup id="2075" name=""/>
+    <selectionGroup id="2076" name=""/>
+    <selectionGroup id="2077" name=""/>
+    <selectionGroup id="2078" name=""/>
+    <selectionGroup id="2093" name=""/>
+    <selectionGroup id="2095" name=""/>
+    <selectionGroup id="2096" name=""/>
+    <selectionGroup id="2097" name=""/>
+    <selectionGroup id="2098" name=""/>
+    <selectionGroup id="2103" name=""/>
+    <selectionGroup id="2111" name=""/>
+    <selectionGroup id="2126" name=""/>
+    <selectionGroup id="2128" name=""/>
+    <selectionGroup id="2129" name=""/>
+    <selectionGroup id="2132" name=""/>
+    <selectionGroup id="2133" name=""/>
+    <selectionGroup id="2134" name=""/>
+    <selectionGroup id="2135" name=""/>
+    <selectionGroup id="2141" name=""/>
+    <selectionGroup id="2142" name=""/>
+    <selectionGroup id="2143" name=""/>
+    <selectionGroup id="2144" name=""/>
+    <selectionGroup id="2145" name=""/>
+    <selectionGroup id="2146" name=""/>
+    <selectionGroup id="2147" name=""/>
+    <selectionGroup id="2148" name=""/>
+    <selectionGroup id="2149" name=""/>
+    <selectionGroup id="2156" name=""/>
+    <selectionGroup id="2158" name=""/>
+    <selectionGroup id="2159" name=""/>
+    <selectionGroup id="2162" name=""/>
+    <selectionGroup id="2166" name=""/>
+    <selectionGroup id="2167" name=""/>
+    <selectionGroup id="2171" name=""/>
+    <selectionGroup id="2172" name=""/>
+    <selectionGroup id="2177" name=""/>
+    <selectionGroup id="2179" name=""/>
+    <selectionGroup id="2182" name=""/>
+    <selectionGroup id="2186" name=""/>
+    <selectionGroup id="2191" name=""/>
+    <selectionGroup id="2192" name=""/>
+    <selectionGroup id="2194" name=""/>
+    <selectionGroup id="2195" name=""/>
+    <selectionGroup id="2201" name=""/>
+    <selectionGroup id="2202" name=""/>
+    <selectionGroup id="2203" name=""/>
+    <selectionGroup id="2206" name=""/>
+    <selectionGroup id="2207" name=""/>
+    <selectionGroup id="2209" name=""/>
+    <selectionGroup id="2210" name=""/>
+    <selectionGroup id="2211" name=""/>
+    <selectionGroup id="2212" name=""/>
+    <selectionGroup id="2220" name=""/>
+    <selectionGroup id="2221" name=""/>
+    <selectionGroup id="2234" name=""/>
+    <selectionGroup id="2235" name=""/>
+    <selectionGroup id="2236" name=""/>
+    <selectionGroup id="2237" name=""/>
+    <selectionGroup id="2238" name=""/>
+    <selectionGroup id="2239" name=""/>
+    <selectionGroup id="2240" name=""/>
+    <selectionGroup id="2241" name=""/>
+    <selectionGroup id="2242" name=""/>
+    <selectionGroup id="2243" name=""/>
+    <selectionGroup id="2248" name=""/>
+    <selectionGroup id="2252" name=""/>
+    <selectionGroup id="2259" name=""/>
+    <selectionGroup id="2301" name=""/>
+    <selectionGroup id="2306" name=""/>
+    <selectionGroup id="2312" name=""/>
+    <selectionGroup id="2313" name=""/>
+    <selectionGroup id="2314" name=""/>
+    <selectionGroup id="2318" name=""/>
+    <selectionGroup id="2320" name=""/>
+    <selectionGroup id="2327" name=""/>
+    <selectionGroup id="2331" name=""/>
+    <selectionGroup id="2336" name=""/>
+    <selectionGroup id="2337" name=""/>
+    <selectionGroup id="2338" name=""/>
+    <selectionGroup id="2339" name=""/>
+    <selectionGroup id="2349" name=""/>
+    <selectionGroup id="2350" name=""/>
+    <selectionGroup id="2351" name=""/>
+    <selectionGroup id="2353" name=""/>
+    <selectionGroup id="2354" name=""/>
+    <selectionGroup id="2355" name=""/>
+    <selectionGroup id="2359" name=""/>
+    <selectionGroup id="2367" name=""/>
+    <selectionGroup id="2368" name=""/>
+    <selectionGroup id="2369" name=""/>
+    <selectionGroup id="2370" name=""/>
+    <selectionGroup id="2373" name=""/>
+    <selectionGroup id="2374" name=""/>
+    <selectionGroup id="2376" name=""/>
+    <selectionGroup id="2390" name=""/>
+    <selectionGroup id="2409" name=""/>
+    <selectionGroup id="2412" name=""/>
+    <selectionGroup id="2419" name=""/>
+    <selectionGroup id="2420" name=""/>
+    <selectionGroup id="2421" name=""/>
+    <selectionGroup id="2422" name=""/>
+    <selectionGroup id="2423" name=""/>
+    <selectionGroup id="2426" name=""/>
+    <selectionGroup id="2432" name=""/>
+    <selectionGroup id="2435" name=""/>
+    <selectionGroup id="2444" name=""/>
+    <selectionGroup id="2448" name=""/>
+    <selectionGroup id="2449" name=""/>
+    <selectionGroup id="2452" name=""/>
+    <selectionGroup id="2455" name=""/>
+    <selectionGroup id="2457" name=""/>
+    <selectionGroup id="2458" name=""/>
+    <selectionGroup id="2460" name=""/>
+    <selectionGroup id="2470" name=""/>
+    <selectionGroup id="2479" name=""/>
+    <selectionGroup id="2482" name=""/>
+    <selectionGroup id="2521" name=""/>
+    <selectionGroup id="2522" name=""/>
+    <selectionGroup id="2524" name=""/>
+    <selectionGroup id="2525" name=""/>
+    <selectionGroup id="2527" name=""/>
+    <selectionGroup id="2530" name=""/>
+    <selectionGroup id="2531" name=""/>
+    <selectionGroup id="2532" name=""/>
+    <selectionGroup id="2533" name=""/>
+    <selectionGroup id="2534" name=""/>
+    <selectionGroup id="2535" name=""/>
+    <selectionGroup id="2536" name=""/>
+    <selectionGroup id="2537" name=""/>
+    <selectionGroup id="2538" name=""/>
+    <selectionGroup id="2539" name=""/>
+    <selectionGroup id="2540" name=""/>
+    <selectionGroup id="2541" name=""/>
+    <selectionGroup id="2542" name=""/>
+    <selectionGroup id="2543" name=""/>
+    <selectionGroup id="2544" name=""/>
+    <selectionGroup id="2545" name=""/>
+    <selectionGroup id="2546" name=""/>
+    <selectionGroup id="2547" name=""/>
+    <selectionGroup id="2548" name=""/>
+    <selectionGroup id="2549" name=""/>
+    <selectionGroup id="2550" name=""/>
+    <selectionGroup id="2551" name=""/>
+    <selectionGroup id="2552" name=""/>
+    <selectionGroup id="2553" name=""/>
+    <selectionGroup id="2554" name=""/>
+    <selectionGroup id="2555" name=""/>
+    <selectionGroup id="2556" name=""/>
+    <selectionGroup id="2557" name=""/>
+    <selectionGroup id="2558" name=""/>
+    <selectionGroup id="2559" name=""/>
+    <selectionGroup id="2560" name=""/>
+    <selectionGroup id="2561" name=""/>
+    <selectionGroup id="2562" name=""/>
+    <selectionGroup id="2563" name=""/>
+    <selectionGroup id="2564" name=""/>
+    <selectionGroup id="2565" name=""/>
+    <selectionGroup id="2566" name=""/>
+    <selectionGroup id="2567" name=""/>
+    <selectionGroup id="2568" name=""/>
+    <selectionGroup id="2569" name=""/>
+    <selectionGroup id="2570" name=""/>
+    <selectionGroup id="2571" name=""/>
+    <selectionGroup id="2572" name=""/>
+    <selectionGroup id="2573" name=""/>
+    <selectionGroup id="2574" name=""/>
+    <selectionGroup id="2575" name=""/>
+    <selectionGroup id="2576" name=""/>
+    <selectionGroup id="2577" name=""/>
+    <selectionGroup id="2578" name=""/>
+    <selectionGroup id="2579" name=""/>
+    <selectionGroup id="2580" name=""/>
+    <selectionGroup id="2581" name=""/>
+    <selectionGroup id="2582" name=""/>
+    <selectionGroup id="2583" name=""/>
+    <selectionGroup id="2584" name=""/>
+    <selectionGroup id="2585" name=""/>
+    <selectionGroup id="2586" name=""/>
+    <selectionGroup id="2587" name=""/>
+    <selectionGroup id="2588" name=""/>
+    <selectionGroup id="2589" name=""/>
+    <selectionGroup id="2590" name=""/>
+    <selectionGroup id="2591" name=""/>
+    <selectionGroup id="2592" name=""/>
+    <selectionGroup id="2593" name=""/>
+    <selectionGroup id="2594" name=""/>
+    <selectionGroup id="2595" name=""/>
+    <selectionGroup id="2596" name=""/>
+    <selectionGroup id="2598" name=""/>
+    <selectionGroup id="2599" name=""/>
+    <selectionGroup id="2600" name=""/>
+    <selectionGroup id="2603" name=""/>
+    <selectionGroup id="2605" name=""/>
+    <selectionGroup id="2606" name=""/>
+    <selectionGroup id="2608" name=""/>
+    <selectionGroup id="2609" name=""/>
+    <selectionGroup id="2614" name=""/>
+    <selectionGroup id="2616" name=""/>
+    <selectionGroup id="2617" name=""/>
+    <selectionGroup id="2618" name=""/>
+    <selectionGroup id="2621" name=""/>
+    <selectionGroup id="2624" name=""/>
+    <selectionGroup id="2625" name=""/>
+    <selectionGroup id="2626" name=""/>
+    <selectionGroup id="2627" name=""/>
+    <selectionGroup id="2629" name=""/>
+    <selectionGroup id="2630" name=""/>
+    <selectionGroup id="2635" name=""/>
+    <selectionGroup id="2636" name=""/>
+    <selectionGroup id="2638" name=""/>
+    <selectionGroup id="2639" name=""/>
+    <selectionGroup id="2642" name=""/>
+    <selectionGroup id="2644" name=""/>
+    <selectionGroup id="2646" name=""/>
+    <selectionGroup id="2650" name=""/>
+    <selectionGroup id="2651" name=""/>
+    <selectionGroup id="2653" name=""/>
+    <selectionGroup id="2654" name=""/>
+    <selectionGroup id="2662" name=""/>
+    <selectionGroup id="2663" name=""/>
+    <selectionGroup id="2668" name=""/>
+    <selectionGroup id="2669" name=""/>
+    <selectionGroup id="2671" name=""/>
+    <selectionGroup id="2676" name=""/>
+    <selectionGroup id="2677" name=""/>
+    <selectionGroup id="2678" name=""/>
+    <selectionGroup id="2681" name=""/>
+    <selectionGroup id="2683" name=""/>
+    <selectionGroup id="2684" name=""/>
+    <selectionGroup id="2685" name=""/>
+    <selectionGroup id="2686" name=""/>
+    <selectionGroup id="2687" name=""/>
+    <selectionGroup id="2688" name=""/>
+    <selectionGroup id="2691" name=""/>
+    <selectionGroup id="2692" name=""/>
+    <selectionGroup id="2693" name=""/>
+    <selectionGroup id="2695" name=""/>
+    <selectionGroup id="2696" name=""/>
+    <selectionGroup id="2699" name=""/>
+    <selectionGroup id="2700" name=""/>
+    <selectionGroup id="2701" name=""/>
+    <selectionGroup id="2702" name=""/>
+    <selectionGroup id="2703" name=""/>
+    <selectionGroup id="2704" name=""/>
+    <selectionGroup id="2705" name=""/>
+    <selectionGroup id="2710" name=""/>
+    <selectionGroup id="2711" name=""/>
+    <selectionGroup id="2713" name=""/>
+    <selectionGroup id="2719" name=""/>
+    <selectionGroup id="2720" name=""/>
+    <selectionGroup id="2722" name=""/>
+    <selectionGroup id="2724" name=""/>
+    <selectionGroup id="2728" name=""/>
+    <selectionGroup id="2729" name=""/>
+    <selectionGroup id="2734" name=""/>
+    <selectionGroup id="2735" name=""/>
+    <selectionGroup id="2736" name=""/>
+    <selectionGroup id="2737" name=""/>
+    <selectionGroup id="2738" name=""/>
+    <selectionGroup id="2739" name=""/>
+    <selectionGroup id="2740" name=""/>
+    <selectionGroup id="2741" name=""/>
+    <selectionGroup id="2742" name=""/>
+    <selectionGroup id="2746" name=""/>
+    <selectionGroup id="2747" name=""/>
+    <selectionGroup id="2749" name=""/>
+    <selectionGroup id="2750" name=""/>
+    <selectionGroup id="2751" name=""/>
+    <selectionGroup id="2762" name=""/>
+    <selectionGroup id="2763" name=""/>
+    <selectionGroup id="2764" name=""/>
+    <selectionGroup id="2765" name=""/>
+    <selectionGroup id="2766" name=""/>
+    <selectionGroup id="2767" name=""/>
+    <selectionGroup id="2768" name=""/>
+    <selectionGroup id="2769" name=""/>
+    <selectionGroup id="2771" name=""/>
+    <selectionGroup id="2772" name=""/>
+    <selectionGroup id="2774" name=""/>
+    <selectionGroup id="2787" name=""/>
+    <selectionGroup id="2788" name=""/>
+    <selectionGroup id="2789" name=""/>
+    <selectionGroup id="2790" name=""/>
+    <selectionGroup id="2791" name=""/>
+    <selectionGroup id="2792" name=""/>
+    <selectionGroup id="2793" name=""/>
+    <selectionGroup id="2794" name=""/>
+    <selectionGroup id="2795" name=""/>
+    <selectionGroup id="2796" name=""/>
+    <selectionGroup id="2798" name=""/>
+    <selectionGroup id="2800" name=""/>
+    <selectionGroup id="2802" name=""/>
+    <selectionGroup id="2803" name=""/>
+    <selectionGroup id="2804" name=""/>
+    <selectionGroup id="2805" name=""/>
+    <selectionGroup id="2806" name=""/>
+    <selectionGroup id="2808" name=""/>
+    <selectionGroup id="2809" name=""/>
+    <selectionGroup id="2810" name=""/>
+    <selectionGroup id="2811" name=""/>
+    <selectionGroup id="2812" name=""/>
+    <selectionGroup id="2816" name=""/>
+    <selectionGroup id="2820" name=""/>
+    <selectionGroup id="2821" name=""/>
+    <selectionGroup id="2822" name=""/>
+    <selectionGroup id="2823" name=""/>
+    <selectionGroup id="2825" name=""/>
+    <selectionGroup id="2826" name=""/>
+    <selectionGroup id="2827" name=""/>
+    <selectionGroup id="2828" name=""/>
+    <selectionGroup id="2829" name=""/>
+    <selectionGroup id="2832" name=""/>
+    <selectionGroup id="2834" name=""/>
+    <selectionGroup id="2835" name=""/>
+    <selectionGroup id="2851" name=""/>
+    <selectionGroup id="2852" name=""/>
+    <selectionGroup id="2853" name=""/>
+    <selectionGroup id="2855" name=""/>
+    <selectionGroup id="2857" name=""/>
+    <selectionGroup id="2858" name=""/>
+    <selectionGroup id="2859" name=""/>
+    <selectionGroup id="2870" name=""/>
+    <selectionGroup id="2871" name=""/>
+    <selectionGroup id="2872" name=""/>
+    <selectionGroup id="2874" name=""/>
+    <selectionGroup id="2875" name=""/>
+    <selectionGroup id="2878" name=""/>
+    <selectionGroup id="2879" name=""/>
+    <selectionGroup id="2880" name=""/>
+    <selectionGroup id="2881" name=""/>
+    <selectionGroup id="2883" name=""/>
+    <selectionGroup id="2892" name=""/>
+    <selectionGroup id="2893" name=""/>
+    <selectionGroup id="2894" name=""/>
+    <selectionGroup id="2895" name=""/>
+    <selectionGroup id="2897" name=""/>
+    <selectionGroup id="2901" name=""/>
+    <selectionGroup id="2903" name=""/>
+    <selectionGroup id="2904" name=""/>
+    <selectionGroup id="2905" name=""/>
+    <selectionGroup id="2906" name=""/>
+    <selectionGroup id="2908" name=""/>
+    <selectionGroup id="2909" name=""/>
+    <selectionGroup id="2911" name=""/>
+    <selectionGroup id="2912" name=""/>
+    <selectionGroup id="2913" name=""/>
+    <selectionGroup id="2914" name=""/>
+    <selectionGroup id="2915" name=""/>
+    <selectionGroup id="2916" name=""/>
+    <selectionGroup id="2917" name=""/>
+    <selectionGroup id="2918" name=""/>
+    <selectionGroup id="2921" name=""/>
+    <selectionGroup id="2923" name=""/>
+    <selectionGroup id="2924" name=""/>
+    <selectionGroup id="2925" name=""/>
+    <selectionGroup id="2926" name=""/>
+    <selectionGroup id="2927" name=""/>
+    <selectionGroup id="2929" name=""/>
+    <selectionGroup id="2930" name=""/>
+    <selectionGroup id="2931" name=""/>
+    <selectionGroup id="2932" name=""/>
+    <selectionGroup id="2933" name=""/>
+    <selectionGroup id="2934" name=""/>
+    <selectionGroup id="2935" name=""/>
+    <selectionGroup id="2937" name=""/>
+    <selectionGroup id="2938" name=""/>
+    <selectionGroup id="2940" name=""/>
+    <selectionGroup id="2941" name=""/>
+    <selectionGroup id="2942" name=""/>
+    <selectionGroup id="2947" name=""/>
+    <selectionGroup id="2948" name=""/>
+    <selectionGroup id="2950" name=""/>
+    <selectionGroup id="2951" name=""/>
+    <selectionGroup id="2953" name=""/>
+    <selectionGroup id="2954" name=""/>
+    <selectionGroup id="2955" name=""/>
+    <selectionGroup id="2956" name=""/>
+    <selectionGroup id="2957" name=""/>
+    <selectionGroup id="2958" name=""/>
+    <selectionGroup id="2960" name=""/>
+    <selectionGroup id="2962" name=""/>
+    <selectionGroup id="2963" name=""/>
+  </selectionGroups>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="1768089"/>
+    <property key="LastCameraAngle" value="-63.6 273.6 0"/>
+    <property key="LastCameraPosition" value="442.99 -506.946 -222.543"/>
+    <property key="LastShaderClipboardMaterial" value="textures/darkmod/window/ornate/stained_azure_long_selflit"/>
+  </properties>
+  <entity number="0">
+    <primitives>
+      <patch number="0" width="3" height="3" fixedSubdivisions="false">
+        <material name="textures/darkmod/carpet/rugs/mat_shaggy"/>
+        <controlVertices>
+          <controlVertex row="0" column="0" x="446.286136" y="-552.601079" z="-287.875000" u="0" v="0"/>
+          <controlVertex row="1" column="0" x="445.016795" y="-528.634670" z="-287.875000" u="0" v="0.500000"/>
+          <controlVertex row="2" column="0" x="443.747455" y="-504.668261" z="-287.875000" u="0" v="1.000000"/>
+          <controlVertex row="0" column="1" x="458.269340" y="-551.966409" z="-287.875000" u="0.500000" v="0"/>
+          <controlVertex row="1" column="1" x="457.000000" y="-528.000000" z="-287.875000" u="0.500000" v="0.500000"/>
+          <controlVertex row="2" column="1" x="455.730660" y="-504.033591" z="-287.875000" u="0.500000" v="1.000000"/>
+          <controlVertex row="0" column="2" x="470.252545" y="-551.331739" z="-287.875000" u="1.000000" v="0"/>
+          <controlVertex row="1" column="2" x="468.983205" y="-527.365330" z="-287.875000" u="1.000000" v="0.500000"/>
+          <controlVertex row="2" column="2" x="467.713864" y="-503.398921" z="-287.875000" u="1.000000" v="1.000000"/>
+        </controlVertices>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </patch>
+      <brush number="1">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="-1.000000"/>
+            <textureProjection xx="0.039008" yx="-0.002066" tx="0.915287" xy="0.002066" yy="0.039008" ty="0.920512"/>
+            <material name="textures/common/tdm_nodrawsolid_carpet"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.052889" y="0.998600" z="0" d="-24.000000"/>
+            <textureProjection xx="0.039062" yx="0.000000" tx="-0.920512" xy="0" yy="0.039062" ty="0.000000"/>
+            <material name="textures/common/tdm_nodrawsolid_carpet"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.998600" y="0.052889" z="0" d="-12.000000"/>
+            <textureProjection xx="0.039062" yx="0" tx="0.915287" xy="0" yy="0.039062" ty="-0.000000"/>
+            <material name="textures/common/tdm_nodrawsolid_carpet"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="0"/>
+            <textureProjection xx="0.039008" yx="0.002066" tx="0.915287" xy="-0.002066" yy="0.039008" ty="-0.920512"/>
+            <material name="textures/common/tdm_nodrawsolid_carpet"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0.052889" y="-0.998600" z="0" d="-24.000000"/>
+            <textureProjection xx="0.039062" yx="0" tx="0.920512" xy="0" yy="0.039062" ty="1.000000"/>
+            <material name="textures/common/tdm_nodrawsolid_carpet"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-0.998600" y="-0.052889" z="0" d="-12.000000"/>
+            <textureProjection xx="0.039062" yx="0.000000" tx="-0.915287" xy="0" yy="0.039062" ty="-0.000000"/>
+            <material name="textures/common/tdm_nodrawsolid_carpet"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_3119"/>
+      <keyValue key="model" value="func_static_3119"/>
+      <keyValue key="origin" value="457 -528 -288"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+</map>

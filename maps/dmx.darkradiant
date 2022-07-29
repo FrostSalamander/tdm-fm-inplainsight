@@ -2,16 +2,16 @@ DarkRadiant Map Information File Version 2
 {
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1767962 }
+		TotalSecondsEdited { 1768154 }
 	}
 	SelectionSets
 	{
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1767962" } 
-		KeyValue { "LastCameraAngle" "-11.4 235.8 0" } 
-		KeyValue { "LastCameraPosition" "-550.617 716.455 -351.919" } 
+		KeyValue { "EditTimeInSeconds" "1768154" } 
+		KeyValue { "LastCameraAngle" "-16.5 60 0" } 
+		KeyValue { "LastCameraPosition" "345.68 -590.713 -224.747" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/ornate/stained_azure_long_selflit" } 
 	}
 	SelectionGroups
@@ -19802,5 +19802,11 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_switch_flip_2)
 		Node { 0 } // entity (func_static_3118)
 		Node { 0 } // entity (gerald_journal)
+		Node { 0 } // entity (func_static_3119)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_3120)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
 	}
 }

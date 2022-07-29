@@ -2,16 +2,16 @@ DarkRadiant Map Information File Version 2
 {
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1767253 }
+		TotalSecondsEdited { 1767289 }
 	}
 	SelectionSets
 	{
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1767253" } 
-		KeyValue { "LastCameraAngle" "-38.4 302.7 0" } 
-		KeyValue { "LastCameraPosition" "390.821 -587.618 -69.3849" } 
+		KeyValue { "EditTimeInSeconds" "1767289" } 
+		KeyValue { "LastCameraAngle" "-6.3 186.6 0" } 
+		KeyValue { "LastCameraPosition" "-173.363 -605.652 -55.4786" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/ornate/stained_azure_long_selflit" } 
 	}
 	SelectionGroups
@@ -591,7 +591,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2879 { "" }
 		SelectionGroup 2880 { "" }
 		SelectionGroup 2881 { "" }
-		SelectionGroup 2882 { "" }
 		SelectionGroup 2883 { "" }
 		SelectionGroup 2892 { "" }
 		SelectionGroup 2893 { "" }
@@ -1553,8 +1552,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 836 ) ( 2749 ) } // entity (func_emitter_9)
 		Node { ( 851 ) ( 1564 ) } // entity (func_static_803)
 		Node { ( 852 ) ( 1564 ) } // entity (atdm_moveable_candle_short_2)
-		Node { ( 859 ) ( 2882 ) } // entity (door_96x48x2hinge_8)
-		Node { ( 860 ) ( 2882 ) } // entity (doorhandle_96x48x2hinge_8)
 		Node { ( 873 ) ( 1570 ) } // entity (func_static_813)
 		Node { ( 874 ) ( 1570 ) } // entity (atdm_moveable_candle_short_1)
 		Node { ( 880 ) ( 2093 ) } // entity (func_static_57)

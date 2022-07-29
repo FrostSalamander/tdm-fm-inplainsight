@@ -135,7 +135,7 @@ m_plainsight_beergarden
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/m_plainsight_beergarden
+        map         textures/darkmod/decals/signs/m_plainsight_beergarden
         rgb         0.15 * parm11
     }
 }
@@ -156,7 +156,7 @@ m_plainsight_beergarden_blank
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/m_plainsight_beergarden_blank
+        map         textures/darkmod/decals/signs/m_plainsight_beergarden_blank
         rgb         0.15 * parm11
     }
 }

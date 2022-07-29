@@ -2,16 +2,16 @@ DarkRadiant Map Information File Version 2
 {
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1767109 }
+		TotalSecondsEdited { 1767160 }
 	}
 	SelectionSets
 	{
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1767109" } 
-		KeyValue { "LastCameraAngle" "-8.7 180.9 0" } 
-		KeyValue { "LastCameraPosition" "-219.524 -535.922 -194.283" } 
+		KeyValue { "EditTimeInSeconds" "1767160" } 
+		KeyValue { "LastCameraAngle" "-9.9 347.4 0" } 
+		KeyValue { "LastCameraPosition" "454.789 448.665 -129.48" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/ornate/stained_azure_long_selflit" } 
 	}
 	SelectionGroups
@@ -127,7 +127,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1597 { "" }
 		SelectionGroup 1599 { "" }
 		SelectionGroup 1604 { "" }
-		SelectionGroup 1610 { "" }
 		SelectionGroup 1615 { "" }
 		SelectionGroup 1618 { "" }
 		SelectionGroup 1624 { "" }
@@ -1603,11 +1602,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 947 5095 ) ( 1604 ) } // patch (Patch)
 		Node { ( 947 5096 ) ( 1604 ) } // brush (Brush)
 		Node { ( 947 5097 ) ( 1604 ) } // brush (Brush)
-		Node { ( 949 ) ( 1610 ) } // entity (func_static_865)
-		Node { ( 950 ) ( 1610 ) } // entity (func_static_873)
-		Node { ( 951 ) ( 1610 ) } // entity (func_static_881)
-		Node { ( 952 ) ( 1610 ) } // entity (func_static_882)
-		Node { ( 953 ) ( 1610 ) } // entity (func_static_883)
 		Node { ( 966 ) ( 1618 ) } // entity (func_static_893)
 		Node { ( 986 ) ( 1618 ) } // entity (func_static_905)
 		Node { ( 1002 ) ( 2422 ) } // entity (func_static_913)

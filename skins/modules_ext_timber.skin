@@ -50,7 +50,17 @@ skin wall04_blocks_flat_ochre_smoky_lit
 skin ext_timber_old_worn_blocks_003
 {
 	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window02.lwo
 	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_worn_blocks_003
+}
+
+skin ext_timber_old_worn_blocks_003_lit
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall03.lwo
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window02.lwo
+	
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_worn_blocks_003
+	textures/glass/dull_opaque01 textures/glass/dull_opaque01_lit
 }
 
 skin wall04_blocks_sepia_grey

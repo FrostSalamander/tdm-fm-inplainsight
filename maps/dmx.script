@@ -231,14 +231,6 @@ void triggerTSSLights()
     sys.trigger($tss_outdoor_light1);
     sys.trigger($tss_outdoor_light2);
 
-    // Outdoor lights on TSS north side
-    sys.trigger($atdm_lamp_electric_grill__short_lit_13);
-    sys.trigger($atdm_lamp_electric_outdoor_down_rusty_lit_1);
-    sys.trigger($atdm_lamp_electric_square_1_lit_2);
-    sys.trigger($atdm_lamp_electric_outdoor_down_rusty_lit_3);
-    sys.trigger($atdm_lamp_electric_shaded_lit_4);
-    sys.trigger($atdm_lamp_electric_shaded_lit_2);
-
     if (isTSSLightsOn())
     {
         tss_lights_on = 0;
@@ -276,7 +268,15 @@ void frobArcTransformer(entity arc)
 
     disableTSSCamera();
 
-    // don't trigger the lights if they are already off
+    // Turn off all the outdoor lights on TSS north side
+    sys.trigger($atdm_lamp_electric_grill__short_lit_13);
+    sys.trigger($atdm_lamp_electric_outdoor_down_rusty_lit_1);
+    sys.trigger($atdm_lamp_electric_square_1_lit_2);
+    sys.trigger($atdm_lamp_electric_outdoor_down_rusty_lit_3);
+    sys.trigger($atdm_lamp_electric_shaded_lit_4);
+    sys.trigger($atdm_lamp_electric_shaded_lit_2);
+
+    // The TSS lights are also controlled by a switch, don't trigger them if they are already off
     if (isTSSLightsOn())
     {
         triggerTSSLights();

@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1768887" } 
+		KeyValue { "EditTimeInSeconds" "1768897" } 
 		KeyValue { "LastCameraAngle" "-0.899997 318 0" } 
 		KeyValue { "LastCameraPosition" "-941.422 431.076 -288.778" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/detailed/rivet_strip01_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1768887 }
+		TotalSecondsEdited { 1768897 }
 	}
 	Layers
 	{

@@ -84,9 +84,9 @@ readables/dmx/diary_rose
 	{
 		""
 		""
-		"Paul is breaking my heart.  He's now begging outside the house.  Ever since he was kicked by that horse he has been unable to work. He should have listened to Mum and Papa and fininshed his studies, at least then he could have got a job in an office or something."
+		"    Paul is breaking my heart. He's now begging outside the house.  Ever since he was kicked by that horse he has been unable to work. He should have listened to Mum and Papa and fininshed his studies, at least then he could have got a job in an office or something."
 		""
-		"I snuck him some scraps from dinner last night, but I need to be careful that the Pembrokes don't notice. "
+		"    I snuck him some scraps from dinner last night, but I need to be careful that the Pembrokes don't notice. "
 		""
 		""
 	}
@@ -96,11 +96,11 @@ readables/dmx/diary_rose
 	}
 	"page1_right_body"	:
 	{
-		"I heard Mrs. Pembroke shout the other day: \"If that wench's brother doesn't go away soon I'm giving her the sack!\""
+		"    I heard Mrs. Pembroke shout the other day: \"If that wench's brother doesn't go away soon I'm giving her the sack!\""
 		""
-		"I could steal a little bit of gold from the Pembrokes and give it to Paul, but they would surely suspect me."
+		"    I could steal a little bit of gold from the Pembrokes and give it to Paul, but they would surely suspect me."
 		""
-		"I don't know what to do! If he doesn't get help he'll surely die on the streets, and I'm going to lose my job."
+		"    I don't know what to do! If he doesn't get help he'll surely die on the streets, and I'm going to lose my job."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"

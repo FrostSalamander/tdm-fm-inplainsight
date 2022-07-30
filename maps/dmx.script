@@ -224,11 +224,20 @@ boolean isTSSLightsOn()
 
 void triggerTSSLights()
 {
+    // Light inside TSS and outdoors on south side
     sys.trigger($tss_light1);
     sys.trigger($tss_light2);
     sys.trigger($tss_light3);
     sys.trigger($tss_outdoor_light1);
     sys.trigger($tss_outdoor_light2);
+
+    // Outdoor lights on TSS north side
+    sys.trigger($atdm_lamp_electric_grill__short_lit_13);
+    sys.trigger($atdm_lamp_electric_outdoor_down_rusty_lit_1);
+    sys.trigger($atdm_lamp_electric_square_1_lit_2);
+    sys.trigger($atdm_lamp_electric_outdoor_down_rusty_lit_3);
+    sys.trigger($atdm_lamp_electric_shaded_lit_4);
+    sys.trigger($atdm_lamp_electric_shaded_lit_2);
 
     if (isTSSLightsOn())
     {

@@ -323,6 +323,9 @@ eaxreverb "location_bouchier_bathroom" {
 eaxreverb "location_city_apt_attic" {
   preset DUSTYROOM
 }
+eaxreverb "location_transformer" {
+  preset CITY_UNDERPASS
+}
 
 /////////////////////
 // Smythe Apartment

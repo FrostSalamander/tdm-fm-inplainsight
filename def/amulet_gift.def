@@ -10,6 +10,7 @@ entityDef atdm:amulet_gift
 	"mass"            "1"
 	"friction"        "0.7"
 	"bouncyness"      "0"
+	"notPushable"     "1"
 
 	// inventory stuff
 	"inv_name"        "Fancy amulet"

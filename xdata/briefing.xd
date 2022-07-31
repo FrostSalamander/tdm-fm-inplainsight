@@ -6,16 +6,22 @@ maps/dmx/mission_briefing
  {
     "September, 1627."
     ""
-    "You are in the employ of the Crown as an intelligence officer. Word of an uprising in a small remote town has reached your superiors and you have been dispatched to investigate."
+    "Lieutenant,"
     ""
-    "Your cover is that of a thief of some renown who is on the run from the Bridgeport City Watch and seeking to ply his trade out of town.  Your identity as a spy will go unnoticed."
+    "    Several months ago we dispatched an agent to the town of Watchgate.  He was to investigate rumours of an uprising against the monarchy.  He hasn't been seen or heard from since and we fear the worst."
     ""
-    "The local watch is aware of the gestating plot, however they are ill-equipped to deal with such matters and their investigation is fruitless so far."
+    "    We are in need of a more precise skillset; that of an experienced man in the infiltration role which we believe you possess."
+    ""
+    "    You will be deployed on the outskirts of the city and will make your way in under the guise of a common thief."
   }
 
  "page2_body" :
  {
-    "Use your skills to investigate the town and reveal the instigators behind the plot."
+    "    Your task is twofold: find out what happened to our man, and bring back any evidence identifying the individuals responsible.  Furthermore, the local watch cannot be trusted so you should make it clear a thief is operating in the area to deter any suspicion of official involvement."
+    ""
+    "Good luck,"
+    ""
+    "The Director"
  }
 
 }

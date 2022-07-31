@@ -22,13 +22,13 @@ float safe2_opened = 0;
 float crypt_monster_spawned = 0;
 
 // Objectives
-float OBJ_PLOT = 1;
-float OBJ_EVIDENCE_PEMBROKE = 6;
-float OBJ_EVIDENCE_BANCROFT = 7;
-float OBJ_EVIDENCE_TROUTBECK = 8;
-float OBJ_EVIDENCE_NELSON = 9;
-float OBJ_CUPID = 12;
-float OBJ_EXIT = 10;
+float OBJ_PLOT = 2;
+float OBJ_EVIDENCE_PEMBROKE = 7;
+float OBJ_EVIDENCE_BANCROFT = 8;
+float OBJ_EVIDENCE_TROUTBECK = 9;
+float OBJ_EVIDENCE_NELSON = 10;
+float OBJ_CUPID = 13;
+float OBJ_EXIT = 11;
 
 // Angles
 vector ANGLE_EAST = '90 0 0';

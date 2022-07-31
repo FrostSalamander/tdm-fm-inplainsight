@@ -227,8 +227,7 @@ readables/dmx/journal_mrs_pembroke
 	{
 		"Sept 4"
 		""
-		"    Good heavens, how long must we put up with that hideous cretin knocking at our door?  I've been very firm with Rose: I don't care if it IS her brother, we do not associate with vagabonds!  Imagine if the Eatons found out that our maid's brother is sleeping outside our home?  We'd never be invited back for tea!"
-		"    Speaking of tea, I have yet"
+		"    Good heavens, how long must we put up with that hideous cretin knocking at our door?  I've been very firm with Rose: I don't care if it IS her brother, we do not associate with vagabonds!  Imagine if the Eatons found out that our maid's brother is sleeping outside our home?  We'd never be invited back to that lovely manor of theirs!  "
 	}
 	"page1_right_title"	:
 	{
@@ -236,7 +235,8 @@ readables/dmx/journal_mrs_pembroke
 	}
 	"page1_right_body"	:
 	{
-		"to receive a reply from Mrs Eaton in regards to my invitation.  Perhaps it was lost in the post.  Yes, that must be it - I shall send another first thing tomorrow!"
+		"Seeing Cedric's crown in that private display was a surreal experience!"
+		"    Speaking of which, I have yet to receive a reply from Mrs Eaton in regards to my invitation.  Perhaps it was lost in the post.  Yes, that must be it - I shall send another first thing tomorrow!"
 	}
 	"page2_left_title"	:
 	{
@@ -1021,5 +1021,47 @@ readables/dmx/note_nelson_evidence
 		"Agnes"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_guard_stash
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Barrett,"
+		""
+		"    Lunch is here downstairs.  And by the way, I found something for our little stash..  Drinks are on me after work!"
+		""
+		"Frost"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/dmx/note_thug_weapon
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Holt,"
+		""
+		"    Our friend in the cells over there claims he was in possession of a dagger when he was arrested. He says it's a 'family hair-loom' and will file an official complaint unless he gets it back on release. If you know its whereabouts please ensure it appears by morning."
+		""
+		"Hastings"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

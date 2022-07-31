@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1784371" } 
-		KeyValue { "LastCameraAngle" "-8.99999 328.201 0" } 
-		KeyValue { "LastCameraPosition" "289.237 551.076 -270.895" } 
+		KeyValue { "EditTimeInSeconds" "1784664" } 
+		KeyValue { "LastCameraAngle" "-26.7 5.70101 0" } 
+		KeyValue { "LastCameraPosition" "-156.665 -1138.3 -211.473" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/carpet/runners/ornate_red_white_end" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1784371 }
+		TotalSecondsEdited { 1784664 }
 	}
 	SelectionGroups
 	{
@@ -639,7 +639,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2960 { "" }
 		SelectionGroup 2962 { "" }
 		SelectionGroup 2963 { "" }
-		SelectionGroup 2965 { "" }
 		SelectionGroup 2966 { "" }
 		SelectionGroup 2971 { "" }
 	}
@@ -3637,8 +3636,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5200 10955 ) ( 1972 ) } // brush (Brush)
 		Node { ( 5200 10956 ) ( 1972 ) } // brush (Brush)
 		Node { ( 5200 10957 ) ( 1972 ) } // brush (Brush)
-		Node { ( 5230 ) ( 2965 ) } // entity (func_static_3144)
-		Node { ( 5231 ) ( 2965 ) } // entity (atdm_mover_lever_18)
 		Node { ( 5242 ) ( 2966 ) } // entity (func_static_3146)
 		Node { ( 5244 ) ( 2966 ) } // entity (atdm_moveable_loot_religious_symbol_1)
 		Node { ( 5249 10972 ) ( 2971 ) } // patch (Patch)
@@ -19919,6 +19916,18 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_moveable_chair_wood_1_21)
 		Node { 0 } // entity (atdm_readable_immobile_paper01_14)
 		Node { 0 } // entity (atdm_readable_immobile_paper01_15)
+		Node { 0 } // entity (atdm_mover_lever_21)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_1519)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 	}
 	SelectionSets
 	{

@@ -1,4 +1,4 @@
-$rev = "0.5"
+$rev = "0.6"
 $revSuffix="_v$rev"
 
 $devFolderName = 'dmx'

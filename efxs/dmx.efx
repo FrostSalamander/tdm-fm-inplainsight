@@ -66,6 +66,18 @@ eaxreverb "location_courtyard" {
   preset OUTDOORS_BACKYARD
 }
 
+eaxreverb "location_canal_flat" {
+  preset WOODEN_SMALLROOM
+}
+
+eaxreverb "location_alleyway" {
+  preset CITY_STREETS
+}
+
+eaxreverb "location_return_house" {
+  preset WOODEN_LONGPASSAGE
+}
+
 ///////////////////
 // Troutbeck house
 ///////////////////

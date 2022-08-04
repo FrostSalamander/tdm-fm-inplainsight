@@ -1065,3 +1065,26 @@ readables/dmx/note_thug_weapon
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/dmx/note_thief
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Fiona,"
+		""
+		"    Despite what you may think of me, it was never my intention to hurt your feelings.  I just... couldn't admit in front of the boys that you are better at cards that I am.  Hell, you are better at everything than I am."
+		""
+		"    Please come back, even if it's just to help with the shop.  Troutbeck is going to put us all out of business soon."
+		""
+		"Smythe"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_jd_hand.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

@@ -37,6 +37,8 @@ vector ANGLE_EAST = '90 0 0';
 string CITY_MAP = "city_map";       // map entity on the wall
 string MAP_OF   = "atdm_map_of_1";  // in-game map entity
 
+string GATEHOUSE_LEVER = "lever1";
+
 string PLAYER = "player1";
 string CRYPT_MONSTER = "crypt_monster";
 string NELSON = "new_nelson";
@@ -51,6 +53,16 @@ string CRYPT_AI_EXIT_DOOR = "crypt_ai_exit";
 ////////////////
 // END GLOBALS
 ////////////////
+
+void setGatehouseLeverFrobable(entity zone)
+{
+    sys.getEntity(GATEHOUSE_LEVER).setFrobable(1);
+}
+
+void setGatehouseLeverNotFrobable(entity zone)
+{
+    sys.getEntity(GATEHOUSE_LEVER).setFrobable(0);
+}
 
 void getMap()
 {   

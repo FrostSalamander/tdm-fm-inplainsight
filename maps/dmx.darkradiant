@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1824427" } 
+		KeyValue { "EditTimeInSeconds" "1824447" } 
 		KeyValue { "LastCameraAngle" "-42.3 349.801 0" } 
 		KeyValue { "LastCameraPosition" "178.398 816.08 -265.452" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/caulk" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1824427 }
+		TotalSecondsEdited { 1824447 }
 	}
 	Layers
 	{
@@ -16675,9 +16675,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_3214)
 		Node { 0 } // entity (atdm_moveable_chair_wood_1_25)
 	}
-	SelectionSets
-	{
-	}
 	SelectionGroups
 	{
 		SelectionGroup 1 { "" }
@@ -20426,5 +20423,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5383 ) ( 3016 3017 ) } // entity (func_static_3244)
 		Node { ( 5384 ) ( 3016 3017 ) } // entity (func_static_3245)
 		Node { ( 5385 ) ( 3016 3017 ) } // entity (func_static_3246)
+	}
+	SelectionSets
+	{
 	}
 }

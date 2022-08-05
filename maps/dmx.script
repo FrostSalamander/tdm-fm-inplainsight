@@ -22,13 +22,17 @@ float safe2_opened = 0;
 float crypt_monster_spawned = 0;
 
 // Objectives
+float OBJ_COLLEAGUE = 1;
 float OBJ_PLOT = 2;
+float OBJ_BANK = 3;
+float OBJ_TSS = 4;
+float OBJ_EATON = 5;
 float OBJ_EVIDENCE_PEMBROKE = 7;
 float OBJ_EVIDENCE_BANCROFT = 8;
 float OBJ_EVIDENCE_TROUTBECK = 9;
 float OBJ_EVIDENCE_NELSON = 10;
-float OBJ_CUPID = 13;
 float OBJ_EXIT = 11;
+float OBJ_CUPID = 13;
 
 // Angles
 vector ANGLE_EAST = '90 0 0';
@@ -36,6 +40,8 @@ vector ANGLE_EAST = '90 0 0';
 // Entities
 string CITY_MAP = "city_map";       // map entity on the wall
 string MAP_OF   = "atdm_map_of_1";  // in-game map entity
+
+string GATEHOUSE_LEVER = "lever1";
 
 string PLAYER = "player1";
 string CRYPT_MONSTER = "crypt_monster";
@@ -51,6 +57,39 @@ string CRYPT_AI_EXIT_DOOR = "crypt_ai_exit";
 ////////////////
 // END GLOBALS
 ////////////////
+
+boolean isObjectiveComplete(float objectiveId)
+{
+    return ($player1.getObjectiveState(objectiveId) == 1);
+}
+
+// using this plus a trigger as was experiencing inconsistent behaviour 
+// with the traditional exit method: https://bugs.thedarkmod.com/view.php?id=5404
+void completeMission()
+{
+    if (isObjectiveComplete(OBJ_COLLEAGUE) &&
+        isObjectiveComplete(OBJ_PLOT) &&
+        isObjectiveComplete(OBJ_BANK) &&
+        isObjectiveComplete(OBJ_TSS) &&
+        isObjectiveComplete(OBJ_BANK) &&
+        isObjectiveComplete(OBJ_EVIDENCE_PEMBROKE) &&
+        isObjectiveComplete(OBJ_EVIDENCE_BANCROFT) &&
+        isObjectiveComplete(OBJ_EVIDENCE_TROUTBECK) &&
+        isObjectiveComplete(OBJ_EVIDENCE_NELSON))
+    {
+        $player1.setObjectiveState(OBJ_EXIT, 1);
+    }
+}
+
+void setGatehouseLeverFrobable(entity zone)
+{
+    sys.getEntity(GATEHOUSE_LEVER).setFrobable(1);
+}
+
+void setGatehouseLeverNotFrobable(entity zone)
+{
+    sys.getEntity(GATEHOUSE_LEVER).setFrobable(0);
+}
 
 void getMap()
 {   
@@ -89,9 +128,6 @@ void setFinalObjectives()
     $player1.setObjectiveVisible(OBJ_EVIDENCE_BANCROFT, 1);
     $player1.setObjectiveVisible(OBJ_EVIDENCE_TROUTBECK, 1);
     $player1.setObjectiveVisible(OBJ_EVIDENCE_NELSON, 1);
-
-    // player exit objective
-    $player1.setObjectiveVisible(OBJ_EXIT, 1);
 
     // complete the plot objective
     $player1.setObjectiveState(OBJ_PLOT, 1);

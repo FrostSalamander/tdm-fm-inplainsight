@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1824903" } 
-		KeyValue { "LastCameraAngle" "-36.9 117.001 0" } 
-		KeyValue { "LastCameraPosition" "-1105.49 280.365 -327.364" } 
+		KeyValue { "EditTimeInSeconds" "1824983" } 
+		KeyValue { "LastCameraAngle" "-9.9 289.801 0" } 
+		KeyValue { "LastCameraPosition" "-259.078 174.598 -100.243" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/metal_diamond_pattern3_selflit_fs" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1824903 }
+		TotalSecondsEdited { 1824983 }
 	}
 	Layers
 	{
@@ -17312,7 +17312,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 2973 { "" }
 		SelectionGroup 2974 { "" }
 		SelectionGroup 2975 { "" }
-		SelectionGroup 2976 { "" }
 		SelectionGroup 2977 { "" }
 		SelectionGroup 2978 { "" }
 		SelectionGroup 2979 { "" }
@@ -17333,6 +17332,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 3017 { "" }
 		SelectionGroup 3020 { "" }
 		SelectionGroup 3021 { "" }
+		SelectionGroup 3022 { "" }
+		SelectionGroup 3023 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -19240,8 +19241,10 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3131 ) ( 2409 ) } // entity (stepladderMoveable)
 		Node { ( 3132 ) ( 2409 ) } // entity (stepladder_clipmodel)
 		Node { ( 3133 ) ( 2409 ) } // entity (stepladderLadder)
-		Node { ( 3144 ) ( 2976 ) } // entity (atdm_handle_curved_rotate_double_right_6)
-		Node { ( 3145 ) ( 2976 ) } // entity (bank_manager_door)
+		Node { ( 3144 ) ( 3022 ) } // entity (atdm_handle_curved_rotate_double_right_6)
+		Node { ( 3145 ) ( 3022 ) } // entity (bank_manager_door)
+		Node { ( 3147 ) ( 3023 ) } // entity (atdm_handle_curved_rotate_double_right_7)
+		Node { ( 3148 ) ( 3023 ) } // entity (bank_records_door)
 		Node { ( 3151 ) ( 2419 ) } // entity (light_37)
 		Node { ( 3152 ) ( 2419 ) } // entity (light_38)
 		Node { ( 3153 ) ( 2419 ) } // entity (dust_1)

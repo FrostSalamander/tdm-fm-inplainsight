@@ -1,0 +1,55 @@
+textures/darkmod/window/metal_diamond_pattern3_selflit_fs
+{
+
+	glass
+	noselfshadow
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern3_selflit_ed
+	diffusemap		textures/darkmod/window/metal_diamond_pattern3_lit
+	{
+		blend	add
+		map			textures/darkmod/window/metal_diamond_pattern3_lit
+		rgb 	0.5
+	}
+	specularmap		textures/darkmod/window/metal_diamond_pattern3_s
+	bumpmap			textures/darkmod/window/metal_diamond_pattern3_local
+	{
+		if ( parm11 > 0 )
+		blend	gl_dst_color, gl_one
+		map		_white
+		rgb		0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend	add
+		map				textures/darkmod/window/metal_diamond_pattern3_lit
+		rgb		0.15 * parm11
+	}
+}
+
+textures/darkmod/window/metal_diamond_pattern3_moonlit_fs
+{
+
+	glass
+	noselfshadow
+	qer_editorimage textures/darkmod/window/metal_diamond_pattern3_moonlit_ed
+	diffusemap		textures/darkmod/window/metal_diamond_pattern3_moonlit
+	{
+		blend	add
+		map			textures/darkmod/window/metal_diamond_pattern3_moonlit
+		rgb 	0.50
+	}
+	specularmap		textures/darkmod/window/metal_diamond_pattern3_s
+	bumpmap			textures/darkmod/window/metal_diamond_pattern3_local
+	{
+		if ( parm11 > 0 )
+		blend	gl_dst_color, gl_one
+		map		_white
+		rgb		0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend	add
+		map				textures/darkmod/window/metal_diamond_pattern3_moonlit
+		rgb		0.15 * parm11
+	}
+}

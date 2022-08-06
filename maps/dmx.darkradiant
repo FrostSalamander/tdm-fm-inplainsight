@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1824824" } 
-		KeyValue { "LastCameraAngle" "-15.9 21.901 0" } 
-		KeyValue { "LastCameraPosition" "-881.57 845.893 -29.77" } 
+		KeyValue { "EditTimeInSeconds" "1824903" } 
+		KeyValue { "LastCameraAngle" "-36.9 117.001 0" } 
+		KeyValue { "LastCameraPosition" "-1105.49 280.365 -327.364" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/metal_diamond_pattern3_selflit_fs" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1824824 }
+		TotalSecondsEdited { 1824903 }
 	}
 	Layers
 	{
@@ -17332,6 +17332,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 3016 { "" }
 		SelectionGroup 3017 { "" }
 		SelectionGroup 3020 { "" }
+		SelectionGroup 3021 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -20102,6 +20103,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4861 ) ( 2915 2916 ) } // entity (atdm_loot_coinstack_medium_silver_3)
 		Node { ( 4862 ) ( 2915 2916 ) } // entity (atdm_loot_coinstack_medium_silver_4)
 		Node { ( 4863 ) ( 2915 2916 ) } // entity (atdm_loot_coinstack_medium_1)
+		Node { ( 4865 ) ( 3021 ) } // entity (func_static_472)
+		Node { ( 4866 ) ( 3021 ) } // entity (lever2)
+		Node { ( 4867 ) ( 3021 ) } // entity (func_static_1816)
 		Node { ( 4879 ) ( 2879 ) } // entity (path_corner_136)
 		Node { ( 4880 ) ( 2879 ) } // entity (path_waitfortrigger_2)
 		Node { ( 4883 ) ( 2879 ) } // entity (path_wait_107)

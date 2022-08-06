@@ -61,7 +61,7 @@ readables/dmx/post_office_note
 	{
 		"Agnes,"
 		""
-		"    I've taken a room at the Bell for the night.  I met George and we were havin a drink out the back before the rain started up. When I came home I realised I didn't have my key. It must be at the Inn somewhere."
+		"    I've taken a room at the Bell for the night.  I met George and we were having a drink out the back before the rain started up. When I came home I realised I didn't have my key. It must be at the Inn somewhere."
 		""
 		"    It was quite late and I didn't want to disturb you.  I will be back first thing to help with the morning deliveries."
 		""
@@ -283,7 +283,7 @@ readables/dmx/jourmal_smyth
 	{
 		""
 	}
-	"gui_page1"	: "guis/readables/books/book_calig_camberic.gui"
+	"gui_page1"	: "guis/readables/books/book_hand_jd_hand.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -936,7 +936,7 @@ readables/dmx/note_dropped
 	{
 		"Nelson,"
 		""
-		"    As dicsussed, meet at the crypt just past midnight.  We are expecting a visitor and require strength of numbers if things don't go according to plan."
+		"    As discussed, meet us at the crypt just past midnight.  We are expecting a visitor and require strength of numbers if things don't go according to plan."
 		""
 		"    I wish I didn't feel I had to remind you, but please refrain from your usual evening visit to the Inn. You will need your wits about you tonight.  Bancroft assures us that he has 'Geoffrey' under control, but who really knows with that thing."
 		""
@@ -1037,7 +1037,7 @@ readables/dmx/note_guard_stash
 	{
 		"Barrett,"
 		""
-		"    Lunch is here downstairs.  And by the way, I found something for our little stash..  Drinks are on me after work!"
+		"    Lunch is here downstairs.  And by the way, I found something for our little stash.  Drinks are on me after work!"
 		""
 		"Frost"
 	}
@@ -1079,7 +1079,7 @@ readables/dmx/note_thief
 	{
 		"Fiona,"
 		""
-		"    Despite what you may think of me, it was never my intention to hurt your feelings.  I just... couldn't admit in front of the boys that you are better at cards that I am.  Hell, you are better at everything than I am."
+		"    Despite what you may think of me, it was never my intention to hurt your feelings.  I just... couldn't admit in front of the boys that you are better at cards than I am.  Hell, you are better at everything than I am."
 		""
 		"    Please come back, even if it's just to help with the shop.  Troutbeck is going to put us all out of business soon."
 		""

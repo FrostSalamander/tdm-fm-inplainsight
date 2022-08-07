@@ -45,3 +45,10 @@ tdm_heavy_stone_scratching01_fs
 
     sound/sfx/movement/sliding/stone_scratch01_loop.wav
 }
+
+ m_plainsight_menu
+  { 
+    description "amateur ambience hours"    
+    sound/ambient/m_plainsight_menu.ogg
+    looping
+ }

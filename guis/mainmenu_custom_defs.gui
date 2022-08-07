@@ -137,13 +137,13 @@
  */
 
 /// Menu music after startup (not in-game)
-#define MM_MENU_SOUND_CMD "music m_lbb_menu;"
+#define MM_MENU_SOUND_CMD "music m_plainsight_menu;"
 
 /// Played in main menu when in-game (ESCaping out of the game)
-#define MM_INGAME_MENU_SOUND_CMD "music m_lbb_menu;"
+#define MM_INGAME_MENU_SOUND_CMD "music m_plainsight_menu;"
 
 /// Played during non-video briefing
-#define MM_BRIEFING_SOUND_CMD "music welli_DistantSeaWall;"
+#define MM_BRIEFING_SOUND_CMD "music m_plainsight_menu;"
 
 /// Played after completing a mission
 //#define MM_MISSION_SUCCESS_SOUND_CMD "music mission_complete;"
@@ -200,7 +200,7 @@
  * See here how to set it up:
  *   https://wiki.thedarkmod.com/index.php?title=Cutscene_video_with_FFmpeg#Play_video_with_sound
  */
-//#define MM_BRIEFING_VIDEO_SOUND_CMD "music video/m_lbb_briefing;"
+//#define MM_BRIEFING_VIDEO_SOUND_CMD "music sound/ambient/m_plainsight_menu.ogg;"
 
 
 /**

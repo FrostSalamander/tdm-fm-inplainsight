@@ -163,7 +163,7 @@ void activateCryptMonster()
     exitDoor.Lock();
 
     // spawn the crypt monster
-    spawnAI("-1259.62 -503.401 -295.708", "path_corner_139", CRYPT_MONSTER, "atdm:ai_undead_revenant", ANGLE_EAST, "2", false);
+    spawnAI("-1259.62 -503.401 -295.708", "path_corner_139", CRYPT_MONSTER, "atdm:ai_undead_revenant", ANGLE_EAST, "9", false);
 
     // wait a bit for the monster to reach his path_waitfortrigger
     sys.wait(2);

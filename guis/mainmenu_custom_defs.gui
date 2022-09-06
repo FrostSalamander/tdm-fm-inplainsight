@@ -225,7 +225,7 @@
  * then LENGTH_1 will be 1600, LENGTH_2 3100, and LENGTH_3 3600.
  * Failing to specify length correctly will result in skipping parts of video.
  */
-//#define MM_BRIEFING_VIDEO_LENGTH_1 10000		// for backwards compatibility only
+#define MM_BRIEFING_VIDEO_LENGTH_1 10000		// for backwards compatibility only
 //#define MM_BRIEFING_VIDEO_MATERIAL_2 ""
 //#define MM_BRIEFING_VIDEO_MATERIAL_3 ""
 //#define MM_BRIEFING_VIDEO_MATERIAL_4 ""

@@ -1,4 +1,4 @@
-$rev = "1.3"
+$rev = "1.4"
 $revSuffix="_v$rev"
 $timestamp = Get-Date -Format "dd/MM/yyyy HH:mm"
 

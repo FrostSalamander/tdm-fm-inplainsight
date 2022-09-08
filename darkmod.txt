@@ -1,4 +1,4 @@
 Title: In Plain Sight
+Description: You are an intelligence officer tasked with revealing the source of an uprising.
 Version: [VERSION]
 Author: Frost_Salamander
-Description: You are an intelligence officer tasked with revealing the source of an uprising.

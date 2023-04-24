@@ -1,4 +1,4 @@
-Title: In Plain Sight
+Title: The Lieutenant 1: In Plain Sight
 Description: You are an intelligence officer tasked with revealing the source of an uprising.
 Version: [VERSION]
 Author: Frost_Salamander
